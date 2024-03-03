@@ -20,8 +20,10 @@ export async function getPageDocument(pageUrl: string) {
 
   let text;
   if (await fsExists(filePath)) {
+    console.log('Reading from cache:', filePath);
     text = await fsReadFile(filePath, 'utf-8');
   } else {
+    console.log('Fetching:', pageUrl);
     const response = await fetch(pageUrl);
     text = await response.text();
     // Create directory if it doesn't exist
