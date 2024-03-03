@@ -32,14 +32,26 @@ async function scrapePageData(pageUrl: string) {
   }
 }
 
-function getTermReadingFromHeader(header: Element) {
+function getTermReadingFromHeader(header: Element): {
+  term: string;
+  reading: string;
+} {
   const rb = header.querySelector('rb');
   const rt = header.querySelector('rt');
-  if (!rb || !rt) {
+  if (!rb && !rt) {
+    if (!header.textContent) {
+      throw new Error('header must have text content');
+    }
     return {
       term: '',
       reading: header.textContent,
     };
+  }
+  if (!rb || !rt) {
+    throw new Error('rb and rt must both exist');
+  }
+  if (!rb.textContent || !rt.textContent) {
+    throw new Error('rb and rt must have text content');
   }
   return {
     term: rb.textContent,
