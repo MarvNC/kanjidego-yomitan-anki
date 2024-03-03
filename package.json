@@ -5,16 +5,20 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node ."
+    "start": "node .",
+    "prestart": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsdom": "^24.0.0",
     "typescript": "^5.3.3",
     "yomichan-dict-builder": "^2.5.0"
   },
   "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.24",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "eslint": "^8.57.0"
