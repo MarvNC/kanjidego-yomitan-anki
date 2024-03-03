@@ -1,6 +1,6 @@
 import { WIKI_PAGES_ARR } from './constants';
-import jsdom from 'jsdom';
-import fs from 'fs';
+// import fs from 'fs';
+import { getPageDocument } from './scrape/getPageDocument';
 
 (async () => {
   // console.log(WIKI_PAGES_ARR);
@@ -32,25 +32,17 @@ async function scrapePageData(pageUrl: string) {
   }
 }
 
-function getTermReadingFromHeader(header: HTMLHeadingElement) {
+function getTermReadingFromHeader(header: Element) {
   const rb = header.querySelector('rb');
   const rt = header.querySelector('rt');
   if (!rb || !rt) {
     return {
-      term: header.textContent,
-      reading: '',
+      term: '',
+      reading: header.textContent,
     };
   }
   return {
     term: rb.textContent,
     reading: rt.textContent,
   };
-}
-
-async function getPageDocument(pageUrl: string) {
-  const response = await fetch(pageUrl);
-  const text = await response.text();
-  const dom = new jsdom.JSDOM(text);
-  const document = dom.window.document;
-  return document;
 }
