@@ -40,16 +40,19 @@ export async function scrapePageData(pageUrl: string) {
   return termData;
 }
 
+function lineForCategory(line: string, category: string) {
+  return line.startsWith(category) || line.substring(1).startsWith(category);
+}
+
 function getTermInfo(ulText: string[], term: string): termInfo {
   const termInfo: termInfo = {};
   const importantCategories = ['問題ID', '意味'];
   for (const category of INFO_CATEGORIES) {
     const line = ulText.find((line) => {
-      return line.startsWith(category)
-        ? true
-        : category === '問題ID'
-        ? line.startsWith('問題')
-        : false;
+      return (
+        lineForCategory(line, category) ||
+        (category === '問題ID' && lineForCategory(line, '問題'))
+      );
     });
     if (line) {
       termInfo[category] = line.slice(category.length + 1);
@@ -79,6 +82,10 @@ function getNextULsText(header: Element): string[] {
           (li) => li.textContent || ''
         )
       );
+    } else {
+      if (nextElem.textContent) {
+        ulsText.push(nextElem.textContent.trim());
+      }
     }
     nextElem = nextElem.nextElementSibling;
   }
