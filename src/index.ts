@@ -27,10 +27,9 @@ async function buildDictionary(termDataArr: termData[]) {
   for (const termData of termDataArr) {
     addTermToDictionary(termData, dictionary);
   }
-  const stats = await dictionary.export(
-    path.join(process.cwd(), EXPORT_DIRECTORY)
-  );
-  console.log(stats);
+  const exportDir = path.join(process.cwd(), EXPORT_DIRECTORY);
+  const stats = await dictionary.export(exportDir);
+  console.log(`Exported ${stats.termCount} terms to ${exportDir}!`);
 }
 
 function addTermToDictionary(termData: termData, dictionary: Dictionary) {
