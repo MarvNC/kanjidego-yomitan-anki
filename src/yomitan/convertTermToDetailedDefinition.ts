@@ -11,8 +11,8 @@ export function convertTermToDetailedDefinition(
   termData: termData
 ): DetailedDefinition {
   const scArray: StructuredContent[] = [];
-  addImage(termData, scArray);
-  addHeadWord(termData, scArray);
+  addImage(scArray, termData);
+  addHeadWord(scArray, termData);
   addMeaning(scArray, termData);
   addNotes(scArray, termData);
   return {
@@ -48,7 +48,7 @@ function addNotes(scArray: StructuredContent[], termData: termData) {
   }
 }
 
-function addHeadWord(termData: termData, scArray: StructuredContent[]) {
+function addHeadWord(scArray: StructuredContent[], termData: termData) {
   const alternatives = termData.termInfo.別表記?.join('・');
   scArray.push({
     tag: 'div',
@@ -76,7 +76,7 @@ function addMeaning(scArray: StructuredContent[], termData: termData) {
   });
 }
 
-function addImage(termData: termData, scArray: StructuredContent[]) {
+function addImage(scArray: StructuredContent[], termData: termData) {
   const levelID = termData.termInfo.問題ID;
   const imageFileName = `${levelID}.png`;
   const imageFilePath = path.join(
