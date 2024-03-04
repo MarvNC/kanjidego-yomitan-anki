@@ -47,6 +47,10 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
   const detailedDefinition = convertTermToDetailedDefinition(termData);
   termEntry.addDetailedDefinition(detailedDefinition);
   dictionary.addTerm(termEntry.build());
+
+  // Deprioritize alternates
+  termEntry.setPopularity(-5);
+
   // Add alternate terms
   if (termData.termInfo.別表記) {
     for (const altTerm of termData.termInfo.別表記) {
