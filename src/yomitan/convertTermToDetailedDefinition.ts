@@ -50,7 +50,7 @@ function addNotes(scArray: StructuredContent[], termData: termData) {
 
 function addHeadWord(termData: termData, scArray: StructuredContent[]) {
   // Clean the alt
-  let alternatives = termData.termInfo.別表記;
+  let alternatives = termData.termInfo.別表記?.trim();
   // Strip など from end if it exists
   if (alternatives && alternatives.endsWith('など')) {
     alternatives = alternatives.slice(0, -2);
