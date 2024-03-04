@@ -53,8 +53,8 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
     const line = ulText.find((line) => {
       return (
         lineForCategory(line, category) ||
-        (category === '問題ID' && lineForCategory(line, '問題')) ||
-        lineForCategory(line, '問顺ID')
+        (category === '問題ID' &&
+          (lineForCategory(line, '問題') || lineForCategory(line, '問顺ID')))
       );
     });
     if (line) {
