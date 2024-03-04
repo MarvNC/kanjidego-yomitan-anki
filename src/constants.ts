@@ -43,7 +43,7 @@ export const IMAGES_DIRECTORY = '/images';
 export const PROCESSED_DIRECTORY = '/processed';
 export const EXPORT_DIRECTORY = '/export';
 export const JSON_FILE_NAME = 'termData.json';
-export const YOMITAN_FILE_NAME = '漢字でGO!.zip';
+export const YOMITAN_FILE_NAME = '漢字でGO!';
 export const INFO_CATEGORIES = [
   '意味',
   '別解',

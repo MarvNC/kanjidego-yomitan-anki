@@ -10,17 +10,19 @@ import { convertTermToDetailedDefinition } from './convertTermToDetailedDefiniti
 import fs from 'fs';
 
 export async function buildDictionary(termDataArr: termData[]) {
+  const dateString = new Date().toISOString().split('T')[0];
   const dictionary = new Dictionary({
-    fileName: YOMITAN_FILE_NAME,
+    fileName: `${YOMITAN_FILE_NAME}.zip`,
   });
 
   dictionary.setIndex({
-    title: '漢字でGo!',
+    title: `漢字でGo! [${dateString}]`,
     author: 'Marv',
     attribution: `https://formidi.github.io/KanzideGoFAQ/
-    https://w.atwiki.jp/kanjidego/`,
-    description: `From the Kanji de Go! unofficial wiki.`,
-    revision: new Date().toISOString().split('T')[0],
+https://w.atwiki.jp/kanjidego/`,
+    description: `From the Kanji de Go! unofficial wiki.
+Built with https://github.com/MarvNC/yomichan-dict-builder`,
+    revision: dateString,
     url: 'https://github.com/MarvNC/kanjidego-yomitan-anki',
   });
 
