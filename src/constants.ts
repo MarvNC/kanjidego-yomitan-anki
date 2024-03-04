@@ -16,3 +16,13 @@ export const WIKI_PAGES_ARR = [
 export const KANJI_IMAGE_URL = (ID: string) =>
   `https://html5.plicy.net/GameFilesUpdate/155561/234/img/pictures/${ID}.png`;
 export const PAGES_DIRECTORY = '/pages';
+export const IMAGES_DIRECTORY = '/images';
+export const JSON_DIRECTORY = '/json';
+export const JSON_FILE_NAME = 'termData.json';
+export const INFO_CATEGORIES = [
+  '意味',
+  '別解',
+  '別表記',
+  '問題ID',
+  '追記',
+] as const;
