@@ -1,20 +1,55 @@
 import { YOMITAN_FILE_NAME } from './constants';
 import { scrapeAllPagesData } from './scrapePageData';
-import { Dictionary } from 'yomichan-dict-builder';
+import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from './types';
+import { DetailedDefinition } from 'yomichan-dict-builder/dist/types/yomitan/termbank';
 
 (async () => {
   const termDataArr = await scrapeAllPagesData();
   console.log(termDataArr);
+  await buildDictionary(termDataArr);
 })();
 
 async function buildDictionary(termDataArr: termData[]) {
   const dictionary = new Dictionary({
     fileName: YOMITAN_FILE_NAME,
   });
+  dictionary.setIndex({
+    title: '漢字でGo!',
+    author: 'Marv',
+    attribution: `https://formidi.github.io/KanzideGoFAQ/
+    https://w.atwiki.jp/kanjidego/`,
+    description: `Kanji de Go! FAQ`,
+    revision: new Date().toISOString().split('T')[0],
+    url: 'https://github.com/MarvNC/kanjidego-yomitan-anki',
+  });
   for (const termData of termDataArr) {
-    const { term, reading } = termData.termReading;
-    // TODO
+    addTermToDictionary(termData, dictionary);
   }
-  return dictionary;
+  await dictionary.export();
+}
+
+function addTermToDictionary(termData: termData, dictionary: Dictionary) {
+  const { term, reading } = termData.termReading;
+  // Some terms have an empty term string because they're too rare
+  const termEntry = new TermEntry(term || reading);
+  termEntry.setReading(reading);
+  const detailedDefinition = convertTermToDetailedDefinition(termData);
+  termEntry.addDetailedDefinition(detailedDefinition);
+  dictionary.addTerm(termEntry.build());
+  if (termData.termInfo.別解 && termData.termInfo.別解 !== 'なし') {
+    termEntry.setReading(termData.termInfo.別解);
+    if (!termData.termReading.term) {
+      termEntry.setTerm(termData.termInfo.別解);
+    }
+  }
+}
+
+function convertTermToDetailedDefinition(
+  termData: termData
+): DetailedDefinition {
+  return {
+    type: 'structured-content',
+    content: [],
+  };
 }
