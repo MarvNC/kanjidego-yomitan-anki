@@ -2,7 +2,7 @@ import { termData } from '../types';
 import {
   IMAGES_DIRECTORY,
   KANJI_IMAGE_URL,
-  PROCESSED_DIRECTORY
+  PROCESSED_DIRECTORY,
 } from '../constants';
 import path from 'path';
 import fs from 'fs';
@@ -25,9 +25,7 @@ export async function scrapeAllImages(termDataArr: termData[]) {
     const imageFilePath = path.join(sourceImageDir, `${levelID}.png`);
 
     // Check if image already exists
-    if (fs.existsSync(imageFilePath)) {
-      console.log(`Image already exists at ${imageFilePath}`);
-    } else {
+    if (!fs.existsSync(imageFilePath)) {
       console.log(`Scraping image from ${imageURL}`);
       const response = await fetch(imageURL);
       const buffer = await response.arrayBuffer();
@@ -67,7 +65,6 @@ async function processImage(
 
   // Check if the image has already been processed
   if (fs.existsSync(processedImagePath)) {
-    console.log(`Image already processed at ${processedImagePath}`);
     return;
   }
 
@@ -75,9 +72,6 @@ async function processImage(
   await sharp(sourceImagePath)
     .trim()
     .toFile(processedImagePath)
-    .then(() => {
-      console.log(`Processed image saved at ${processedImagePath}`);
-    })
     .catch((err) => {
       console.error(`Error processing image at ${sourceImagePath}: ${err}`);
     });

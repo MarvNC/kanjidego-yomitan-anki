@@ -15,7 +15,7 @@ export function convertTermToDetailedDefinition(
   addMeaning(scArray, termData);
   return {
     type: 'structured-content',
-    content: [],
+    content: scArray,
   };
 }
 
@@ -42,7 +42,8 @@ function addImage(termData: termData, scArray: StructuredContent[]) {
       tag: 'img',
       path: `img/${imageFileName}`,
       alt: termData.termReading.term,
-      height: 200,
+      height: 4,
+      sizeUnits: 'em',
     });
   }
 }
