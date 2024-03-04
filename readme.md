@@ -19,7 +19,8 @@ Built using
 
 ### Usage
 
-**[漢字で GO!.zip](./export/漢字でGO!.zip)** (2024-03-03)
+**[漢字で GO!.zip](https://github.com/MarvNC/kanjidego-yomitan-anki/raw/master/export/%E6%BC%A2%E5%AD%97%E3%81%A7GO!.zip)**
+(2024-03-03)
 
 Simply download from above and import into Yomitan.
 
