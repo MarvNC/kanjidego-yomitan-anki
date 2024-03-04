@@ -62,9 +62,9 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
       if (info === 'なし') {
         continue;
       }
-      if (category === '別表記') {
-        // Remove など from end if it exists
-        if (info.endsWith('など')) {
+      if (category === '別表記' || category === '別解') {
+        // Remove など from end if it exists for 別表記
+        if (category === '別表記' && info.endsWith('など')) {
           info = info.slice(0, -2);
         }
         termInfo[category] = info

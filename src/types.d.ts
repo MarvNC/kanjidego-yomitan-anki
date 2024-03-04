@@ -8,7 +8,11 @@ type termReading = {
 type InfoCategory = (typeof INFO_CATEGORIES)[number];
 
 type termInfo = {
-  [K in InfoCategory]?: K extends '別表記' ? string[] : string;
+  [K in InfoCategory]?: K extends '別表記'
+    ? string[]
+    : K extends '別解'
+    ? string[]
+    : string;
 };
 
 type termData = {

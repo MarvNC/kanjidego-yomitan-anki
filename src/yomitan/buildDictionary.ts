@@ -45,18 +45,21 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
   const detailedDefinition = convertTermToDetailedDefinition(termData);
   termEntry.addDetailedDefinition(detailedDefinition);
   dictionary.addTerm(termEntry.build());
-  if (termData.termInfo.別解 && termData.termInfo.別解 !== 'なし') {
-    termEntry.setReading(termData.termInfo.別解);
-    // If the term and reading was the same
-    if (term === reading) {
-      termEntry.setTerm(termData.termInfo.別解);
-    }
-    dictionary.addTerm(termEntry.build());
-  }
   // Add alternate terms
   if (termData.termInfo.別表記) {
     for (const altTerm of termData.termInfo.別表記) {
       termEntry.setTerm(altTerm);
+      dictionary.addTerm(termEntry.build());
+    }
+  }
+  // Add alternate readings
+  if (termData.termInfo.別解) {
+    for (const altReading of termData.termInfo.別解) {
+      termEntry.setReading(altReading);
+      // If the term and reading was the same
+      if (term === reading) {
+        termEntry.setTerm(altReading);
+      }
       dictionary.addTerm(termEntry.build());
     }
   }
