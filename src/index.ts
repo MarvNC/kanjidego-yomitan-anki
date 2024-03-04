@@ -3,6 +3,7 @@ import { scrapeAllPagesData } from './scrapePageData';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from './types';
 import { DetailedDefinition } from 'yomichan-dict-builder/dist/types/yomitan/termbank';
+import path from 'path';
 
 (async () => {
   const termDataArr = await scrapeAllPagesData();
@@ -19,14 +20,16 @@ async function buildDictionary(termDataArr: termData[]) {
     author: 'Marv',
     attribution: `https://formidi.github.io/KanzideGoFAQ/
     https://w.atwiki.jp/kanjidego/`,
-    description: `Kanji de Go! FAQ`,
+    description: `From the Kanji de Go! unofficial wiki.`,
     revision: new Date().toISOString().split('T')[0],
     url: 'https://github.com/MarvNC/kanjidego-yomitan-anki',
   });
   for (const termData of termDataArr) {
     addTermToDictionary(termData, dictionary);
   }
-  const stats = await dictionary.export(EXPORT_DIRECTORY);
+  const stats = await dictionary.export(
+    path.join(process.cwd(), EXPORT_DIRECTORY)
+  );
   console.log(stats);
 }
 
