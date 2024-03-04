@@ -1,6 +1,6 @@
-import { EXPORT_DIRECTORY, YOMITAN_FILE_NAME } from './constants';
+import { EXPORT_DIRECTORY, YOMITAN_FILE_NAME } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
-import { termData } from './types';
+import { termData } from '../types';
 import { DetailedDefinition } from 'yomichan-dict-builder/dist/types/yomitan/termbank';
 import path from 'path';
 

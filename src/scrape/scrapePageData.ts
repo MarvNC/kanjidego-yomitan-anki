@@ -5,9 +5,9 @@ import {
   EXPORT_DIRECTORY,
   JSON_FILE_NAME,
   WIKI_PAGES_ARR,
-} from './constants';
-import { getPageDocument } from './scrape/getPageDocument';
-import { termData, termInfo, termReading } from './types';
+} from '../constants';
+import { getPageDocument } from './getPageDocument';
+import { termData, termInfo, termReading } from '../types';
 
 export async function scrapeAllPagesData() {
   const termDataArr: termData[] = [];
