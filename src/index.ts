@@ -1,67 +1,38 @@
-import { EXPORT_DIRECTORY, YOMITAN_FILE_NAME } from './constants';
 import { scrapeAllPagesData } from './scrapePageData';
-import { Dictionary, TermEntry } from 'yomichan-dict-builder';
+import { buildDictionary } from './buildDictionary';
 import { termData } from './types';
-import { DetailedDefinition } from 'yomichan-dict-builder/dist/types/yomitan/termbank';
+import { IMAGES_DIRECTORY, KANJI_IMAGE_URL } from './constants';
 import path from 'path';
+import fs from 'fs';
 
 (async () => {
   const termDataArr = await scrapeAllPagesData();
-  // console.log(termDataArr);
+  await scrapeAllImages(termDataArr);
   await buildDictionary(termDataArr);
 })();
 
-async function buildDictionary(termDataArr: termData[]) {
-  const dictionary = new Dictionary({
-    fileName: YOMITAN_FILE_NAME,
-  });
-  dictionary.setIndex({
-    title: '漢字でGo!',
-    author: 'Marv',
-    attribution: `https://formidi.github.io/KanzideGoFAQ/
-    https://w.atwiki.jp/kanjidego/`,
-    description: `From the Kanji de Go! unofficial wiki.`,
-    revision: new Date().toISOString().split('T')[0],
-    url: 'https://github.com/MarvNC/kanjidego-yomitan-anki',
-  });
+async function scrapeAllImages(termDataArr: termData[]) {
+  const imageDir = path.join(process.cwd(), IMAGES_DIRECTORY);
   for (const termData of termDataArr) {
-    addTermToDictionary(termData, dictionary);
-  }
-  const exportDir = path.join(process.cwd(), EXPORT_DIRECTORY);
-  const stats = await dictionary.export(exportDir);
-  console.log(`Exported ${stats.termCount} terms to ${exportDir}!`);
-}
-
-function addTermToDictionary(termData: termData, dictionary: Dictionary) {
-  const { term, reading } = termData.termReading;
-  // Some terms have an empty term string because they're too rare
-  const termEntry = new TermEntry(term || reading);
-  termEntry.setReading(reading);
-  const detailedDefinition = convertTermToDetailedDefinition(termData);
-  termEntry.addDetailedDefinition(detailedDefinition);
-  dictionary.addTerm(termEntry.build());
-  if (termData.termInfo.別解 && termData.termInfo.別解 !== 'なし') {
-    termEntry.setReading(termData.termInfo.別解);
-    if (!termData.termReading.term) {
-      termEntry.setTerm(termData.termInfo.別解);
+    const levelID = termData.termInfo.問題ID;
+    if (!levelID) {
+      throw new Error('termInfo.問題ID must be defined');
     }
-  }
-}
+    const imageURL = KANJI_IMAGE_URL(levelID);
+    const imageFilePath = path.join(imageDir, `${levelID}.png`);
 
-function convertTermToDetailedDefinition(
-  termData: termData
-): DetailedDefinition {
-  return {
-    type: 'structured-content',
-    content: [
-      // Just meaning for now
-      {
-        tag: 'ul',
-        content: {
-          tag: 'li',
-          content: termData.termInfo.意味,
-        },
-      },
-    ],
-  };
+    // Check if image already exists
+    if (fs.existsSync(imageFilePath)) {
+      console.log(`Image already exists at ${imageFilePath}`);
+      continue;
+    }
+
+    console.log(`Scraping image from ${imageURL}`);
+    const response = await fetch(imageURL);
+    const buffer = await response.arrayBuffer();
+    if (!fs.existsSync(imageDir)) {
+      fs.mkdirSync(imageDir);
+    }
+    fs.writeFileSync(imageFilePath, Buffer.from(buffer));
+  }
 }
