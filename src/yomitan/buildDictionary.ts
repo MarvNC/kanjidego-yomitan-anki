@@ -1,8 +1,8 @@
 import { EXPORT_DIRECTORY, YOMITAN_FILE_NAME } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from '../types';
-import { DetailedDefinition } from 'yomichan-dict-builder/dist/types/yomitan/termbank';
 import path from 'path';
+import { convertTermToDetailedDefinition } from './convertTermToDetailedDefinition';
 
 export async function buildDictionary(termDataArr: termData[]) {
   const dictionary = new Dictionary({
@@ -37,22 +37,6 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
     if (!termData.termReading.term) {
       termEntry.setTerm(termData.termInfo.別解);
     }
+    dictionary.addTerm(termEntry.build());
   }
-}
-function convertTermToDetailedDefinition(
-  termData: termData
-): DetailedDefinition {
-  return {
-    type: 'structured-content',
-    content: [
-      // Just meaning for now
-      {
-        tag: 'ul',
-        content: {
-          tag: 'li',
-          content: termData.termInfo.意味,
-        },
-      },
-    ],
-  };
 }
