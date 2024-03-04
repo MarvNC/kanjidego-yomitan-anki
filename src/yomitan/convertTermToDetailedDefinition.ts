@@ -14,10 +14,38 @@ export function convertTermToDetailedDefinition(
   addImage(termData, scArray);
   addHeadWord(termData, scArray);
   addMeaning(scArray, termData);
+  addNotes(scArray, termData);
   return {
     type: 'structured-content',
     content: scArray,
   };
+}
+
+function addNotes(scArray: StructuredContent[], termData: termData) {
+  if (termData.termInfo.追記 && termData.termInfo.追記 !== 'なし') {
+    scArray.push({
+      tag: 'div',
+      data: {
+        'kanji-de-go': 'notes',
+      },
+      content: [
+        {
+          tag: 'span',
+          style: {
+            fontSize: '0.8em',
+            verticalAlign: 'text-bottom',
+            borderStyle: 'solid',
+            borderRadius: '0.15em',
+            borderWidth: '0.05em',
+            marginRight: '0.25em',
+            padding: '0.1em 0.3em',
+          },
+          content: '追記',
+        },
+        termData.termInfo.追記,
+      ],
+    });
+  }
 }
 
 function addHeadWord(termData: termData, scArray: StructuredContent[]) {
