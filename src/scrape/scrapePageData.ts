@@ -4,16 +4,18 @@ import {
   INFO_CATEGORIES,
   EXPORT_DIRECTORY,
   JSON_FILE_NAME,
-  WIKI_PAGES_ARR,
+  WIKI_PAGES,
 } from '../constants';
 import { getPageDocument } from './getPageDocument';
 import { termData, termInfo, termReading } from '../types';
 
 export async function scrapeAllPagesData() {
   const termDataArr: termData[] = [];
-  for (const pageUrl of WIKI_PAGES_ARR) {
-    const data = await scrapePageData(pageUrl);
-    termDataArr.push(...data);
+  for (const level of Object.keys(WIKI_PAGES)) {
+    for (const pageUrl of WIKI_PAGES[level]) {
+      const data = await scrapePageData(pageUrl, level);
+      termDataArr.push(...data);
+    }
   }
   console.log(`Scraped ${termDataArr.length} terms`);
   const jsonDirectory = path.join(process.cwd(), EXPORT_DIRECTORY);
@@ -26,7 +28,7 @@ export async function scrapeAllPagesData() {
   return termDataArr;
 }
 
-export async function scrapePageData(pageUrl: string) {
+export async function scrapePageData(pageUrl: string, level: string) {
   const document = await getPageDocument(pageUrl);
 
   const headers = [...document.querySelectorAll('#wikibody > h3')];
@@ -34,8 +36,8 @@ export async function scrapePageData(pageUrl: string) {
   for (const header of headers) {
     const termReading = getTermReadingFromHeader(header);
     const ulsText = getNextULsText(header);
-    const termInfo = getTermInfo(ulsText, termReading.term);
-    termData.push({ termReading, termInfo });
+    const termInfo = getTermInfo(ulsText, termReading.term, level);
+    termData.push({ termReading, termInfo, termLevel: level });
   }
   return termData;
 }
@@ -44,14 +46,15 @@ function lineForCategory(line: string, category: string) {
   return line.startsWith(category) || line.substring(1).startsWith(category);
 }
 
-function getTermInfo(ulText: string[], term: string): termInfo {
+function getTermInfo(ulText: string[], term: string, level: string): termInfo {
   const termInfo: termInfo = {};
   const importantCategories = ['問題ID', '意味'];
   for (const category of INFO_CATEGORIES) {
     const line = ulText.find((line) => {
       return (
         lineForCategory(line, category) ||
-        (category === '問題ID' && lineForCategory(line, '問題'))
+        (category === '問題ID' && lineForCategory(line, '問題')) ||
+        lineForCategory(line, '問顺ID')
       );
     });
     if (line) {
@@ -69,15 +72,28 @@ function getTermInfo(ulText: string[], term: string): termInfo {
           .map((term) => term.trim())
           .filter((term) => term);
       } else if (category === '問題ID') {
-        // We're only scraping lvl6 and 7, and some had erroneous IDs
-        info = info.replace('Lv05', 'Lv07');
+        // Add 'Lv' at start if it doesn't exist
+        if (!info.startsWith('Lv')) {
+          info = `Lv${info}`;
+        }
+
+        // Some terms had erroneous IDs
+        const levelRegex = /Lv\d\d/;
+        const levelString = `Lv${level}`;
+
+        if (!info.includes(levelString)) {
+          console.log(
+            `Term ${term} has wrong level ID: ${info}. Changing to ${levelString}`
+          );
+          info = info.replace(levelRegex, levelString);
+        }
         termInfo[category] = info;
       } else {
         termInfo[category] = info;
       }
     } else {
       if (importantCategories.includes(category)) {
-        throw new Error(`${term}: Category ${category} not found`);
+        console.error(`${term}: Category ${category} not found`);
       }
     }
   }

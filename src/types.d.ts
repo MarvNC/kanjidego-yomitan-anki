@@ -14,4 +14,5 @@ type termInfo = {
 type termData = {
   termReading: termReading;
   termInfo: termInfo;
+  termLevel: string;
 };

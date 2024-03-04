@@ -17,9 +17,8 @@ export async function scrapeAllImages(termDataArr: termData[]) {
   for (const termData of termDataArr) {
     const levelID = termData.termInfo.問題ID;
     if (!levelID) {
-      throw new Error(
-        `Error on term ${termData.termReading.term}: 問題ID must be defined`
-      );
+      console.error(`No level ID found for term ${termData.termReading.term}`);
+      continue;
     }
     const imageURL = KANJI_IMAGE_URL(levelID);
     const imageFilePath = path.join(sourceImageDir, `${levelID}.png`);
@@ -68,7 +67,6 @@ async function processImage(
     return;
   }
 
-  console.log(`Processing image at ${sourceImagePath}`);
   await sharp(sourceImagePath)
     .trim()
     .toFile(processedImagePath)
