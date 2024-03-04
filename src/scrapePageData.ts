@@ -73,25 +73,33 @@ function getNextUL(header: Element): Element {
 }
 
 function getTermReadingFromHeader(header: Element): termReading {
-  const rb = header.querySelector('rb');
-  const rt = header.querySelector('rt');
-  if (!rb && !rt) {
-    if (!header.textContent) {
-      throw new Error('header must have text content');
+  if (header.childNodes.length === 0) {
+    throw new Error('Header has no children');
+  }
+  let term = '';
+  let reading = '';
+  for (const child of header.childNodes) {
+    // If text node, add to term and reading
+    if (child.nodeType === 3) {
+      term += child.textContent;
+      reading += child.textContent;
     }
-    return {
-      term: '',
-      reading: header.textContent,
-    };
+    // If ruby text, add rb to term and rt to reading
+    if (child.nodeName === 'RUBY') {
+      const rubyElem = child as Element;
+      const rb = rubyElem.querySelector('rb');
+      const rt = rubyElem.querySelector('rt');
+      if (!rb || !rt) {
+        throw new Error('Ruby element must have rb and rt children');
+      }
+      term += rb.textContent;
+      reading += rt.textContent;
+    }
   }
-  if (!rb || !rt) {
-    throw new Error('rb and rt must both exist');
+  function cleanStr(str: string) {
+    return str.replace(/[・()]/g, '');
   }
-  if (!rb.textContent || !rt.textContent) {
-    throw new Error('rb and rt must have text content');
-  }
-  return {
-    term: rb.textContent,
-    reading: rt.textContent,
-  };
+  term = cleanStr(term);
+  reading = cleanStr(reading);
+  return { term, reading };
 }
