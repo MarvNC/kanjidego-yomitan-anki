@@ -39,11 +39,17 @@ function addImage(termData: termData, scArray: StructuredContent[]) {
   );
   if (fs.existsSync(imageFilePath)) {
     scArray.push({
-      tag: 'img',
-      path: `img/${imageFileName}`,
-      alt: termData.termReading.term,
-      height: 4,
-      sizeUnits: 'em',
+      tag: 'div',
+      content: {
+        tag: 'img',
+        path: `img/${imageFileName}`,
+        alt: termData.termReading.term,
+        height: 4,
+        sizeUnits: 'em',
+        collapsed: false,
+        collapsible: false,
+        background: false,
+      },
     });
   }
 }
