@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import {
   INFO_CATEGORIES,
-  JSON_DIRECTORY,
+  DIST_DIRECTORY,
   JSON_FILE_NAME,
   WIKI_PAGES_ARR,
 } from './constants';
@@ -16,7 +16,7 @@ export async function scrapeAllPagesData() {
     termDataArr.push(...data);
   }
   console.log(`Scraped ${termDataArr.length} terms`);
-  const jsonDirectory = path.join(process.cwd(), JSON_DIRECTORY);
+  const jsonDirectory = path.join(process.cwd(), DIST_DIRECTORY);
   if (!fs.existsSync(jsonDirectory)) {
     fs.mkdirSync(jsonDirectory);
   }
@@ -39,6 +39,7 @@ export async function scrapePageData(pageUrl: string) {
   }
   return termData;
 }
+
 function getTermInfo(ulElem: Element): termInfo {
   const lines: string[] = [];
   for (const li of ulElem.querySelectorAll('li')) {
@@ -59,6 +60,7 @@ function getTermInfo(ulElem: Element): termInfo {
   }
   return termInfo;
 }
+
 function getNextUL(header: Element): Element {
   let nextEl = header.nextElementSibling;
   while (nextEl && nextEl.tagName !== 'UL') {
@@ -69,6 +71,7 @@ function getNextUL(header: Element): Element {
   }
   return nextEl;
 }
+
 function getTermReadingFromHeader(header: Element): termReading {
   const rb = header.querySelector('rb');
   const rt = header.querySelector('rt');

@@ -17,8 +17,9 @@ export const KANJI_IMAGE_URL = (ID: string) =>
   `https://html5.plicy.net/GameFilesUpdate/155561/234/img/pictures/${ID}.png`;
 export const PAGES_DIRECTORY = '/pages';
 export const IMAGES_DIRECTORY = '/images';
-export const JSON_DIRECTORY = '/json';
+export const DIST_DIRECTORY = '/export';
 export const JSON_FILE_NAME = 'termData.json';
+export const YOMITAN_FILE_NAME = '漢字でGO!.zip';
 export const INFO_CATEGORIES = [
   '意味',
   '別解',
