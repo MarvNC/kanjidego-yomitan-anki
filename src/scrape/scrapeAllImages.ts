@@ -7,6 +7,7 @@ import {
 import path from 'path';
 import fs from 'fs';
 import sharp from 'sharp';
+import cliProgress from 'cli-progress';
 
 export async function scrapeAllImages(termDataArr: termData[]) {
   const sourceImageDir = path.join(process.cwd(), IMAGES_DIRECTORY);
@@ -14,6 +15,10 @@ export async function scrapeAllImages(termDataArr: termData[]) {
 
   const processImagePromises = [];
 
+  const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
+
+  bar.start(termDataArr.length, 0);
+  console.log('Scraping images');
   for (const termData of termDataArr) {
     const levelID = termData.termInfo.問題ID;
     if (!levelID) {
@@ -25,7 +30,6 @@ export async function scrapeAllImages(termDataArr: termData[]) {
 
     // Check if image already exists
     if (!fs.existsSync(imageFilePath)) {
-      console.log(`Scraping image from ${imageURL}`);
       const response = await fetch(imageURL);
       const buffer = await response.arrayBuffer();
       if (!fs.existsSync(sourceImageDir)) {
@@ -38,6 +42,8 @@ export async function scrapeAllImages(termDataArr: termData[]) {
     processImagePromises.push(
       processImage(sourceImageDir, processedImageDir, `${levelID}.png`)
     );
+
+    bar.increment();
   }
   return Promise.all(processImagePromises);
 }
