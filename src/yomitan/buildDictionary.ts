@@ -8,6 +8,7 @@ export async function buildDictionary(termDataArr: termData[]) {
   const dictionary = new Dictionary({
     fileName: YOMITAN_FILE_NAME,
   });
+
   dictionary.setIndex({
     title: '漢字でGo!',
     author: 'Marv',
@@ -17,13 +18,18 @@ export async function buildDictionary(termDataArr: termData[]) {
     revision: new Date().toISOString().split('T')[0],
     url: 'https://github.com/MarvNC/kanjidego-yomitan-anki',
   });
+
+  addAllImagesToDictionary();
+
   for (const termData of termDataArr) {
     addTermToDictionary(termData, dictionary);
   }
+
   const exportDir = path.join(process.cwd(), EXPORT_DIRECTORY);
   const stats = await dictionary.export(exportDir);
   console.log(`Exported ${stats.termCount} terms to ${exportDir}!`);
 }
+
 function addTermToDictionary(termData: termData, dictionary: Dictionary) {
   const { term, reading } = termData.termReading;
   // Some terms have an empty term string because they're too rare
@@ -39,4 +45,8 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
     }
     dictionary.addTerm(termEntry.build());
   }
+}
+
+function addAllImagesToDictionary() {
+  // TODO
 }
