@@ -45,6 +45,7 @@ export async function scrapeAllImages(termDataArr: termData[]) {
 
     bar.increment();
   }
+  bar.stop();
   return Promise.all(processImagePromises);
 }
 /**
