@@ -50,6 +50,10 @@ function addNotes(scArray: StructuredContent[], termData: termData) {
 
 function addHeadWord(scArray: StructuredContent[], termData: termData) {
   const alternatives = termData.termInfo.別表記?.join('・');
+  const readings = [
+    termData.termReading.reading,
+    ...(termData.termInfo.別解 || []),
+  ].join('・');
   scArray.push({
     tag: 'div',
     data: {
@@ -59,7 +63,7 @@ function addHeadWord(scArray: StructuredContent[], termData: termData) {
       termData.termInfo.別表記 && termData.termInfo.別表記.length > 0
         ? `・${alternatives}`
         : ''
-    }】`,
+    }】${readings}`,
   });
 }
 
