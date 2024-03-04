@@ -29,6 +29,9 @@ function addHeadWord(termData: termData, scArray: StructuredContent[]) {
   }
   scArray.push({
     tag: 'div',
+    data: {
+      'kanji-de-go': 'headword',
+    },
     content: `【${termData.termReading.term}${
       termData.termInfo.別表記 && termData.termInfo.別表記 !== 'なし'
         ? `・${alternatives}`
@@ -40,6 +43,9 @@ function addHeadWord(termData: termData, scArray: StructuredContent[]) {
 function addMeaning(scArray: StructuredContent[], termData: termData) {
   scArray.push({
     tag: 'ul',
+    data: {
+      'kanji-de-go': 'meaning',
+    },
     content: {
       tag: 'li',
       content: termData.termInfo.意味,
@@ -67,6 +73,12 @@ function addImage(termData: termData, scArray: StructuredContent[]) {
         collapsed: false,
         collapsible: false,
         background: false,
+      },
+      data: {
+        'kanji-de-go': 'image',
+      },
+      style: {
+        marginBottom: '0.5em',
       },
     });
   }
