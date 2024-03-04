@@ -44,8 +44,12 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
   // Some terms have an empty term string because they're too rare
   const termEntry = new TermEntry(term || reading);
   termEntry.setReading(reading);
+
   const detailedDefinition = convertTermToDetailedDefinition(termData);
   termEntry.addDetailedDefinition(detailedDefinition);
+
+  termEntry.setTermTags('漢字でGo!');
+
   dictionary.addTerm(termEntry.build());
 
   // Deprioritize alternates
