@@ -1,4 +1,4 @@
-# Kanji de Go for Yomitan and Anki
+# Kanji de Go for Yomitan and Anki <!-- omit from toc -->
 
 [Kanji de Go (漢字で Go!)](https://plicy.net/GamePlay/155561) is a fun game
 quizzing people on rare/exotic kanji terms. In this repository I have scraped
@@ -6,11 +6,10 @@ the terms from the game from [the fan wiki](https://w.atwiki.jp/kanjidego/) for
 use in [Yomitan](https://github.com/themoeway/yomitan) (formerly Yomichan) and
 as an Anki deck.
 
-- [Kanji de Go for Yomitan and Anki](#kanji-de-go-for-yomitan-and-anki)
-  - [Yomitan Dictionary](#yomitan-dictionary)
-    - [Usage](#usage)
-    - [Screenshots](#screenshots)
-  - [Anki Deck](#anki-deck)
+- [Yomitan Dictionary](#yomitan-dictionary)
+  - [Usage](#usage)
+  - [Screenshots](#screenshots)
+- [Anki Deck](#anki-deck)
 
 ## Yomitan Dictionary
 
