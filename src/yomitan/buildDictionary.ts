@@ -54,17 +54,8 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
     dictionary.addTerm(termEntry.build());
   }
   // Add alternate terms
-  if (termData.termInfo.別表記 && termData.termInfo.別表記 !== 'なし') {
-    // Remove など from end if it exists
-    let altTerms = termData.termInfo.別表記.trim();
-    if (altTerms.endsWith('など')) {
-      altTerms = altTerms.slice(0, -2);
-    }
-    const altTermArr = altTerms
-      .split(/[ 、,，]/)
-      .map((term) => term.trim())
-      .filter((term) => term);
-    for (const altTerm of altTermArr) {
+  if (termData.termInfo.別表記) {
+    for (const altTerm of termData.termInfo.別表記) {
       termEntry.setTerm(altTerm);
       dictionary.addTerm(termEntry.build());
     }

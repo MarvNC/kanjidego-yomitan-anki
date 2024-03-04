@@ -49,19 +49,14 @@ function addNotes(scArray: StructuredContent[], termData: termData) {
 }
 
 function addHeadWord(termData: termData, scArray: StructuredContent[]) {
-  // Clean the alt
-  let alternatives = termData.termInfo.別表記?.trim();
-  // Strip など from end if it exists
-  if (alternatives && alternatives.endsWith('など')) {
-    alternatives = alternatives.slice(0, -2);
-  }
+  const alternatives = termData.termInfo.別表記?.join('・');
   scArray.push({
     tag: 'div',
     data: {
       'kanji-de-go': 'headword',
     },
     content: `【${termData.termReading.term}${
-      termData.termInfo.別表記 && termData.termInfo.別表記 !== 'なし'
+      termData.termInfo.別表記 && termData.termInfo.別表記.length > 0
         ? `・${alternatives}`
         : ''
     }】`,

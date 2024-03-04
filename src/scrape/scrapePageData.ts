@@ -55,9 +55,27 @@ function getTermInfo(ulText: string[], term: string): termInfo {
       );
     });
     if (line) {
-      termInfo[category] = line.slice(category.length + 1);
+      let info = line.slice(category.length + 1).trim();
+      if (info === 'なし') {
+        continue;
+      }
+      if (category === '別表記') {
+        // Remove など from end if it exists
+        if (info.endsWith('など')) {
+          info = info.slice(0, -2);
+        }
+        termInfo[category] = info
+          .split(/[ 、,，]/)
+          .map((term) => term.trim())
+          .filter((term) => term);
+      } else if (category === '問題ID') {
+        // We're only scraping lvl6 and 7, and some had erroneous IDs
+        info = info.replace('Lv05', 'Lv07');
+        termInfo[category] = info;
+      } else {
+        termInfo[category] = info;
+      }
     } else {
-      termInfo[category] = '';
       if (importantCategories.includes(category)) {
         throw new Error(`${term}: Category ${category} not found`);
       }
