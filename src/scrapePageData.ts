@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import {
   INFO_CATEGORIES,
-  DIST_DIRECTORY,
+  EXPORT_DIRECTORY,
   JSON_FILE_NAME,
   WIKI_PAGES_ARR,
 } from './constants';
@@ -16,7 +16,7 @@ export async function scrapeAllPagesData() {
     termDataArr.push(...data);
   }
   console.log(`Scraped ${termDataArr.length} terms`);
-  const jsonDirectory = path.join(process.cwd(), DIST_DIRECTORY);
+  const jsonDirectory = path.join(process.cwd(), EXPORT_DIRECTORY);
   if (!fs.existsSync(jsonDirectory)) {
     fs.mkdirSync(jsonDirectory);
   }

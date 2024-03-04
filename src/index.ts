@@ -1,4 +1,4 @@
-import { YOMITAN_FILE_NAME } from './constants';
+import { EXPORT_DIRECTORY, YOMITAN_FILE_NAME } from './constants';
 import { scrapeAllPagesData } from './scrapePageData';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from './types';
@@ -6,7 +6,7 @@ import { DetailedDefinition } from 'yomichan-dict-builder/dist/types/yomitan/ter
 
 (async () => {
   const termDataArr = await scrapeAllPagesData();
-  console.log(termDataArr);
+  // console.log(termDataArr);
   await buildDictionary(termDataArr);
 })();
 
@@ -26,7 +26,8 @@ async function buildDictionary(termDataArr: termData[]) {
   for (const termData of termDataArr) {
     addTermToDictionary(termData, dictionary);
   }
-  await dictionary.export();
+  const stats = await dictionary.export(EXPORT_DIRECTORY);
+  console.log(stats);
 }
 
 function addTermToDictionary(termData: termData, dictionary: Dictionary) {
@@ -50,6 +51,15 @@ function convertTermToDetailedDefinition(
 ): DetailedDefinition {
   return {
     type: 'structured-content',
-    content: [],
+    content: [
+      // Just meaning for now
+      {
+        tag: 'ul',
+        content: {
+          tag: 'li',
+          content: termData.termInfo.意味,
+        },
+      },
+    ],
   };
 }
