@@ -33,43 +33,56 @@ export async function scrapePageData(pageUrl: string) {
   const termData: termData[] = [];
   for (const header of headers) {
     const termReading = getTermReadingFromHeader(header);
-    const ulElem = getNextUL(header);
-    const termInfo = getTermInfo(ulElem);
+    const ulsText = getNextULsText(header);
+    const termInfo = getTermInfo(ulsText, termReading.term);
     termData.push({ termReading, termInfo });
   }
   return termData;
 }
 
-function getTermInfo(ulElem: Element): termInfo {
-  const lines: string[] = [];
-  for (const li of ulElem.querySelectorAll('li')) {
-    const line = li.textContent;
-    if (!line) {
-      throw new Error('li must have text content');
-    }
-    lines.push(line);
-  }
+function getTermInfo(ulText: string[], term: string): termInfo {
   const termInfo: termInfo = {};
+  const importantCategories = ['問題ID', '意味'];
   for (const category of INFO_CATEGORIES) {
-    const line = lines.find((line) => line.startsWith(category));
+    const line = ulText.find((line) => {
+      return line.startsWith(category)
+        ? true
+        : category === '問題ID'
+        ? line.startsWith('問題')
+        : false;
+    });
     if (line) {
       termInfo[category] = line.slice(category.length + 1);
     } else {
       termInfo[category] = '';
+      if (importantCategories.includes(category)) {
+        throw new Error(`${term}: Category ${category} not found`);
+      }
     }
   }
   return termInfo;
 }
 
-function getNextUL(header: Element): Element {
-  let nextEl = header.nextElementSibling;
-  while (nextEl && nextEl.tagName !== 'UL') {
-    nextEl = nextEl.nextElementSibling;
+/**
+ * Gets all the text of the ULs after the header until the next h3 elem or
+ * there are no more siblings
+ * @param header
+ * @returns
+ */
+function getNextULsText(header: Element): string[] {
+  const ulsText: string[] = [];
+  let nextElem = header.nextElementSibling;
+  while (nextElem && nextElem.nodeName !== 'H3') {
+    if (nextElem.nodeName === 'UL') {
+      ulsText.push(
+        ...[...nextElem.querySelectorAll('li')].map(
+          (li) => li.textContent || ''
+        )
+      );
+    }
+    nextElem = nextElem.nextElementSibling;
   }
-  if (!nextEl) {
-    throw new Error('No UL found after header');
-  }
-  return nextEl;
+  return ulsText;
 }
 
 function getTermReadingFromHeader(header: Element): termReading {
