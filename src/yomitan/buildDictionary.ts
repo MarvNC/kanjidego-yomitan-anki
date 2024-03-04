@@ -47,7 +47,8 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
   dictionary.addTerm(termEntry.build());
   if (termData.termInfo.別解 && termData.termInfo.別解 !== 'なし') {
     termEntry.setReading(termData.termInfo.別解);
-    if (!termData.termReading.term) {
+    // If the term and reading was the same
+    if (term === reading) {
       termEntry.setTerm(termData.termInfo.別解);
     }
     dictionary.addTerm(termEntry.build());
