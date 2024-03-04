@@ -12,11 +12,29 @@ export function convertTermToDetailedDefinition(
 ): DetailedDefinition {
   const scArray: StructuredContent[] = [];
   addImage(termData, scArray);
+  addHeadWord(termData, scArray);
   addMeaning(scArray, termData);
   return {
     type: 'structured-content',
     content: scArray,
   };
+}
+
+function addHeadWord(termData: termData, scArray: StructuredContent[]) {
+  // Clean the alt
+  let alternatives = termData.termInfo.別表記;
+  // Strip など from end if it exists
+  if (alternatives && alternatives.endsWith('など')) {
+    alternatives = alternatives.slice(0, -2);
+  }
+  scArray.push({
+    tag: 'div',
+    content: `【${termData.termReading.term}${
+      termData.termInfo.別表記 && termData.termInfo.別表記 !== 'なし'
+        ? `・${alternatives}`
+        : ''
+    }】`,
+  });
 }
 
 function addMeaning(scArray: StructuredContent[], termData: termData) {
