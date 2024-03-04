@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "jsdom": "^24.0.0",
+    "sharp": "^0.33.2",
     "typescript": "^5.3.3",
     "yomichan-dict-builder": "^2.5.0"
   },
