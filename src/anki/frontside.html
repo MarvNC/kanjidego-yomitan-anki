@@ -1,0 +1,43 @@
+<!-- [html-validate-disable no-inline-style] -->
+<!-- [html-validate-disable void-style] -->
+<div lang="ja">
+  <div
+    id="expression"
+    style="
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1em;
+    "
+  >
+    <div>
+      <img src="{{問題ID}}.png" alt="" style="height: 3.5em" />
+    </div>
+    <div style="font-size: 2em">
+      <a href="#"> {{単語}} </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Copy expression on click
+  (() => {
+    try {
+      const copyOnClickElems = ['expression'];
+      copyOnClickElems.forEach((id) => {
+        const elem = document.getElementById(id);
+        elem.addEventListener('click', () => {
+          const range = document.createRange();
+          range.selectNode(elem);
+          window.getSelection().removeAllRanges();
+          window.getSelection().addRange(range);
+          document.execCommand('copy');
+          window.getSelection().removeAllRanges();
+        });
+      });
+    } catch (error) {
+      console.error(error);
+    }
+  })();
+</script>
