@@ -4,7 +4,8 @@
   color: black;
   background-color: white;
   max-width: 1000px;
-  margin: 1.5em;
+  margin: auto;
+  padding: 1.5em;
   font-size: 24px;
 }
 
