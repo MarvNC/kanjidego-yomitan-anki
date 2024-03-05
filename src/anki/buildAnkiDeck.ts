@@ -5,8 +5,6 @@ import { EXPORT_DIRECTORY } from '../constants';
 
 /**
  * Prints the data to a csv file
- * It prints in the following format:
- * 問題ID, term, reading, 意味, 別解, 別表記, 追記, level, image
  * @param termDataArr
  */
 export async function buildAnkiDeck(termDataArr: termData[]) {
@@ -20,14 +18,14 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     path: csvPath,
     header: [
       { id: 'id', title: '問題ID' },
-      { id: 'term', title: 'term' },
-      { id: 'reading', title: 'reading' },
-      { id: 'meaning', title: '意味' },
+      { id: 'term', title: '単語' },
+      { id: 'reading', title: '読み方' },
       { id: 'alt', title: '別解' },
       { id: 'altSpellings', title: '別表記' },
+      { id: 'meaning', title: '意味' },
       { id: 'notes', title: '追記' },
-      { id: 'level', title: 'level' },
-      { id: 'image', title: 'image' },
+      { id: 'level', title: 'レベル' },
+      { id: 'image', title: '画像' },
     ],
   });
 
