@@ -1,3 +1,4 @@
+import { buildAnkiDeck } from './anki/buildAnkiDeck';
 import { scrapeAllPagesData } from './scrape/scrapePageData';
 import { termData } from './types';
 import { buildDictionary } from './yomitan/buildDictionary';
@@ -18,9 +19,4 @@ async function scrapeDataAndExecute(
 ) {
   const termDataArr = await scrapeAllPagesData();
   callback(termDataArr);
-}
-
-async function buildAnkiDeck(data: termData[]) {
-  console.log('Building Anki deck');
-  // TODO
 }
