@@ -10,6 +10,8 @@ import { convertTermToDetailedDefinition } from './convertTermToDetailedDefiniti
 import fs from 'fs';
 
 export async function buildDictionary(termDataArr: termData[]) {
+  console.log('Building Yomitan dictionary');
+
   const dateString = new Date().toISOString().split('T')[0];
   const dictionary = new Dictionary({
     fileName: `${YOMITAN_FILE_NAME}.zip`,

@@ -8,6 +8,7 @@ import {
 } from '../constants';
 import { getPageDocument } from './getPageDocument';
 import { termData, termInfo, termReading } from '../types';
+import { scrapeAllImages } from './scrapeAllImages';
 
 export async function scrapeAllPagesData() {
   const termDataArr: termData[] = [];
@@ -25,6 +26,8 @@ export async function scrapeAllPagesData() {
   const jsonFilePath = path.join(jsonDirectory, JSON_FILE_NAME);
   fs.writeFileSync(jsonFilePath, JSON.stringify(termDataArr, null, 2));
   console.log(`Wrote JSON to ${jsonFilePath}`);
+
+  await scrapeAllImages(termDataArr);
   return termDataArr;
 }
 
