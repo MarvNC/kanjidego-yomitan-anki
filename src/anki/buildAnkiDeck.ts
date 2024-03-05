@@ -24,8 +24,8 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       { id: 'altSpellings', title: '別表記' },
       { id: 'meaning', title: '意味' },
       { id: 'notes', title: '追記' },
-      { id: 'image', title: '画像' },
       { id: 'level', title: 'レベル' },
+      { id: 'image', title: '画像' },
     ],
   });
 
@@ -41,7 +41,8 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       問題ID: id,
     } = termData.termInfo;
     const level = termData.termLevel;
-    const image = `${id}.png`;
+    const imageFile = `${id}.png`;
+    const image = id ? `<img src="${imageFile}">` : '';
     await csvWriter.writeRecords([
       {
         id,
