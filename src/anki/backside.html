@@ -4,17 +4,19 @@
 {{FrontSide}}
 
 <div lang="ja">
+  <!-- Alts -->
+  {{#別表記}}
+  <div style="color: gray; font-size: 0.7em">{{別表記}}</div>
+  {{/別表記}}
   <!-- Readings -->
   <div>
     <span>{{読み方}}</span>
     {{#別解}}
-    <span>{{別解}}</span>
+    <span style="margin-left: 0.5em; color: gray; font-size: 0.7em"
+      >{{別解}}</span
+    >
     {{/別解}}
   </div>
-  <!--  -->
-  {{#別表記}}
-  <div>{{別表記}}</div>
-  {{/別表記}}
   <div>{{意味}}</div>
   <div>{{追記}}</div>
 </div>
