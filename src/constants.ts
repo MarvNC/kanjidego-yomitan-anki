@@ -41,6 +41,7 @@ export const KANJI_IMAGE_URL = (ID: string) =>
 export const PAGES_DIRECTORY = '/pages';
 export const IMAGES_DIRECTORY = '/images';
 export const PROCESSED_DIRECTORY = '/processed';
+export const CROPPED_IMG_DIR = `${PROCESSED_DIRECTORY}/cropped`;
 export const EXPORT_DIRECTORY = '/export';
 export const JSON_FILE_NAME = 'termData.json';
 export const YOMITAN_FILE_NAME = '漢字でGO!';
