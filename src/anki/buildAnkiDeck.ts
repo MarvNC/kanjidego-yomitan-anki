@@ -26,6 +26,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       { id: 'alt', title: '別解' },
       { id: 'altSpellings', title: '別表記' },
       { id: 'notes', title: '追記' },
+      { id: 'level', title: 'level' },
       { id: 'image', title: 'image' },
     ],
   });
