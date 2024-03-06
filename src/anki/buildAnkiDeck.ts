@@ -37,7 +37,73 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
   for (const termData of termDataArr) {
     records.push(...getRecordsForTerm(termData));
   }
-  await csvWriter.writeRecords(records);
+
+  // 単語 as key, list of Record as value
+  const recordsMap = new Map<string, csvRecord[]>();
+
+  // Add all records
+  for (const record of records) {
+    const { 単語 } = record;
+    if (!recordsMap.has(単語)) {
+      recordsMap.set(単語, [record]);
+    } else {
+      recordsMap.get(単語)?.push(record);
+    }
+  }
+
+  // Remove duplicates
+  for (const [, recordList] of recordsMap) {
+    // Find the best one
+    const bestRecord = getBestRecord(recordList);
+    await csvWriter.writeRecords([bestRecord]);
+  }
+}
+
+function getBestRecord(records: csvRecord[]): csvRecord {
+  if (records.length === 1) return records[0];
+
+  let bestRecord = records[0];
+  let bestScore = recordHeuristic(bestRecord);
+
+  for (const record of records) {
+    const score = recordHeuristic(record);
+    if (score > bestScore) {
+      bestRecord = record;
+      bestScore = score;
+    }
+  }
+
+  return bestRecord;
+}
+
+/**
+ * Evaluates how good this term is relatively
+ * Higher is better
+ * @param record
+ */
+function recordHeuristic(record: csvRecord): number {
+  let score = 0;
+  // Prefer original term
+  if (!record.元単語) {
+    score += 5000;
+  }
+  // Prefer existence of alternate readings
+  if (record.別解) {
+    score += 500;
+  }
+  // Prefer longer definition
+  if (record.意味) {
+    score += record.意味.length + 100;
+  }
+  // Prefer longer note
+  if (record.追記) {
+    score += record.追記.length + 100;
+  }
+  // Prefer longer alt terms list
+  if (record.別表記) {
+    score += record.別表記.length + 50;
+  }
+  return score;
 }
 
 function getRecordsForTerm(termData: termData) {
