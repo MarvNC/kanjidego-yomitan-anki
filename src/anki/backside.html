@@ -36,3 +36,16 @@
     </tbody>
   </table>
 </div>
+
+<script>
+  // Reveal main form plain-text
+  (() => {
+    try {
+      const alternate = document.getElementById('main-form');
+      if (!alternate) return;
+      alternate.style.display = 'block';
+    } catch (error) {
+      console.error(error);
+    }
+  })();
+</script>
