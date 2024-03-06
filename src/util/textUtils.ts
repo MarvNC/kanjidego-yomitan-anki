@@ -1,6 +1,6 @@
 export function cleanStr(str: string) {
   // eslint-disable-next-line no-irregular-whitespace
-  return str.replace(/[・() 　]|\*1|\*2/g, '');
+  return str.replace(/[・() 　]|\*\d/g, '');
 }
 export function removeFromEnd(str: string, stringsToRemove: string[]): string {
   for (const stringToRemove of stringsToRemove) {

@@ -5,12 +5,12 @@ import {
   EXPORT_DIRECTORY,
   JSON_FILE_NAME,
   WIKI_PAGES,
+  END_STRINGS_TO_REMOVE,
+  EMPTY_STRING,
 } from '../constants';
 import { getPageDocument } from './getPageDocument';
 import { termData, termInfo, termReading } from '../types';
 import { scrapeAllImages } from './scrapeAllImages';
-import { END_STRINGS_TO_REMOVE } from '../constants';
-import { EMPTY_STRING } from '../constants';
 import { cleanStr } from '../util/textUtils';
 import { removeFromEnd } from '../util/textUtils';
 
@@ -77,10 +77,14 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
       }
 
       if (category === '別表記' || category === '別解') {
-        termInfo[category] = info
+        const altArray = info
           .split(/[ 、,，]/)
           .map((term) => cleanStr(term.trim()))
-          .filter((term) => term);
+          .filter((term) => term && !EMPTY_STRING.includes(term));
+        if (altArray.length === 0) {
+          continue;
+        }
+        termInfo[category] = altArray;
       } else if (category === '問題ID') {
         // Add 'Lv' at start if it doesn't exist
         if (!info.startsWith('Lv')) {
