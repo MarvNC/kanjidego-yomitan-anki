@@ -72,7 +72,7 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
         }
         termInfo[category] = info
           .split(/[ 、,，]/)
-          .map((term) => term.trim())
+          .map((term) => cleanStr(term.trim()))
           .filter((term) => term);
       } else if (category === '問題ID') {
         // Add 'Lv' at start if it doesn't exist
@@ -153,10 +153,12 @@ function getTermReadingFromHeader(header: Element): termReading {
       reading += rt.textContent;
     }
   }
-  function cleanStr(str: string) {
-    return str.replace(/[・()]/g, '');
-  }
   term = cleanStr(term);
   reading = cleanStr(reading);
   return { term, reading };
+}
+
+function cleanStr(str: string) {
+  // eslint-disable-next-line no-irregular-whitespace
+  return str.replace(/[・() 　]/g, '');
 }
