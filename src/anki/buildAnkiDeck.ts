@@ -35,11 +35,14 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
   const records: csvRecord[] = [];
 
   for (const termData of termDataArr) {
-    getRecordsForTerm(termData, records);
+    records.push(...getRecordsForTerm(termData));
   }
   await csvWriter.writeRecords(records);
 }
-function getRecordsForTerm(termData: termData, records: csvRecord[]) {
+
+function getRecordsForTerm(termData: termData) {
+  const records: csvRecord[] = [];
+
   const { term, reading } = termData.termReading;
   const { 別表記, 別解, 意味, 追記, 問題ID } = termData.termInfo;
 
@@ -66,7 +69,7 @@ function getRecordsForTerm(termData: termData, records: csvRecord[]) {
   record.元単語 = term;
   tags += ` ${KANJI_DE_GO_NAME}-別表記`;
 
-  if (!別表記) return;
+  if (!別表記) return records;
 
   for (const altForm of 別表記 ?? []) {
     // Remove this alt form from array and add back original term
@@ -81,4 +84,5 @@ function getRecordsForTerm(termData: termData, records: csvRecord[]) {
       Tags: tags,
     });
   }
+  return records;
 }
