@@ -29,19 +29,13 @@
         <td>{{追記}}</td>
       </tr>
       {{/追記}}
+      <!-- Alternate forms -->
+      {{#別表記}}
+      <tr>
+        <td>別表記</td>
+        <td>{{別表記}}</td>
+      </tr>
+      {{/別表記}}
     </tbody>
   </table>
 </div>
-
-<script>
-  // Reveal alternate expressions
-  (() => {
-    try {
-      const alternate = document.getElementById('alternate');
-      if (!alternate) return;
-      alternate.style.display = 'block';
-    } catch (error) {
-      console.error(error);
-    }
-  })();
-</script>

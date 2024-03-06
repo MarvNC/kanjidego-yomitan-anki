@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 .card {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Simsun', 'Simsunb', serif;
   color: black;
   background-color: white;
   max-width: 1000px;
   margin: auto;
   padding: 1em;
   font-size: 28px;
-}
-
-.rarefont {
-  font-family: 'Simsun', 'Simsunb', serif !important;
 }
 
 .mobile .card {
