@@ -8,8 +8,6 @@
       top: 10px;
       right: 10px;
       font-size: 0.8em;
-      color: #333333;
-      background-color: lightgrey;
       border: 1px solid;
       border-color: #333333;
       border-radius: 0.5em;
@@ -52,12 +50,20 @@
       copyOnClickElems.forEach((id) => {
         const elem = document.getElementById(id);
         elem.addEventListener('click', () => {
+          const text = elem.textContent;
+          // Clean
+          const cleanText = text.replace(/[\n\r]/g, ' ').trim();
+          // Copy
           const range = document.createRange();
-          range.selectNode(elem);
-          window.getSelection().removeAllRanges();
-          window.getSelection().addRange(range);
+          const tempElem = document.createElement('div');
+          tempElem.textContent = cleanText;
+          document.body.appendChild(tempElem);
+          range.selectNode(tempElem);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
           document.execCommand('copy');
-          window.getSelection().removeAllRanges();
+          document.body.removeChild(tempElem);
         });
       });
     } catch (error) {
