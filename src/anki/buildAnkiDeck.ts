@@ -40,17 +40,22 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       追記: notes,
       問題ID: id,
     } = termData.termInfo;
+    const altSpellingsString = altSpellings ? altSpellings.join('・') : '';
+    const altString = alt ? alt.join('・') : '';
+
     const level = termData.termLevel;
+
     const imageFile = `${id}.png`;
     const image = id ? `<img src="${imageFile}">` : '';
+
     await csvWriter.writeRecords([
       {
         id,
         term,
         reading,
         meaning,
-        alt,
-        altSpellings,
+        alt: altString,
+        altSpellings: altSpellingsString,
         notes,
         level,
         image,
