@@ -56,3 +56,10 @@ export const INFO_CATEGORIES = [
   '問題ID',
   '追記',
 ] as const;
+export const END_STRINGS_TO_REMOVE = [
+  'など',
+  'など多々',
+  'など多々あり。',
+  'など(同訓異義語多数存在。)',
+];
+export const EMPTY_STRING = ['なし', 'なし(*1)', 'なし(*1)'];

@@ -9,6 +9,10 @@ import {
 import { getPageDocument } from './getPageDocument';
 import { termData, termInfo, termReading } from '../types';
 import { scrapeAllImages } from './scrapeAllImages';
+import { END_STRINGS_TO_REMOVE } from '../constants';
+import { EMPTY_STRING } from '../constants';
+import { cleanStr } from '../util/textUtils';
+import { removeFromEnd } from '../util/textUtils';
 
 export async function scrapeAllPagesData() {
   const termDataArr: termData[] = [];
@@ -62,21 +66,17 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
     });
     if (line) {
       let info = line.slice(category.length + 1).trim();
-      if (info === 'なし') {
+
+      if (category === '別表記') {
+        info = removeFromEnd(info, END_STRINGS_TO_REMOVE);
+      }
+
+      // Skip if it's なし or etc
+      if (EMPTY_STRING.includes(info)) {
         continue;
       }
-      if (category === '別表記' || category === '別解') {
-        if (category === '別表記') {
-          // Remove など from end if it exists
-          if (info.endsWith('など')) {
-            info = info.slice(0, -2);
-          }
-          // Remove など多々 from end if it exists
-          if (info.endsWith('など多々')) {
-            info = info.slice(0, -4);
-          }
-        }
 
+      if (category === '別表記' || category === '別解') {
         termInfo[category] = info
           .split(/[ 、,，]/)
           .map((term) => cleanStr(term.trim()))
@@ -163,9 +163,4 @@ function getTermReadingFromHeader(header: Element): termReading {
   term = cleanStr(term);
   reading = cleanStr(reading);
   return { term, reading };
-}
-
-function cleanStr(str: string) {
-  // eslint-disable-next-line no-irregular-whitespace
-  return str.replace(/[・() 　]/g, '');
 }
