@@ -13,13 +13,14 @@ import cliProgress from 'cli-progress';
 export async function scrapeAllImages(termDataArr: termData[]) {
   const sourceImageDir = path.join(process.cwd(), IMAGES_DIRECTORY);
   const processedImageDir = path.join(process.cwd(), PROCESSED_DIRECTORY);
+  const croppedImageDir = path.join(process.cwd(), CROPPED_IMG_DIR);
 
   const processImagePromises = [];
 
   const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
 
-  bar.start(termDataArr.length, 0);
   console.log('Scraping images');
+  bar.start(termDataArr.length, 0);
   for (const termData of termDataArr) {
     const levelID = termData.termInfo.問題ID;
     if (!levelID) {
@@ -41,103 +42,103 @@ export async function scrapeAllImages(termDataArr: termData[]) {
 
     // Add promise to process the image
     processImagePromises.push(
-      processImage(sourceImageDir, processedImageDir, `${levelID}.png`)
+      processImage(
+        sourceImageDir,
+        processedImageDir,
+        croppedImageDir,
+        `${levelID}.png`
+      )
     );
 
     bar.increment();
   }
   bar.stop();
-  await Promise.all(processImagePromises);
-  return cropAllImages();
+  return;
 }
 
 /**
- * Process a single image by trimming transparency.
- * The processed image will be saved in the processed directory.
+ * Process a single image by trimming transparency and cropping it.
+ * The processed image will be saved in the processed directory,
+ * and the cropped image will be saved in the cropped directory.
  * @param sourceImageDir The directory containing the source images.
  * @param processedImageDir The directory where the processed images will be saved.
+ * @param croppedImageDir The directory where the cropped images will be saved.
  * @param imageName The name of the image file to process.
  */
 async function processImage(
   sourceImageDir: string,
   processedImageDir: string,
+  croppedImageDir: string,
   imageName: string
 ) {
   const sourceImagePath = path.join(sourceImageDir, imageName);
   const processedImagePath = path.join(processedImageDir, imageName);
+  const croppedImagePath = path.join(croppedImageDir, imageName);
 
-  // Create the processed directory if it doesn't exist
-  if (!fs.existsSync(processedImageDir)) {
-    fs.mkdirSync(processedImageDir);
+  // Create the processed and cropped directories if they don't exist
+  await createDirectoryIfNotExists(processedImageDir);
+  await createDirectoryIfNotExists(croppedImageDir);
+
+  // Check if the processed image already exists
+  if (!(await checkIfImageExists(processedImagePath))) {
+    // Trim the image and save it
+    await trimImage(sourceImagePath, processedImagePath);
   }
 
-  // Check if the image has already been processed
-  if (fs.existsSync(processedImagePath)) {
-    return;
+  // Check if the cropped image already exists
+  if (!(await checkIfImageExists(croppedImagePath))) {
+    // Crop the trimmed image
+    await cropImage(processedImagePath, croppedImagePath);
   }
-
-  await sharp(sourceImagePath)
-    .trim()
-    .toFile(processedImagePath)
-    .catch((err) => {
-      console.error(`Error processing image at ${sourceImagePath}: ${err}`);
-    });
 }
 
-export async function cropAllImages() {
-  // Read all processed images
-  const processedImageDir = path.join(process.cwd(), PROCESSED_DIRECTORY);
-  const processedImages = fs.readdirSync(processedImageDir).filter((file) => {
-    return file.endsWith('.png');
-  });
+async function checkIfImageExists(imagePath: string): Promise<boolean> {
+  return fs.existsSync(imagePath);
+}
 
-  // Create the cropped image directory if it doesn't exist
-  const croppedImageDir = path.join(process.cwd(), CROPPED_IMG_DIR);
-  if (!fs.existsSync(croppedImageDir)) {
-    fs.mkdirSync(croppedImageDir);
+async function createDirectoryIfNotExists(directory: string): Promise<void> {
+  if (!fs.existsSync(directory)) {
+    await fs.promises.mkdir(directory);
   }
-  console.log('Cropped image directory:', croppedImageDir);
+}
 
-  const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
-  bar.start(processedImages.length, 0);
-  console.log('Cropping images');
+/**
+ * Trims the transparency from an image.
+ * @param imagePath The path to the image file.
+ * @returns A Promise that resolves to a Sharp instance representing the trimmed image.
+ */
+async function trimImage(imagePath: string, outputPath: string): Promise<void> {
+  await sharp(imagePath).trim().toFile(outputPath);
+}
 
-  for (const image of processedImages) {
-    // Check if the image has already been processed
-    const destFilePath = path.join(croppedImageDir, image);
-    if (fs.existsSync(destFilePath)) {
-      bar.increment();
-      continue;
-    }
-
-    const sourceImagePath = path.join(processedImageDir, image);
-
-    // Trim to bottom 285 pixels of image
-    const metadata = await sharp(sourceImagePath).metadata();
-    if (!metadata?.height || !metadata?.width) {
-      console.error(`Error reading metadata for image ${image}`);
-      continue;
-    }
-    const MAX_ANKI_IMG_HEIGHT = 280;
-    const top = Math.max(metadata.height - MAX_ANKI_IMG_HEIGHT, 0);
-    const height = Math.min(metadata.height, MAX_ANKI_IMG_HEIGHT);
-
-    await sharp(sourceImagePath)
-      .extract({
-        top: top,
-        left: 0,
-        width: metadata.width,
-        height: height,
-      })
-      .trim()
-      .toFile(destFilePath)
-      .catch((err) => {
-        console.error(
-          `Error processing image ${image}: ${err}. top: ${top}, left: 0, width: ${metadata.width}, height: ${MAX_ANKI_IMG_HEIGHT}`
-        );
-      });
-    bar.increment();
+/**
+ * Crops an image to a maximum height of 280 pixels, starting from the bottom.
+ * @param imagePath The path to the image file.
+ * @param destFilePath The path where the cropped image should be saved.
+ */
+async function cropImage(imagePath: string, destFilePath: string) {
+  const MAX_ANKI_IMG_HEIGHT = 280;
+  const image = sharp(imagePath);
+  const metadata = await image.metadata();
+  if (!metadata?.height || !metadata?.width) {
+    console.error(`Error reading metadata for image ${destFilePath}`);
+    return;
   }
-  bar.stop();
-  console.log('Finished cropping images.');
+  const top = Math.max(metadata.height - MAX_ANKI_IMG_HEIGHT, 0);
+  const height = Math.min(metadata.height, MAX_ANKI_IMG_HEIGHT);
+
+  await image
+    .extract({
+      top: top,
+      left: 0,
+      width: metadata.width,
+      height: height,
+    })
+    .trim()
+    .toFile(destFilePath)
+    .catch((err) => {
+      console.error(
+        `Error processing image ${destFilePath}: ${err}. top: ${top}, left: 0, width: ${metadata.width}, height: ${MAX_ANKI_IMG_HEIGHT}`
+      );
+    });
 }
