@@ -38,11 +38,15 @@ export const WIKI_PAGES: {
 };
 export const KANJI_IMAGE_URL = (ID: string) =>
   `https://html5.plicy.net/GameFilesUpdate/155561/234/img/pictures/${ID}.png`;
+
 export const PAGES_DIRECTORY = '/pages';
 export const IMAGES_DIRECTORY = '/images';
 export const PROCESSED_DIRECTORY = '/processed';
 export const CROPPED_IMG_DIR = `${PROCESSED_DIRECTORY}/cropped`;
 export const EXPORT_DIRECTORY = '/export';
+export const IMAGE_NAME = (ID: string) => `${ID}.png`;
+export const CROPPED_IMAGE_NAME = (ID: string) => `${ID}_cropped.png`;
+
 export const JSON_FILE_NAME = 'termData.json';
 export const YOMITAN_FILE_NAME = '漢字でGO!';
 export const INFO_CATEGORIES = [

@@ -1,7 +1,9 @@
 import { termData } from '../types';
 import {
+  CROPPED_IMAGE_NAME,
   CROPPED_IMG_DIR,
   IMAGES_DIRECTORY,
+  IMAGE_NAME,
   KANJI_IMAGE_URL,
   PROCESSED_DIRECTORY,
 } from '../constants';
@@ -28,7 +30,7 @@ export async function scrapeAllImages(termDataArr: termData[]) {
       continue;
     }
     const imageURL = KANJI_IMAGE_URL(levelID);
-    const imageFilePath = path.join(sourceImageDir, `${levelID}.png`);
+    const imageFilePath = path.join(sourceImageDir, IMAGE_NAME(levelID));
 
     // Check if image already exists
     if (!fs.existsSync(imageFilePath)) {
@@ -42,12 +44,7 @@ export async function scrapeAllImages(termDataArr: termData[]) {
 
     // Add promise to process the image
     processImagePromises.push(
-      processImage(
-        sourceImageDir,
-        processedImageDir,
-        croppedImageDir,
-        `${levelID}.png`
-      )
+      processImage(sourceImageDir, processedImageDir, croppedImageDir, levelID)
     );
 
     bar.increment();
@@ -63,17 +60,17 @@ export async function scrapeAllImages(termDataArr: termData[]) {
  * @param sourceImageDir The directory containing the source images.
  * @param processedImageDir The directory where the processed images will be saved.
  * @param croppedImageDir The directory where the cropped images will be saved.
- * @param imageName The name of the image file to process.
+ * @param ID The ID of the image.
  */
 async function processImage(
   sourceImageDir: string,
   processedImageDir: string,
   croppedImageDir: string,
-  imageName: string
+  ID: string
 ) {
-  const sourceImagePath = path.join(sourceImageDir, imageName);
-  const processedImagePath = path.join(processedImageDir, imageName);
-  const croppedImagePath = path.join(croppedImageDir, imageName);
+  const sourceImagePath = path.join(sourceImageDir, IMAGE_NAME(ID));
+  const processedImagePath = path.join(processedImageDir, IMAGE_NAME(ID));
+  const croppedImagePath = path.join(croppedImageDir, CROPPED_IMAGE_NAME(ID));
 
   // Create the processed and cropped directories if they don't exist
   await createDirectoryIfNotExists(processedImageDir);

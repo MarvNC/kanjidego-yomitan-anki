@@ -1,7 +1,7 @@
 import { termData } from '../types';
 import path from 'path';
 import { createObjectCsvWriter } from 'csv-writer';
-import { EXPORT_DIRECTORY } from '../constants';
+import { EXPORT_DIRECTORY, IMAGE_NAME } from '../constants';
 
 /**
  * Prints the data to a csv file
@@ -45,8 +45,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
 
     const level = termData.termLevel;
 
-    const imageFile = `${id}.png`;
-    const image = id ? `<img src="${imageFile}">` : '';
+    const image = id ? `<img src="${IMAGE_NAME(id)}">` : '';
 
     await csvWriter.writeRecords([
       {

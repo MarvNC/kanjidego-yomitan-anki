@@ -1,4 +1,4 @@
-import { PROCESSED_DIRECTORY } from '../constants';
+import { IMAGE_NAME, PROCESSED_DIRECTORY } from '../constants';
 import { termData } from '../types';
 import {
   DetailedDefinition,
@@ -82,7 +82,10 @@ function addMeaning(scArray: StructuredContent[], termData: termData) {
 
 function addImage(scArray: StructuredContent[], termData: termData) {
   const levelID = termData.termInfo.問題ID;
-  const imageFileName = `${levelID}.png`;
+  if (!levelID) {
+    return;
+  }
+  const imageFileName = IMAGE_NAME(levelID);
   const imageFilePath = path.join(
     process.cwd(),
     PROCESSED_DIRECTORY,
