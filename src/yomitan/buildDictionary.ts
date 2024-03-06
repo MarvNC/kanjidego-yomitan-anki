@@ -1,7 +1,7 @@
 import {
   EXPORT_DIRECTORY,
-  PROCESSED_DIRECTORY,
-  YOMITAN_FILE_NAME,
+  TRIMMED_DIRECTORY,
+  KANJI_DE_GO_NAME,
 } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from '../types';
@@ -10,9 +10,11 @@ import { convertTermToDetailedDefinition } from './convertTermToDetailedDefiniti
 import fs from 'fs';
 
 export async function buildDictionary(termDataArr: termData[]) {
+  console.log('Building Yomitan dictionary');
+
   const dateString = new Date().toISOString().split('T')[0];
   const dictionary = new Dictionary({
-    fileName: `${YOMITAN_FILE_NAME}.zip`,
+    fileName: `${KANJI_DE_GO_NAME}.zip`,
   });
 
   dictionary.setIndex({
@@ -76,7 +78,7 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
 }
 
 async function addAllImagesToDictionary(dictionary: Dictionary) {
-  const imageDir = path.join(process.cwd(), PROCESSED_DIRECTORY);
+  const imageDir = path.join(process.cwd(), TRIMMED_DIRECTORY);
   const imageFiles = fs.readdirSync(imageDir);
   for (const imageFile of imageFiles) {
     const imageFilePath = path.join(imageDir, imageFile);

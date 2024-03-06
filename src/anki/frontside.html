@@ -1,0 +1,94 @@
+<!-- [html-validate-disable no-inline-style] -->
+<!-- [html-validate-disable void-style] -->
+<div lang="ja">
+  <!-- Icon -->
+  <span
+    style="
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 0.8em;
+      border: 1px solid;
+      border-color: #333333;
+      border-radius: 0.5em;
+      padding: 0.1em 0.4em;
+    "
+  >
+    {{#レベル}} レベル{{レベル}} {{/レベル}}
+  </span>
+  <!-- Expression -->
+  <div
+    id="expression"
+    style="
+      display: flex;
+      font-family: 'Simsun', serif !important;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.2em 1em;
+    "
+  >
+    {{^元単語}}
+    <div style="display: inline-flex; position: relative">
+      <img
+        src="{{問題ID}}_cropped.png"
+        alt=""
+        style="height: 3.5em"
+        onmouseover="this.src='{{問題ID}}.png'"
+        onmouseout="this.src='{{問題ID}}_cropped.png'"
+      />
+    </div>
+    {{/元単語}}
+
+    <!-- Main form -->
+    <div class="{{#元単語}}large{{/元単語}}{{^元単語}}small{{/元単語}}">
+      <a
+        href="#"
+        onclick="copyTextOnClick('expression')"
+        style="color: inherit; text-decoration: none"
+      >
+        {{単語}}
+      </a>
+    </div>
+    <!-- Alternate forms -->
+    {{#別表記}}
+    <div
+      id="alternate"
+      style="width: 100%; font-size: 1.3em; color: gray; display: none"
+    >
+      {{別表記}}
+    </div>
+    {{/別表記}}
+  </div>
+</div>
+
+<script>
+  function copyTextOnClick(id) {
+    const elem = document.getElementById(id);
+    const text = elem.textContent;
+    const cleanText = text.replace(/[\n\r]/g, ' ').trim();
+    const range = document.createRange();
+    const tempElem = document.createElement('div');
+    tempElem.textContent = cleanText;
+    document.body.appendChild(tempElem);
+    range.selectNode(tempElem);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    document.body.removeChild(tempElem);
+  }
+
+  // Reveal alternate expressions if on back side with #answer existing
+  (() => {
+    try {
+      const answer = document.getElementById('answer');
+      if (answer) {
+        const alternate = document.getElementById('alternate');
+        alternate.style.display = 'block';
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  })();
+</script>

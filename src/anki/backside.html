@@ -1,0 +1,34 @@
+<!-- [html-validate-disable no-inline-style] -->
+<!-- [html-validate-disable void-style] -->
+
+{{FrontSide}}
+
+<hr id="answer" />
+
+<div lang="ja">
+  <table>
+    <tbody>
+      <!-- Readings -->
+      <tr>
+        <td>読み</td>
+        <td>
+          {{読み方}} {{#別解}}
+          <span style="margin-left: 0.5em; color: gray">{{別解}}</span>
+          {{/別解}}
+        </td>
+      </tr>
+      <!-- Meaning -->
+      <tr>
+        <td>意味</td>
+        <td>{{意味}}</td>
+      </tr>
+      <!-- Notes -->
+      {{#追記}}
+      <tr>
+        <td>追記</td>
+        <td>{{追記}}</td>
+      </tr>
+      {{/追記}}
+    </tbody>
+  </table>
+</div>

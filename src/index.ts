@@ -1,9 +1,22 @@
+import { buildAnkiDeck } from './anki/buildAnkiDeck';
 import { scrapeAllPagesData } from './scrape/scrapePageData';
+import { termData } from './types';
 import { buildDictionary } from './yomitan/buildDictionary';
-import { scrapeAllImages } from './scrape/scrapeAllImages';
+import yargs from 'yargs';
 
-(async () => {
+yargs
+  .scriptName('kanjidego-yomitan-anki')
+  .command('yomitan', 'Scrape Yomitan data and build Anki deck', () => {
+    scrapeDataAndExecute(buildDictionary);
+  })
+  .command('anki', 'Scrape data and build Anki deck', () => {
+    scrapeDataAndExecute(buildAnkiDeck);
+  })
+  .help().argv;
+
+async function scrapeDataAndExecute(
+  callback: (data: termData[]) => Promise<void>
+) {
   const termDataArr = await scrapeAllPagesData();
-  await scrapeAllImages(termDataArr);
-  await buildDictionary(termDataArr);
-})();
+  callback(termDataArr);
+}

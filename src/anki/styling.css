@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+.card {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+  background-color: white;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1.5em;
+  font-size: 28px;
+}
+
+.large {
+  font-size: 3.5em;
+}
+.small {
+  font-size: 2em;
+}
+
+/* General table styles */
+table {
+  border-collapse: collapse;
+}
+
+/* Styles for table cells (td) and headers (th) */
+td,
+th {
+  text-align: left;
+  border: 0.05em solid black;
+  padding: 0.5em;
+}
+/* Styles for night mode */
+.nightMode td,
+.nightMode th {
+  border: 0.05em solid white;
+}
+
+/* Specific styles for the first cell in a row */
+td:first-child {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  padding-inline: 0.5em;
+  color: gray;
+  text-align: center;
+}
+
+/* Specific styles for the first and last cells in a row */
+tr td:first-child,
+tr th:first-child {
+  border-left: none;
+}
+tr td:last-child,
+tr th:last-child {
+  border-right: none;
+}
+
+/* Specific styles for the first and last rows in a table */
+tr:first-child td {
+  border-top: none;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Styles for table headers */
+th {
+  background-color: #f2f2f2;
+}

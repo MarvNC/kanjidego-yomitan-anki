@@ -5,9 +5,14 @@ import {
   EXPORT_DIRECTORY,
   JSON_FILE_NAME,
   WIKI_PAGES,
+  END_STRINGS_TO_REMOVE,
+  EMPTY_STRING,
 } from '../constants';
 import { getPageDocument } from './getPageDocument';
 import { termData, termInfo, termReading } from '../types';
+import { scrapeAllImages } from './scrapeAllImages';
+import { cleanStr } from '../util/textUtils';
+import { removeFromEnd } from '../util/textUtils';
 
 export async function scrapeAllPagesData() {
   const termDataArr: termData[] = [];
@@ -25,6 +30,8 @@ export async function scrapeAllPagesData() {
   const jsonFilePath = path.join(jsonDirectory, JSON_FILE_NAME);
   fs.writeFileSync(jsonFilePath, JSON.stringify(termDataArr, null, 2));
   console.log(`Wrote JSON to ${jsonFilePath}`);
+
+  await scrapeAllImages(termDataArr);
   return termDataArr;
 }
 
@@ -59,18 +66,25 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
     });
     if (line) {
       let info = line.slice(category.length + 1).trim();
-      if (info === 'なし') {
+
+      if (category === '別表記') {
+        info = removeFromEnd(info, END_STRINGS_TO_REMOVE);
+      }
+
+      // Skip if it's なし or etc
+      if (EMPTY_STRING.includes(info)) {
         continue;
       }
+
       if (category === '別表記' || category === '別解') {
-        // Remove など from end if it exists for 別表記
-        if (category === '別表記' && info.endsWith('など')) {
-          info = info.slice(0, -2);
-        }
-        termInfo[category] = info
+        const altArray = info
           .split(/[ 、,，]/)
-          .map((term) => term.trim())
-          .filter((term) => term);
+          .map((term) => cleanStr(term.trim()))
+          .filter((term) => term && !EMPTY_STRING.includes(term));
+        if (altArray.length === 0) {
+          continue;
+        }
+        termInfo[category] = altArray;
       } else if (category === '問題ID') {
         // Add 'Lv' at start if it doesn't exist
         if (!info.startsWith('Lv')) {
@@ -149,9 +163,6 @@ function getTermReadingFromHeader(header: Element): termReading {
       term += rb.textContent;
       reading += rt.textContent;
     }
-  }
-  function cleanStr(str: string) {
-    return str.replace(/[・()]/g, '');
   }
   term = cleanStr(term);
   reading = cleanStr(reading);
