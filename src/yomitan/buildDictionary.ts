@@ -1,7 +1,7 @@
 import {
   EXPORT_DIRECTORY,
   TRIMMED_DIRECTORY,
-  YOMITAN_FILE_NAME,
+  KANJI_DE_GO_NAME,
 } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from '../types';
@@ -14,7 +14,7 @@ export async function buildDictionary(termDataArr: termData[]) {
 
   const dateString = new Date().toISOString().split('T')[0];
   const dictionary = new Dictionary({
-    fileName: `${YOMITAN_FILE_NAME}.zip`,
+    fileName: `${KANJI_DE_GO_NAME}.zip`,
   });
 
   dictionary.setIndex({

@@ -48,7 +48,7 @@ export const IMAGE_NAME = (ID: string) => `${ID}.png`;
 export const CROPPED_IMAGE_NAME = (ID: string) => `${ID}_cropped.png`;
 
 export const JSON_FILE_NAME = 'termData.json';
-export const YOMITAN_FILE_NAME = '漢字でGO!';
+export const KANJI_DE_GO_NAME = '漢字でGO!';
 export const INFO_CATEGORIES = [
   '意味',
   '別解',

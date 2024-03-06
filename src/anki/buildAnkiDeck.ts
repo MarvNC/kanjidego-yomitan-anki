@@ -1,7 +1,12 @@
 import { termData } from '../types';
 import path from 'path';
 import { createObjectCsvWriter } from 'csv-writer';
-import { CROPPED_IMAGE_NAME, EXPORT_DIRECTORY, IMAGE_NAME } from '../constants';
+import {
+  CROPPED_IMAGE_NAME,
+  EXPORT_DIRECTORY,
+  IMAGE_NAME,
+  KANJI_DE_GO_NAME,
+} from '../constants';
 
 /**
  * Prints the data to a csv file
@@ -51,6 +56,8 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     const image = id ? `<img src="${IMAGE_NAME(id)}">` : '';
     const croppedImage = id ? `<img src="${CROPPED_IMAGE_NAME(id)}">` : '';
 
+    let tags = `${KANJI_DE_GO_NAME}-${level}`;
+
     const records = [];
 
     const record: {
@@ -77,17 +84,18 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       level,
       image,
       croppedImage,
+      tags,
     };
 
     records.push({ ...record, origTerm: term });
 
     // Add alternates with tag '別表記'
     record.origTerm = term;
-    record.tags = '別表記';
+    tags += ` ${KANJI_DE_GO_NAME}-別表記`;
 
     for (const altTerm of altSpellings ?? []) {
       record.term = altTerm;
-      records.push({ ...record });
+      records.push({ ...record, tags });
     }
 
     await csvWriter.writeRecords(records);
