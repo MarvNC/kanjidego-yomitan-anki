@@ -25,16 +25,22 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: baseline;
       gap: 0.2em 1em;
     "
   >
+    <!-- Image -->
     <div style="display: inline-flex">
       <img src="{{問題ID}}.png" alt="" style="height: 3.5em" />
     </div>
+    <!-- Main form -->
     <div style="font-size: 2em">
       <a href="#" style="color: inherit; text-decoration: none"> {{単語}} </a>
     </div>
+    <!-- Alternate forms -->
+    {{#別表記}}
+    <div id="alternate" style="color: gray; display: none">{{別表記}}</div>
+    {{/別表記}}
   </div>
 </div>
 
@@ -54,6 +60,19 @@
           window.getSelection().removeAllRanges();
         });
       });
+    } catch (error) {
+      console.error(error);
+    }
+  })();
+
+  // Reveal alternate expressions if on back side with #answer existing
+  (() => {
+    try {
+      const answer = document.getElementById('answer');
+      if (answer) {
+        const alternate = document.getElementById('alternate');
+        alternate.style.display = 'block';
+      }
     } catch (error) {
       console.error(error);
     }
