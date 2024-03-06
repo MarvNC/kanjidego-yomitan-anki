@@ -65,22 +65,22 @@
     </div>
     {{/元単語}}
   </div>
-
-  <script>
-    function copyTextOnClick(id) {
-      const elem = document.getElementById(id);
-      const text = elem.textContent;
-      const cleanText = text.replace(/[\n\r]/g, ' ').trim();
-      const range = document.createRange();
-      const tempElem = document.createElement('div');
-      tempElem.textContent = cleanText;
-      document.body.appendChild(tempElem);
-      range.selectNode(tempElem);
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-      document.execCommand('copy');
-      document.body.removeChild(tempElem);
-    }
-  </script>
 </div>
+
+<script>
+  function copyTextOnClick(id) {
+    const elem = document.getElementById(id);
+    const text = elem.textContent;
+    const cleanText = text.replace(/[\n\r]/g, ' ').trim();
+    const range = document.createRange();
+    const tempElem = document.createElement('div');
+    tempElem.textContent = cleanText;
+    document.body.appendChild(tempElem);
+    range.selectNode(tempElem);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    document.body.removeChild(tempElem);
+  }
+</script>
