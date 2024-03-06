@@ -5,8 +5,12 @@
   background-color: white;
   max-width: 1000px;
   margin: auto;
-  padding: 1.5em;
+  padding: 1em;
   font-size: 28px;
+}
+
+.mobile .card {
+  font-size: 20px;
 }
 
 .large {
