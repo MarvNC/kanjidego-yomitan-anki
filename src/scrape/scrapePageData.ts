@@ -66,10 +66,17 @@ function getTermInfo(ulText: string[], term: string, level: string): termInfo {
         continue;
       }
       if (category === '別表記' || category === '別解') {
-        // Remove など from end if it exists for 別表記
-        if (category === '別表記' && info.endsWith('など')) {
-          info = info.slice(0, -2);
+        if (category === '別表記') {
+          // Remove など from end if it exists
+          if (info.endsWith('など')) {
+            info = info.slice(0, -2);
+          }
+          // Remove など多々 from end if it exists
+          if (info.endsWith('など多々')) {
+            info = info.slice(0, -4);
+          }
         }
+
         termInfo[category] = info
           .split(/[ 、,，]/)
           .map((term) => cleanStr(term.trim()))
