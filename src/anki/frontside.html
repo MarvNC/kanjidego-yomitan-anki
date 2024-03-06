@@ -28,10 +28,16 @@
       gap: 0.2em 1em;
     "
   >
-    <!-- Image -->
-    <div style="display: inline-flex">
-      <img src="{{問題ID}}.png" alt="" style="height: 3.5em" />
+    <div style="display: inline-flex; position: relative">
+      <img
+        src="{{問題ID}}_cropped.png"
+        alt=""
+        style="height: 3.5em"
+        onmouseover="this.src='{{問題ID}}.png'"
+        onmouseout="this.src='{{問題ID}}_cropped.png'"
+      />
     </div>
+
     <!-- Main form -->
     <div style="font-size: 2em">
       <a href="#" style="color: inherit; text-decoration: none"> {{単語}} </a>
