@@ -1,5 +1,6 @@
 <!-- [html-validate-disable no-inline-style] -->
 <!-- [html-validate-disable void-style] -->
+
 <div lang="ja">
   <!-- Icon -->
   <span
@@ -19,9 +20,9 @@
   <!-- Expression -->
   <div
     id="expression"
+    class="rarefont"
     style="
       display: flex;
-      font-family: 'Simsun', serif !important;
       flex-direction: row;
       flex-wrap: wrap;
       align-items: baseline;
@@ -29,6 +30,7 @@
     "
   >
     {{^元単語}}
+    <!-- Show image if not alt form -->
     <div style="display: inline-flex; position: relative">
       <img
         src="{{問題ID}}_cropped.png"
@@ -38,10 +40,8 @@
         onmouseout="this.src='{{問題ID}}_cropped.png'"
       />
     </div>
-    {{/元単語}}
-
-    <!-- Main form -->
-    <div class="{{#元単語}}large{{/元単語}}{{^元単語}}small{{/元単語}}">
+    <!-- Main form hid on front by default -->
+    <div id="main-form" style="display: none; font-size: 2em; color: gray">
       <a
         href="#"
         onclick="copyTextOnClick('expression')"
@@ -50,15 +50,20 @@
         {{単語}}
       </a>
     </div>
-    <!-- Alternate forms -->
-    {{#別表記}}
-    <div
-      id="alternate"
-      style="width: 100%; font-size: 1.3em; color: gray; display: none"
-    >
-      {{別表記}}
+    {{/元単語}}
+
+    <!-- Show main form only if alt form -->
+    {{#元単語}}
+    <div style="font-size: 3.5em">
+      <a
+        href="#"
+        onclick="copyTextOnClick('expression')"
+        style="color: inherit; text-decoration: none"
+      >
+        {{単語}}
+      </a>
     </div>
-    {{/別表記}}
+    {{/元単語}}
   </div>
 </div>
 

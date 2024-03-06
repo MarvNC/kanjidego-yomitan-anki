@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
 .card {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Serif JP', serif;
   color: black;
   background-color: white;
   max-width: 1000px;
@@ -13,11 +13,8 @@
   font-size: 20px;
 }
 
-.large {
-  font-size: 3.5em;
-}
-.small {
-  font-size: 2em;
+.rarefont {
+  font-family: 'Simsun', 'Simsunb', serif;
 }
 
 /* General table styles */
@@ -68,4 +65,13 @@ tr:last-child td {
 /* Styles for table headers */
 th {
   background-color: #f2f2f2;
+}
+
+@font-face {
+  font-family: 'Simsun';
+  src: url('__simsun.ttc');
+}
+@font-face {
+  font-family: 'Simsunb';
+  src: url('__simsunb.ttf');
 }
