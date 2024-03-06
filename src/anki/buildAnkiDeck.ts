@@ -26,8 +26,8 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       { id: 'origTerm', title: '元単語' },
       { id: 'id', title: '問題ID' },
       { id: 'reading', title: '読み方' },
-      { id: 'alt', title: '別解' },
-      { id: 'altSpellings', title: '別表記' },
+      { id: 'altReadings', title: '別解' },
+      { id: 'altForms', title: '別表記' },
       { id: 'meaning', title: '意味' },
       { id: 'notes', title: '追記' },
       { id: 'level', title: 'レベル' },
@@ -42,14 +42,14 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     // Print to csv
     const { term, reading } = termData.termReading;
     const {
-      別表記: altSpellings,
-      別解: alt,
+      別表記: altForms,
+      別解: altReadings,
       意味: meaning,
       追記: notes,
       問題ID: id,
     } = termData.termInfo;
-    const altSpellingsString = altSpellings ? altSpellings.join('・') : '';
-    const altString = alt ? alt.join('・') : '';
+    const altFormsString = altForms ? altForms.join('・') : '';
+    const altReadingsString = altReadings ? altReadings.join('・') : '';
 
     const level = termData.termLevel;
 
@@ -66,8 +66,8 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       origTerm?: string;
       reading: string;
       meaning?: string;
-      alt: string;
-      altSpellings: string;
+      altReadings: string;
+      altForms: string;
       notes?: string;
       level: string;
       image: string;
@@ -78,8 +78,8 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       term,
       reading,
       meaning,
-      alt: altString,
-      altSpellings: altSpellingsString,
+      altReadings: altReadingsString,
+      altForms: altFormsString,
       notes,
       level,
       image,
@@ -93,9 +93,9 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     record.origTerm = term;
     tags += ` ${KANJI_DE_GO_NAME}-別表記`;
 
-    for (const altTerm of altSpellings ?? []) {
+    for (const altForm of altForms ?? []) {
       // Set term to altTerm and set origTerm
-      records.push({ ...record, term: altTerm, origTerm: term, tags });
+      records.push({ ...record, term: altForm, origTerm: term, tags });
     }
 
     await csvWriter.writeRecords(records);
