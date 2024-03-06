@@ -1,5 +1,6 @@
 <!-- [html-validate-disable no-inline-style] -->
 <!-- [html-validate-disable void-style] -->
+
 <div lang="ja">
   <!-- Icon -->
   <span
@@ -28,6 +29,7 @@
       gap: 0.2em 1em;
     "
   >
+    <!-- Show image if not alt form -->
     {{^元単語}}
     <div style="display: inline-flex; position: relative">
       <img
@@ -40,7 +42,8 @@
     </div>
     {{/元単語}}
 
-    <!-- Main form -->
+    <!-- Show main form only if alt form -->
+    {{#元単語}}
     <div class="{{#元単語}}large{{/元単語}}{{^元単語}}small{{/元単語}}">
       <a
         href="#"
@@ -50,23 +53,24 @@
         {{単語}}
       </a>
     </div>
+    {{/元単語}}
   </div>
-</div>
 
-<script>
-  function copyTextOnClick(id) {
-    const elem = document.getElementById(id);
-    const text = elem.textContent;
-    const cleanText = text.replace(/[\n\r]/g, ' ').trim();
-    const range = document.createRange();
-    const tempElem = document.createElement('div');
-    tempElem.textContent = cleanText;
-    document.body.appendChild(tempElem);
-    range.selectNode(tempElem);
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-    document.execCommand('copy');
-    document.body.removeChild(tempElem);
-  }
-</script>
+  <script>
+    function copyTextOnClick(id) {
+      const elem = document.getElementById(id);
+      const text = elem.textContent;
+      const cleanText = text.replace(/[\n\r]/g, ' ').trim();
+      const range = document.createRange();
+      const tempElem = document.createElement('div');
+      tempElem.textContent = cleanText;
+      document.body.appendChild(tempElem);
+      range.selectNode(tempElem);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      document.execCommand('copy');
+      document.body.removeChild(tempElem);
+    }
+  </script>
+</div>
