@@ -32,3 +32,16 @@
     </tbody>
   </table>
 </div>
+
+<script>
+  // Reveal alternate expressions
+  (() => {
+    try {
+      const alternate = document.getElementById('alternate');
+      if (!alternate) return;
+      alternate.style.display = 'block';
+    } catch (error) {
+      console.error(error);
+    }
+  })();
+</script>

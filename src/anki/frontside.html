@@ -78,17 +78,4 @@
     document.execCommand('copy');
     document.body.removeChild(tempElem);
   }
-
-  // Reveal alternate expressions if on back side with #answer existing
-  (() => {
-    try {
-      const answer = document.getElementById('answer');
-      if (answer) {
-        const alternate = document.getElementById('alternate');
-        alternate.style.display = 'block';
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  })();
 </script>
