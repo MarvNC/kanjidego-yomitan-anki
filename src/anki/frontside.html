@@ -28,6 +28,7 @@
       gap: 0.2em 1em;
     "
   >
+    {{^元単語}}
     <div style="display: inline-flex; position: relative">
       <img
         src="{{問題ID}}_cropped.png"
@@ -37,9 +38,10 @@
         onmouseout="this.src='{{問題ID}}_cropped.png'"
       />
     </div>
+    {{/元単語}}
 
     <!-- Main form -->
-    <div style="font-size: 2em">
+    <div class="{{#元単語}}large{{/元単語}}{{^元単語}}small{{/元単語}}">
       <a
         href="#"
         onclick="copyTextOnClick('expression')"

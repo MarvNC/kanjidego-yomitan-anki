@@ -9,6 +9,13 @@
   font-size: 28px;
 }
 
+.large {
+  font-size: 3.5em;
+}
+.small {
+  font-size: 2em;
+}
+
 /* General table styles */
 table {
   border-collapse: collapse;
