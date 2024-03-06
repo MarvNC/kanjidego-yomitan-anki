@@ -75,13 +75,20 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     record.元単語 = term;
     tags += ` ${KANJI_DE_GO_NAME}-別表記`;
 
-    for (const altForm of 別表記 ?? []) {
-      records.push({
-        ...record,
-        単語: altForm,
-        元単語: term,
-        Tags: tags,
-      });
+    if (別表記) {
+      for (const altForm of 別表記) {
+        // Remove this alt form from array and add back original term
+        const newAlts = 別表記.filter((alt) => alt !== altForm);
+        newAlts.unshift(term);
+
+        records.push({
+          ...record,
+          単語: altForm,
+          元単語: term,
+          別表記: newAlts.join('・'),
+          Tags: tags,
+        });
+      }
     }
 
     await csvWriter.writeRecords(records);
