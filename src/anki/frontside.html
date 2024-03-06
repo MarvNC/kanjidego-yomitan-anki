@@ -40,11 +40,20 @@
 
     <!-- Main form -->
     <div style="font-size: 2em">
-      <a href="#" style="color: inherit; text-decoration: none"> {{単語}} </a>
+      <a
+        href="#"
+        onclick="copyTextOnClick('expression')"
+        style="color: inherit; text-decoration: none"
+      >
+        {{単語}}
+      </a>
     </div>
     <!-- Alternate forms -->
     {{#別表記}}
-    <div id="alternate" style="font-size: 2em; color: gray; display: none">
+    <div
+      id="alternate"
+      style="width: 100%; font-size: 1.3em; color: gray; display: none"
+    >
       {{別表記}}
     </div>
     {{/別表記}}
@@ -52,33 +61,21 @@
 </div>
 
 <script>
-  // Copy expression on click
-  (() => {
-    try {
-      const copyOnClickElems = ['expression'];
-      copyOnClickElems.forEach((id) => {
-        const elem = document.getElementById(id);
-        elem.addEventListener('click', () => {
-          const text = elem.textContent;
-          // Clean
-          const cleanText = text.replace(/[\n\r]/g, ' ').trim();
-          // Copy
-          const range = document.createRange();
-          const tempElem = document.createElement('div');
-          tempElem.textContent = cleanText;
-          document.body.appendChild(tempElem);
-          range.selectNode(tempElem);
-          const selection = window.getSelection();
-          selection.removeAllRanges();
-          selection.addRange(range);
-          document.execCommand('copy');
-          document.body.removeChild(tempElem);
-        });
-      });
-    } catch (error) {
-      console.error(error);
-    }
-  })();
+  function copyTextOnClick(id) {
+    const elem = document.getElementById(id);
+    const text = elem.textContent;
+    const cleanText = text.replace(/[\n\r]/g, ' ').trim();
+    const range = document.createRange();
+    const tempElem = document.createElement('div');
+    tempElem.textContent = cleanText;
+    document.body.appendChild(tempElem);
+    range.selectNode(tempElem);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    document.body.removeChild(tempElem);
+  }
 
   // Reveal alternate expressions if on back side with #answer existing
   (() => {
