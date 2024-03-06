@@ -1,22 +1,31 @@
 <!-- [html-validate-disable no-inline-style] -->
 <!-- [html-validate-disable void-style] -->
-
-{{FrontSide}}
-
 <div lang="ja">
-  <!-- Readings -->
-  <div>
-    <span>{{読み方}}</span>
-    {{#別解}}
-    <span style="margin-left: 0.5em; color: gray; font-size: 0.7em"
-      >{{別解}}</span
-    >
-    {{/別解}}
-  </div>
-  <div>{{意味}}</div>
-  <div>{{追記}}</div>
-  <!-- Alts -->
-  {{#別表記}}
-  <div style="color: gray; font-size: 0.7em">{{別表記}}</div>
-  {{/別表記}}
+  <table>
+    <tbody>
+      <!-- Readings -->
+      <tr>
+        <td>読み</td>
+        <td>
+          {{読み方}} {{#別解}}
+          <span style="margin-left: 0.5em; color: gray; font-size: 0.7em"
+            >{{別解}}</span
+          >
+          {{/別解}}
+        </td>
+      </tr>
+      <!-- Meaning -->
+      <tr>
+        <td>意味</td>
+        <td>{{意味}}</td>
+      </tr>
+      <!-- Notes -->
+      {{#追記}}
+      <tr>
+        <td>追記</td>
+        <td>{{追記}}</td>
+      </tr>
+      {{/追記}}
+    </tbody>
+  </table>
 </div>
