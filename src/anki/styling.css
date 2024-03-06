@@ -9,6 +9,10 @@
   font-size: 28px;
 }
 
+.rarefont {
+  font-family: 'Simsun', 'Simsunb', serif !important;
+}
+
 .mobile .card {
   font-size: 20px;
 }
@@ -68,4 +72,13 @@ tr:last-child td {
 /* Styles for table headers */
 th {
   background-color: #f2f2f2;
+}
+
+@font-face {
+  font-family: 'Simsun';
+  src: url('__simsun.ttc');
+}
+@font-face {
+  font-family: 'Simsunb';
+  src: url('__simsunb.ttf');
 }
