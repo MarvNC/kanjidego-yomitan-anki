@@ -18,6 +18,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     path: csvPath,
     header: [
       { id: 'term', title: '単語' },
+      { id: 'origTerm', title: '元単語' },
       { id: 'id', title: '問題ID' },
       { id: 'reading', title: '読み方' },
       { id: 'alt', title: '別解' },
@@ -27,6 +28,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       { id: 'level', title: 'レベル' },
       { id: 'image', title: '画像' },
       { id: 'croppedImage', title: '切り抜き画像' },
+      { id: 'tags', title: 'Tags' },
     ],
   });
 
@@ -49,19 +51,45 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     const image = id ? `<img src="${IMAGE_NAME(id)}">` : '';
     const croppedImage = id ? `<img src="${CROPPED_IMAGE_NAME(id)}">` : '';
 
-    await csvWriter.writeRecords([
-      {
-        id,
-        term,
-        reading,
-        meaning,
-        alt: altString,
-        altSpellings: altSpellingsString,
-        notes,
-        level,
-        image,
-        croppedImage,
-      },
-    ]);
+    const records = [];
+
+    const record: {
+      id?: string;
+      term: string;
+      origTerm?: string;
+      reading: string;
+      meaning?: string;
+      alt: string;
+      altSpellings: string;
+      notes?: string;
+      level: string;
+      image: string;
+      croppedImage: string;
+      tags?: string;
+    } = {
+      id,
+      term,
+      reading,
+      meaning,
+      alt: altString,
+      altSpellings: altSpellingsString,
+      notes,
+      level,
+      image,
+      croppedImage,
+    };
+
+    records.push({ ...record, origTerm: term });
+
+    // Add alternates with tag '別表記'
+    record.origTerm = term;
+    record.tags = '別表記';
+
+    for (const altTerm of altSpellings ?? []) {
+      record.term = altTerm;
+      records.push({ ...record });
+    }
+
+    await csvWriter.writeRecords(records);
   }
 }
