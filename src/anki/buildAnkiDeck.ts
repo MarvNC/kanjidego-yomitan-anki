@@ -1,7 +1,7 @@
 import { termData } from '../types';
 import path from 'path';
 import { createObjectCsvWriter } from 'csv-writer';
-import { EXPORT_DIRECTORY, IMAGE_NAME } from '../constants';
+import { CROPPED_IMAGE_NAME, EXPORT_DIRECTORY, IMAGE_NAME } from '../constants';
 
 /**
  * Prints the data to a csv file
@@ -26,6 +26,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       { id: 'notes', title: '追記' },
       { id: 'level', title: 'レベル' },
       { id: 'image', title: '画像' },
+      { id: 'croppedImage', title: '切り抜き画像' },
     ],
   });
 
@@ -46,6 +47,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     const level = termData.termLevel;
 
     const image = id ? `<img src="${IMAGE_NAME(id)}">` : '';
+    const croppedImage = id ? `<img src="${CROPPED_IMAGE_NAME(id)}">` : '';
 
     await csvWriter.writeRecords([
       {
@@ -58,6 +60,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
         notes,
         level,
         image,
+        croppedImage,
       },
     ]);
   }

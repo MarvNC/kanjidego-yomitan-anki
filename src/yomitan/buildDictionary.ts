@@ -1,6 +1,6 @@
 import {
   EXPORT_DIRECTORY,
-  PROCESSED_DIRECTORY,
+  TRIMMED_DIRECTORY,
   YOMITAN_FILE_NAME,
 } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
@@ -78,7 +78,7 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
 }
 
 async function addAllImagesToDictionary(dictionary: Dictionary) {
-  const imageDir = path.join(process.cwd(), PROCESSED_DIRECTORY);
+  const imageDir = path.join(process.cwd(), TRIMMED_DIRECTORY);
   const imageFiles = fs.readdirSync(imageDir);
   for (const imageFile of imageFiles) {
     const imageFilePath = path.join(imageDir, imageFile);

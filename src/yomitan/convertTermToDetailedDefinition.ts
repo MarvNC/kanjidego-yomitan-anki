@@ -1,4 +1,4 @@
-import { IMAGE_NAME, PROCESSED_DIRECTORY } from '../constants';
+import { IMAGE_NAME, TRIMMED_DIRECTORY } from '../constants';
 import { termData } from '../types';
 import {
   DetailedDefinition,
@@ -88,7 +88,7 @@ function addImage(scArray: StructuredContent[], termData: termData) {
   const imageFileName = IMAGE_NAME(levelID);
   const imageFilePath = path.join(
     process.cwd(),
-    PROCESSED_DIRECTORY,
+    TRIMMED_DIRECTORY,
     imageFileName
   );
   if (fs.existsSync(imageFilePath)) {

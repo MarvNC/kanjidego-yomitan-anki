@@ -5,7 +5,7 @@ import {
   IMAGES_DIRECTORY,
   IMAGE_NAME,
   KANJI_IMAGE_URL,
-  PROCESSED_DIRECTORY,
+  TRIMMED_DIRECTORY,
 } from '../constants';
 import path from 'path';
 import fs from 'fs';
@@ -14,7 +14,7 @@ import cliProgress from 'cli-progress';
 
 export async function scrapeAllImages(termDataArr: termData[]) {
   const sourceImageDir = path.join(process.cwd(), IMAGES_DIRECTORY);
-  const processedImageDir = path.join(process.cwd(), PROCESSED_DIRECTORY);
+  const processedImageDir = path.join(process.cwd(), TRIMMED_DIRECTORY);
   const croppedImageDir = path.join(process.cwd(), CROPPED_IMG_DIR);
 
   const processImagePromises = [];
@@ -42,6 +42,10 @@ export async function scrapeAllImages(termDataArr: termData[]) {
       fs.writeFileSync(imageFilePath, Buffer.from(buffer));
     }
 
+    // Create the processed and cropped directories if they don't exist
+    await createDirectoryIfNotExists(processedImageDir);
+    await createDirectoryIfNotExists(croppedImageDir);
+
     // Add promise to process the image
     processImagePromises.push(
       processImage(sourceImageDir, processedImageDir, croppedImageDir, levelID)
@@ -50,6 +54,7 @@ export async function scrapeAllImages(termDataArr: termData[]) {
     bar.increment();
   }
   bar.stop();
+  await Promise.all(processImagePromises);
   return;
 }
 
@@ -71,10 +76,6 @@ async function processImage(
   const sourceImagePath = path.join(sourceImageDir, IMAGE_NAME(ID));
   const processedImagePath = path.join(processedImageDir, IMAGE_NAME(ID));
   const croppedImagePath = path.join(croppedImageDir, CROPPED_IMAGE_NAME(ID));
-
-  // Create the processed and cropped directories if they don't exist
-  await createDirectoryIfNotExists(processedImageDir);
-  await createDirectoryIfNotExists(croppedImageDir);
 
   // Check if the processed image already exists
   if (!(await checkIfImageExists(processedImagePath))) {
