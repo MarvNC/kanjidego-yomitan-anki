@@ -87,15 +87,15 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       tags,
     };
 
-    records.push({ ...record, origTerm: term });
+    records.push({ ...record });
 
     // Add alternates with tag '別表記'
     record.origTerm = term;
     tags += ` ${KANJI_DE_GO_NAME}-別表記`;
 
     for (const altTerm of altSpellings ?? []) {
-      record.term = altTerm;
-      records.push({ ...record, tags });
+      // Set term to altTerm and set origTerm
+      records.push({ ...record, term: altTerm, origTerm: term, tags });
     }
 
     await csvWriter.writeRecords(records);
