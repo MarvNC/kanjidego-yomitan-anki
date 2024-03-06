@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
 .card {
-  font-family: 'Simsun', 'Simsunb', serif;
+  font-family: 'Noto Serif JP', serif;
   color: black;
   background-color: white;
   max-width: 1000px;
@@ -11,6 +11,10 @@
 
 .mobile .card {
   font-size: 20px;
+}
+
+.rarefont {
+  font-family: 'Simsun', 'Simsunb', serif;
 }
 
 .large {
