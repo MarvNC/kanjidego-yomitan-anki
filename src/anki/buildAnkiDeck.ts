@@ -38,16 +38,17 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
     records.push(...getRecordsForTerm(termData));
   }
 
-  // 単語 as key, list of Record as value
+  // 単語:読み方 as key, list of Record as value
   const recordsMap = new Map<string, csvRecord[]>();
 
   // Add all records
   for (const record of records) {
-    const { 単語 } = record;
-    if (!recordsMap.has(単語)) {
-      recordsMap.set(単語, [record]);
+    const { 単語, 読み方 } = record;
+    const key = `${単語}:${読み方}`;
+    if (!recordsMap.has(key)) {
+      recordsMap.set(key, [record]);
     } else {
-      recordsMap.get(単語)?.push(record);
+      recordsMap.get(key)?.push(record);
     }
   }
 
