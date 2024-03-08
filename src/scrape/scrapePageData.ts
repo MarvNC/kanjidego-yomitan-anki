@@ -1,18 +1,11 @@
 import fs from 'fs';
 import path from 'path';
-import {
-  INFO_CATEGORIES,
-  EXPORT_DIRECTORY,
-  JSON_FILE_NAME,
-  WIKI_PAGES,
-  END_STRINGS_TO_REMOVE,
-  EMPTY_STRING,
-} from '../constants';
+import { EXPORT_DIRECTORY, JSON_FILE_NAME, WIKI_PAGES } from '../constants';
 import { getPageDocument } from './getPageDocument';
-import { termData, termInfo, termReading } from '../types';
+import { termData, termReading } from '../types';
 import { scrapeAllImages } from './scrapeAllImages';
 import { cleanStr } from '../util/textUtils';
-import { removeFromEnd } from '../util/textUtils';
+import { addTermInfo } from './getTermInfo';
 
 export async function scrapeAllPagesData() {
   const termDataArr: termData[] = [];
@@ -43,75 +36,14 @@ export async function scrapePageData(pageUrl: string, level: string) {
   for (const header of headers) {
     const termReading = getTermReadingFromHeader(header);
     const ulsText = getNextULsText(header);
-    const termInfo = getTermInfo(ulsText, termReading.term, level);
+    const termInfo = addTermInfo(ulsText, termReading.term, level);
     termData.push({ termReading, termInfo, termLevel: level });
   }
   return termData;
 }
 
-function lineForCategory(line: string, category: string) {
+export function lineForCategory(line: string, category: string) {
   return line.startsWith(category) || line.substring(1).startsWith(category);
-}
-
-function getTermInfo(ulText: string[], term: string, level: string): termInfo {
-  const termInfo: termInfo = {};
-  const importantCategories = ['問題ID', '意味'];
-  for (const category of INFO_CATEGORIES) {
-    const line = ulText.find((line) => {
-      return (
-        lineForCategory(line, category) ||
-        (category === '問題ID' &&
-          (lineForCategory(line, '問題') || lineForCategory(line, '問顺ID')))
-      );
-    });
-    if (line) {
-      let info = line.slice(category.length + 1).trim();
-
-      if (category === '別表記') {
-        info = removeFromEnd(info, END_STRINGS_TO_REMOVE);
-      }
-
-      // Skip if it's なし or etc
-      if (EMPTY_STRING.includes(info)) {
-        continue;
-      }
-
-      if (category === '別表記' || category === '別解') {
-        const altArray = info
-          .split(/[ 、,，]/)
-          .map((term) => cleanStr(term.trim()))
-          .filter((term) => term && !EMPTY_STRING.includes(term));
-        if (altArray.length === 0) {
-          continue;
-        }
-        termInfo[category] = altArray;
-      } else if (category === '問題ID') {
-        // Add 'Lv' at start if it doesn't exist
-        if (!info.startsWith('Lv')) {
-          info = `Lv${info}`;
-        }
-
-        // Some terms had erroneous IDs
-        const levelRegex = /Lv\d\d/;
-        const levelString = `Lv${level}`;
-
-        if (!info.includes(levelString)) {
-          console.log(
-            `Term ${term} has wrong level ID: ${info}. Changing to ${levelString}`
-          );
-          info = info.replace(levelRegex, levelString);
-        }
-        termInfo[category] = info;
-      } else {
-        termInfo[category] = info;
-      }
-    } else {
-      if (importantCategories.includes(category)) {
-        console.error(`${term}: Category ${category} not found`);
-      }
-    }
-  }
-  return termInfo;
 }
 
 /**
