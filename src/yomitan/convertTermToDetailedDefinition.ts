@@ -1,4 +1,4 @@
-import { IMAGE_NAME, TRIMMED_DIRECTORY } from '../constants';
+import { CROPPED_IMAGE_NAME, CROPPED_IMG_DIR } from '../constants';
 import { termData } from '../types';
 import {
   DetailedDefinition,
@@ -85,13 +85,13 @@ function addImage(scArray: StructuredContent[], termData: termData) {
   if (!levelID) {
     return;
   }
-  const imageFileName = IMAGE_NAME(levelID);
-  const imageFilePath = path.join(
+  const imageFileName = CROPPED_IMAGE_NAME(levelID);
+  const sourceImageFilePath = path.join(
     process.cwd(),
-    TRIMMED_DIRECTORY,
+    CROPPED_IMG_DIR,
     imageFileName
   );
-  if (fs.existsSync(imageFilePath)) {
+  if (fs.existsSync(sourceImageFilePath)) {
     scArray.push({
       tag: 'div',
       content: {

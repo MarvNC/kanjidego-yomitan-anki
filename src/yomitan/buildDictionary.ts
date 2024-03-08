@@ -1,7 +1,7 @@
 import {
   EXPORT_DIRECTORY,
-  TRIMMED_DIRECTORY,
   KANJI_DE_GO_NAME,
+  CROPPED_IMG_DIR,
 } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
 import { termData } from '../types';
@@ -78,7 +78,7 @@ function addTermToDictionary(termData: termData, dictionary: Dictionary) {
 }
 
 async function addAllImagesToDictionary(dictionary: Dictionary) {
-  const imageDir = path.join(process.cwd(), TRIMMED_DIRECTORY);
+  const imageDir = path.join(process.cwd(), CROPPED_IMG_DIR);
   const imageFiles = fs.readdirSync(imageDir);
   for (const imageFile of imageFiles) {
     const imageFilePath = path.join(imageDir, imageFile);
