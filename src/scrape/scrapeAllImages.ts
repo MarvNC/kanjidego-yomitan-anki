@@ -34,12 +34,16 @@ export async function scrapeAllImages(termDataArr: termData[]) {
 
     // Check if image already exists
     if (!fs.existsSync(imageFilePath)) {
-      const response = await fetch(imageURL);
-      const buffer = await response.arrayBuffer();
-      if (!fs.existsSync(sourceImageDir)) {
-        fs.mkdirSync(sourceImageDir);
+      try {
+        const response = await fetch(imageURL);
+        const buffer = await response.arrayBuffer();
+        if (!fs.existsSync(sourceImageDir)) {
+          fs.mkdirSync(sourceImageDir);
+        }
+        fs.writeFileSync(imageFilePath, Buffer.from(buffer));
+      } catch (error) {
+        console.error(`An error occurred: ${error}`);
       }
-      fs.writeFileSync(imageFilePath, Buffer.from(buffer));
     }
 
     // Create the processed and cropped directories if they don't exist
