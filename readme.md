@@ -13,6 +13,7 @@ Anki deck.
 - [Anki Deck](#anki-deck)
   - [Usage](#usage-1)
   - [Screenshots](#screenshots-1)
+  - [Info](#info)
 
 ## Yomitan Dictionary
 
@@ -78,3 +79,8 @@ brings the total up to 5,504 unique kanji.
 | ![anki_Preview_2024-03-08_23-18-15](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/b0ff9be9-5813-4410-b95c-285409a6b312) | ![anki_Preview_2024-03-08_23-18-34](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/0baa87d2-6da3-45b7-a164-8c2c5634ecec) |
 | :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
 | ![anki_Preview_2024-03-08_23-18-44](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/68075c5d-ea18-4fe3-8b26-3237c2ff5561) | ![anki_Preview_2024-03-08_23-18-50](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/bc2f65e9-a09c-4374-a99a-2a73479c7648) |
+
+### Info
+
+[GitHub Repository](https://github.com/MarvNC/kanjidego-yomitan-anki)
+[Issues Tracker](https://github.com/MarvNC/kanjidego-yomitan-anki/issues)
