@@ -11,6 +11,8 @@ Anki deck.
   - [Usage](#usage)
   - [Screenshots](#screenshots)
 - [Anki Deck](#anki-deck)
+  - [Usage](#usage-1)
+  - [Screenshots](#screenshots-1)
 
 ## Yomitan Dictionary
 
@@ -41,8 +43,13 @@ Simply download from above and import into Yomitan.
 
 ## Anki Deck
 
-The 漢字で GO! deck contains the same information available in the
+[Kanji de Go (漢字で Go!)](https://plicy.net/GamePlay/155561) is a fun game
+quizzing people on rare/exotic kanji terms.
+
+The 漢字で GO! Anki deck contains the same information available in the
 [Yomitan Dictionary](https://github.com/MarvNC/kanjidego-yomitan-anki?tab=readme-ov-file#yomitan-dictionary).
+
+### Usage
 
 The Anki deck is split into four subdecks: レベル 05, レベル 06, レベル 07, and
 別表記. The first three are the levels in the game, and the last is for
@@ -56,6 +63,8 @@ For reference, according to
 [Kuuube's kanji grid](https://github.com/Kuuuube/kanjigrid), the three main
 levels contain 3,353 unique kanji in the main terms. Adding the 別表記 subdeck
 brings the total up to 5,504 unique kanji.
+
+### Screenshots
 
 | ![anki_Preview_2024-03-08_22-58-59](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/850dee1a-a5f1-4959-a1e3-5eec3eb2bc80) | ![anki_Preview_2024-03-08_22-58-55](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/1d70778d-39bc-4a84-9a4f-bb02b62bcf96) |
 | :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
