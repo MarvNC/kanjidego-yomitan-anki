@@ -4,12 +4,12 @@ import {
   CROPPED_IMG_DIR,
 } from '../constants';
 import { Dictionary, TermEntry } from 'yomichan-dict-builder';
-import { termData } from '../types';
+import { TermData } from '../types';
 import path from 'path';
 import { convertTermToDetailedDefinition } from './convertTermToDetailedDefinition';
 import fs from 'fs';
 
-export async function buildDictionary(termDataArr: termData[]) {
+export async function buildDictionary(termDataArr: TermData[]) {
   console.log('Building Yomitan dictionary');
 
   const dateString = new Date().toISOString().split('T')[0];
@@ -41,7 +41,7 @@ Built with https://github.com/MarvNC/yomichan-dict-builder`,
   console.log(`Exported ${stats.termCount} terms to ${exportDir}!`);
 }
 
-function addTermToDictionary(termData: termData, dictionary: Dictionary) {
+function addTermToDictionary(termData: TermData, dictionary: Dictionary) {
   const { term, reading } = termData.termReading;
   // Some terms have an empty term string because they're too rare
   const termEntry = new TermEntry(term || reading);

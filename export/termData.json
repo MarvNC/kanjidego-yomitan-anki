@@ -25713,7 +25713,11 @@
       "問題ID": "Lv06_0001",
       "追記": "躑蠋(てきちょく)(*1)とは若干ニュアンスが異なる。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -25730,7 +25734,11 @@
       "問題ID": "Lv06_0002",
       "追記": "「はりせんぼん」(典拠のリンク先、右頁：左段中央よりやや上にある𩹷の項目を見よ)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%F0%A9%B9%B7-1750704"
+    }
   },
   {
     "termReading": {
@@ -25742,7 +25750,11 @@
       "問題ID": "Lv06_0003",
       "追記": "魯迅による造字とされている。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E6%95%85%E9%83%B7_(%E9%AD%AF%E8%BF%85)#%E7%8C%B9%EF%BC%88%E3%83%81%E3%83%A3%E3%83%BC%EF%BC%89"
+    }
   },
   {
     "termReading": {
@@ -25762,7 +25774,11 @@
       ],
       "問題ID": "Lv06_0004"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%9C%A8%E8%B1%87%E8%B1%86%E3%83%BB%E6%A2%93-2027374"
+    }
   },
   {
     "termReading": {
@@ -25774,7 +25790,11 @@
       "問題ID": "Lv06_0005",
       "追記": "「へつふつ」「へつぽつ(*2)」「へつぼつ」「ひょっひょ」等の読み方もある。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E4%B8%BF%E4%B9%80-379301"
+    }
   },
   {
     "termReading": {
@@ -25785,7 +25805,11 @@
       "意味": "小鏑の先端に、半月状の小雁股をつけた矢のこと。",
       "問題ID": "Lv06_0006"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%9F%AA%E7%9F%A2-486603"
+    }
   },
   {
     "termReading": {
@@ -25796,7 +25820,11 @@
       "意味": "古代中国で用いられた酒壺のこと。",
       "問題ID": "Lv06_0007"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%8D%A3-1430679"
+    }
   },
   {
     "termReading": {
@@ -25812,7 +25840,11 @@
       "問題ID": "Lv06_0008",
       "追記": ""
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjig/3447.html"
+    }
   },
   {
     "termReading": {
@@ -25826,7 +25858,11 @@
       ],
       "問題ID": "Lv06_0009"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%A1%A9%E8%86%9A%E6%9C%A8%E4%BA%94%E5%80%8D%E5%AD%90-1751360"
+    }
   },
   {
     "termReading": {
@@ -25838,7 +25874,11 @@
       "問題ID": "Lv06_0010",
       "追記": "ギシギシの古称とする説もある。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%95%BA-523177"
+    }
   },
   {
     "termReading": {
@@ -25854,7 +25894,11 @@
       "問題ID": "Lv06_0011",
       "追記": "桺は柳の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/12013.html"
+    }
   },
   {
     "termReading": {
@@ -25868,7 +25912,11 @@
       ],
       "問題ID": "Lv06_0012"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%88%81%E6%96%97-568901"
+    }
   },
   {
     "termReading": {
@@ -25884,7 +25932,11 @@
       "問題ID": "Lv06_0013",
       "追記": "「はめる」「えぶり」「いり」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiw/11267.html"
+    }
   },
   {
     "termReading": {
@@ -25895,7 +25947,11 @@
       "意味": "ぼんやりするさま。また、気を失うさま。",
       "問題ID": "Lv06_0014"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%AA%85%E7%84%B6-653164"
+    }
   },
   {
     "termReading": {
@@ -25907,7 +25963,11 @@
       "問題ID": "Lv06_0015",
       "追記": "正式名称は『三国相伝陰陽輨轄簠簋内伝金烏玉兎集』という。実のところ、安倍晴明のものではないとされている。「簠簋」は古代中国で用いられた祭器の名前。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%80%8A%E7%B0%A0%E7%B0%8B%E5%86%85%E4%BC%9D%E3%80%8B-1415003"
+    }
   },
   {
     "termReading": {
@@ -25922,7 +25982,11 @@
       "問題ID": "Lv06_0016",
       "追記": "从は従の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjil/5740.html"
+    }
   },
   {
     "termReading": {
@@ -25940,7 +26004,11 @@
       "問題ID": "Lv06_0017",
       "追記": "卆は卒の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjil/5669.html"
+    }
   },
   {
     "termReading": {
@@ -25952,7 +26020,11 @@
       "問題ID": "Lv06_0018",
       "追記": "「たくさい」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E4%BE%98%E5%82%BA-2059079"
+    }
   },
   {
     "termReading": {
@@ -25963,7 +26035,11 @@
       "意味": "東南アジアに住む少数民族のひとつ。",
       "問題ID": "Lv06_0019"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%83%AA%E3%82%B9%28%E5%82%88%E5%83%B3%29%E6%97%8F-1215416"
+    }
   },
   {
     "termReading": {
@@ -25986,7 +26062,11 @@
       ],
       "問題ID": "Lv06_0020"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/12736.html"
+    }
   },
   {
     "termReading": {
@@ -25997,7 +26077,11 @@
       "意味": "少しだけ食べる。また、少しずつ食べる。",
       "問題ID": "Lv06_0021"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/23910.html"
+    }
   },
   {
     "termReading": {
@@ -26014,7 +26098,11 @@
       "問題ID": "Lv06_0022",
       "追記": "爴は攫の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjix/11534.html"
+    }
   },
   {
     "termReading": {
@@ -26029,7 +26117,11 @@
       "問題ID": "Lv06_0023",
       "追記": "䍧は牂の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/21673.html"
+    }
   },
   {
     "termReading": {
@@ -26040,7 +26132,11 @@
       "意味": "草木が茂るさま。また、物事の盛んなさま。",
       "問題ID": "Lv06_0024"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/14763.html#:~:text=%E3%80%8C%E5%BD%A7%E5%BD%A7%EF%BC%88%E3%81%84%E3%81%8F%E3%81%84%E3%81%8F%EF%BC%89,%E7%9B%9B%E3%82%93%E3%81%AA%E3%81%95%E3%81%BE%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26051,7 +26147,11 @@
       "意味": "人の脳を食べるとされる伝説の獣。",
       "問題ID": "Lv06_0025"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "『漢字林』",
+      "url": "https://ksbookshelf.com/DW/Kanjirin/KanjirinHB4r.html#:~:text=%E2%97%86%E3%80%8C%E7%8D%8F%E3%BA%94(%E3%83%90%E3%82%AF%E3%82%AD)%E3%80%8D,%E8%84%B3%E3%83%8E%E3%82%A6%E3%82%92%E9%A3%9F%E3%81%86%E3%81%A8%E3%81%84%E3%81%86"
+    }
   },
   {
     "termReading": {
@@ -26070,7 +26170,11 @@
       ],
       "問題ID": "Lv06_0026"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E7%8D%AC%E8%B1%B8"
+    }
   },
   {
     "termReading": {
@@ -26085,7 +26189,11 @@
       "問題ID": "Lv06_0027",
       "追記": "玅は妙の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/16473.html"
+    }
   },
   {
     "termReading": {
@@ -26101,7 +26209,11 @@
       "問題ID": "Lv06_0028",
       "追記": "㽵は荘の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjis/9449.html"
+    }
   },
   {
     "termReading": {
@@ -26118,7 +26230,11 @@
       "問題ID": "Lv06_0029",
       "追記": "䁚は瞏の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/21021.html#:~:text=%E3%80%8C%E4%81%9A%E4%81%9A,%E4%B8%80%E4%BA%BA%E3%81%BC%E3%81%A3%E3%81%A1%E3%81%AE%E3%81%95%E3%81%BE%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26135,7 +26251,11 @@
       "問題ID": "Lv06_0030",
       "追記": "「せいそう」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%A0%90%E8%9E%AC-541316"
+    }
   },
   {
     "termReading": {
@@ -26152,7 +26272,11 @@
       ],
       "問題ID": "Lv06_0031"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kanji.jitenon.jp/kanjiv/10673.html#:~:text=%E3%80%8C%E7%A1%87%E7%A0%82%EF%BC%88%E3%81%A9%E3%81%86%E3%81%95%E3%83%BB%E3%81%A9%E3%81%86%E3%81%97%E3%82%83%EF%BC%89%E3%80%8D%E3%81%AF%E3%80%81%E9%89%B1%E7%89%A9%E3%81%AE%E5%90%8D%E3%80%82%E5%A1%A9%E5%8C%96%E3%82%A2%E3%83%B3%E3%83%A2%E3%83%8B%E3%82%A6%E3%83%A0%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26168,7 +26292,11 @@
       "問題ID": "Lv06_0032",
       "追記": "律令制下において、3～4人ほどの足枷をつけた罪人を縄などで数珠繋ぎにし、労役に服させることを著釱(ちゃくだ)といった。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%91%97%E9%87%B1%E3%81%AE%E6%94%BF-1185012"
+    }
   },
   {
     "termReading": {
@@ -26183,7 +26311,11 @@
       "問題ID": "Lv06_0033",
       "追記": "「かなぶくせ」「かなふぐせ」「かなほぐし」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%91%B1-2023509"
+    }
   },
   {
     "termReading": {
@@ -26197,7 +26329,11 @@
       ],
       "問題ID": "Lv06_0034"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%A4%A7%E7%99%8B%E8%A6%8B-450829"
+    }
   },
   {
     "termReading": {
@@ -26213,7 +26349,11 @@
       "問題ID": "Lv06_0035",
       "追記": "伖は帑の異体字。「かねぐら」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/13048.html"
+    }
   },
   {
     "termReading": {
@@ -26224,7 +26364,11 @@
       "意味": "中古の時代、朝廷で大儀の際に立てた纛幡のこと。(*3)",
       "問題ID": "Lv06_0036"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%85%95%E7%BA%9B%E5%B9%A1-284241"
+    }
   },
   {
     "termReading": {
@@ -26235,7 +26379,11 @@
       "意味": "中国の神話において、一本足の龍の姿をしているとされる妖怪、神、動物、人物。",
       "問題ID": "Lv06_0037"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%A4%94#:~:text=%E5%A4%94%E7%89%9B,%E3%81%A8%E3%82%82%E3%81%84%E3%81%86%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26252,7 +26400,11 @@
       "問題ID": "Lv06_0038",
       "追記": "霊の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiq/8005.html"
+    }
   },
   {
     "termReading": {
@@ -26264,7 +26416,11 @@
       "問題ID": "Lv06_0039",
       "追記": "盉(か)とは別の物。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%96%9D-42062"
+    }
   },
   {
     "termReading": {
@@ -26275,7 +26431,11 @@
       "意味": "トラツグミの異称。",
       "問題ID": "Lv06_0040"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%B5%BC%E5%AD%90%E9%B3%A5-593965"
+    }
   },
   {
     "termReading": {
@@ -26287,7 +26447,11 @@
       "問題ID": "Lv06_0041",
       "追記": "朳(えぶり)は柄振(えぶ)りとも書く。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "goo辞書",
+      "url": "https://dictionary.goo.ne.jp/word/%E6%9C%B3%E6%91%BA%E3%82%8A/"
+    }
   },
   {
     "termReading": {
@@ -26302,7 +26466,11 @@
       "問題ID": "Lv06_0042",
       "追記": "㠯は以の異体字"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/12368.html"
+    }
   },
   {
     "termReading": {
@@ -26317,7 +26485,11 @@
       ],
       "問題ID": "Lv06_0043"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%88%87%E8%BE%BC%E9%B1%81%E9%AE%A7-2030088"
+    }
   },
   {
     "termReading": {
@@ -26328,7 +26500,11 @@
       "意味": "イチイガシの別称。",
       "問題ID": "Lv06_0044"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%8E%94%E9%BA%BB-204305#:~:text=%E8%8E%94%E9%BA%BB%20(%E3%82%A4%E3%83%81%E3%83%93%E3%82%BD%E3%83%BB%E3%82%A4%E3%83%81%E3%83%96),%E3%82%A4%E3%83%81%E3%82%A4%E3%82%AC%E3%82%B7%E3%81%AE%E5%88%A5%E7%A7%B0"
+    }
   },
   {
     "termReading": {
@@ -26342,7 +26518,11 @@
       ],
       "問題ID": "Lv06_0045"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%9F%B4%E9%9C%8A%E3%83%BB%E5%B8%83%E9%83%BD%E5%BE%A1%E9%AD%82-2080109"
+    }
   },
   {
     "termReading": {
@@ -26353,7 +26533,11 @@
       "意味": "便器。おまる。",
       "問題ID": "Lv06_0046"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/12124.html#:~:text=%E3%80%8C%E6%A5%B2%E7%AA%AC,%E3%81%8A%E3%81%BE%E3%82%8B%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26364,7 +26548,11 @@
       "意味": "座敷飾りや聞香席で用いる香匙と火箸。また、それを差す小型の瓶。",
       "問題ID": "Lv06_0047"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%A6%99%E5%8C%99%E7%81%AB%E7%AD%AF-2029308"
+    }
   },
   {
     "termReading": {
@@ -26380,7 +26568,11 @@
       "問題ID": "Lv06_0048",
       "追記": "槑は梅の異体字"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/12043.html"
+    }
   },
   {
     "termReading": {
@@ -26396,7 +26588,11 @@
       "問題ID": "Lv06_0049",
       "追記": "㳃は淬の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/20311.html"
+    }
   },
   {
     "termReading": {
@@ -26410,7 +26606,11 @@
       ],
       "問題ID": "Lv06_0050"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%89%99%E7%8D%90%E3%83%BB%E7%89%99%E9%BA%9E-2028250"
+    }
   },
   {
     "termReading": {
@@ -26427,7 +26627,11 @@
       "問題ID": "Lv06_0051",
       "追記": "洤は泉の異体字"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/15538.html"
+    }
   },
   {
     "termReading": {
@@ -26445,7 +26649,11 @@
       "問題ID": "Lv06_0052",
       "追記": "諐は愆の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiv/10984.html"
+    }
   },
   {
     "termReading": {
@@ -26462,7 +26670,11 @@
       "問題ID": "Lv06_0053",
       "追記": "「むし」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%9E%B2%E5%9E%82%E8%A1%A3%E3%83%BB%E5%B8%94-2086378"
+    }
   },
   {
     "termReading": {
@@ -26481,7 +26693,11 @@
       "問題ID": "Lv06_0054",
       "追記": "湌は餐の異体字"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjio/7470.html"
+    }
   },
   {
     "termReading": {
@@ -26497,7 +26713,11 @@
       ],
       "問題ID": "Lv06_0055"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjin/6713.html"
+    }
   },
   {
     "termReading": {
@@ -26512,7 +26732,11 @@
       "問題ID": "Lv06_0056",
       "追記": "灶は竈の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiv/10936.html"
+    }
   },
   {
     "termReading": {
@@ -26523,7 +26747,11 @@
       "意味": "ウグイスガイ目ハボウキガイ科の貝。",
       "問題ID": "Lv06_0057"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%93%91%E7%8E%89%E7%8F%A7-1759764"
+    }
   },
   {
     "termReading": {
@@ -26537,7 +26765,11 @@
       ],
       "問題ID": "Lv06_0058"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%8E%A2%E6%B9%AF%E7%93%AB-2031044"
+    }
   },
   {
     "termReading": {
@@ -26551,7 +26783,11 @@
       ],
       "問題ID": "Lv06_0059"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%9A%9A"
+    }
   },
   {
     "termReading": {
@@ -26563,7 +26799,11 @@
       "問題ID": "Lv06_0060",
       "追記": "「ていけん」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%B6%99%E9%B5%B3-2072903"
+    }
   },
   {
     "termReading": {
@@ -26578,7 +26818,11 @@
       "問題ID": "Lv06_0061",
       "追記": "羪は養の異体字"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjis/9210.html"
+    }
   },
   {
     "termReading": {
@@ -26589,7 +26833,11 @@
       "意味": "がやがやと多くの物音が混じるさま。",
       "問題ID": "Lv06_0062"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "『漢字林』",
+      "url": "https://ksbookshelf.com/DW/Kanjirin/Kanjirin6b.html#:~:text=%E3%80%8C%E8%81%B1%E8%80%B4%E3%82%AE%E3%83%A5%E3%82%A6%E3%82%AE%E3%83%84%E3%80%8D,%E5%96%A7(%E3%82%84%E3%81%8B%E3%81%BE)%E3%81%97%E3%81%84%E3%81%95%E3%81%BE"
+    }
   },
   {
     "termReading": {
@@ -26604,7 +26852,11 @@
       ],
       "問題ID": "Lv06_0063"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiy/18605.html"
+    }
   },
   {
     "termReading": {
@@ -26615,7 +26867,11 @@
       "意味": "笑う声のこと。",
       "問題ID": "Lv06_0064"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%82%AD%E3%83%84%E3%83%BB%E3%81%B2%E3%82%8D%E3%81%8C%E3%82%8B%28%E6%BC%A2%E5%AD%97%29-2785706#E6.99.AE.E5.8F.8A.E7.89.88.20.E5.AD.97.E9.80.9A#:~:text=4.,%E7%AC%91%E3%81%86%E5%A3%B0%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26629,7 +26885,11 @@
       ],
       "問題ID": "Lv06_0065"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%81%BF%E3%81%A0%E3%82%89%E3%81%8A%E3%81%AE%E3%81%86%E3%81%BE-2085207"
+    }
   },
   {
     "termReading": {
@@ -26640,7 +26900,11 @@
       "意味": "膝がしらの部分をおおう皿状の骨。",
       "問題ID": "Lv06_0066"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%81%B2%E3%81%96%E3%81%AE%E3%81%8B%E3%82%8F%E3%82%89-2077144"
+    }
   },
   {
     "termReading": {
@@ -26654,7 +26918,11 @@
       ],
       "問題ID": "Lv06_0067"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%AC%8C-541807"
+    }
   },
   {
     "termReading": {
@@ -26665,7 +26933,11 @@
       "意味": "誇らしく話すこと。高らかに談笑すること。",
       "問題ID": "Lv06_0068"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%98%90%E8%A8%80-2082548"
+    }
   },
   {
     "termReading": {
@@ -26686,7 +26958,11 @@
       "問題ID": "Lv06_0069",
       "追記": "厳密に言うと、日本の蛟と中国の蛟は違うもの。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%9B%9F%E3%83%BB%E8%99%AC%E3%83%BB%E8%99%AF%E3%83%BB%E8%9E%AD-390831"
+    }
   },
   {
     "termReading": {
@@ -26700,7 +26976,11 @@
       ],
       "問題ID": "Lv06_0070"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%81%8B%E3%81%84%28%E3%81%8F%E3%82%8F%E3%81%84%29%E3%81%9F%E3%81%84-2798243#E6.99.AE.E5.8F.8A.E7.89.88.20.E5.AD.97.E9.80.9A"
+    }
   },
   {
     "termReading": {
@@ -26714,7 +26994,11 @@
       ],
       "問題ID": "Lv06_0071"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%B1%A8%E8%96%9F-644175"
+    }
   },
   {
     "termReading": {
@@ -26728,7 +27012,11 @@
       ],
       "問題ID": "Lv06_0072"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E4%BB%AE%E5%BA%AA-510707#:~:text=%E3%81%95%E2%80%90%E3%81%9A%E3%81%8D%E3%80%90%E4%BB%AE%EF%BC%9D%E5%BA%AA%EF%BC%8F%E4%BB%AE%EF%BC%9D%E5%BA%8A%E3%80%91,%E3%81%B2%E3%80%8D%E3%80%88%E8%A8%98%E3%83%BB%E4%B8%8A%E3%80%89"
+    }
   },
   {
     "termReading": {
@@ -26740,7 +27028,11 @@
       "問題ID": "Lv06_0073",
       "追記": "「するめ」は当て読み。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "『漢字林』",
+      "url": "https://ksbookshelf.com/DW/Kanjirin/Kanjirin6p.html#:~:text=%E2%97%86%E3%80%8C%E8%9E%9F%E8%9C%85%E9%AF%97%E3%83%A1%E3%82%A4%E3%83%95%E3%82%B7%E3%83%A7%E3%82%A6%E3%80%8D,%E3%80%8C%E5%A2%A8%E9%AD%9A%E5%B9%B2%E3%83%9C%E3%82%AF%E3%82%AE%E3%83%A7%E3%82%AB%E3%83%B3%E3%80%8D"
+    }
   },
   {
     "termReading": {
@@ -26758,7 +27050,11 @@
       "問題ID": "Lv06_0074",
       "追記": "「せっきょう」、「せ>>https://kotobank.jp/word/%E7%9F%B3%E8%8A%B1%E3%83%BB%E7%9F%B3%E8%8F%AF%E3%83%BB%E7%9F%B3%E8%9C%90-2054212」「せい」「せえ」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E4%BA%80%E6%89%8B%E3%83%BB%E7%9F%B3%E8%9C%90-2024409"
+    }
   },
   {
     "termReading": {
@@ -26773,7 +27069,11 @@
       "問題ID": "Lv06_0075",
       "追記": "少子部蜾蠃(ちいさこべのすがる)は雄略天皇に仕えたとされる豪族。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%9C%BE%E8%A0%83%E5%B0%91%E5%A5%B3%E3%83%BB%E8%9C%BE%E8%A0%83%E5%A8%98%E5%AD%90-2053005#w-2015379"
+    }
   },
   {
     "termReading": {
@@ -26789,7 +27089,11 @@
       ],
       "問題ID": "Lv06_0076"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%92%87%E7%92%A3%E3%83%BB%E7%90%81%E7%92%A3%E3%83%BB%E7%92%BF%E7%92%A3%E3%83%BB%E6%97%8B%E6%A9%9F-2055608"
+    }
   },
   {
     "termReading": {
@@ -26800,7 +27104,11 @@
       "意味": "乳児がいったん飲んだ乳をはくこと。乳をあますこと。",
       "問題ID": "Lv06_0077"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%93%AF%E5%90%90-571728"
+    }
   },
   {
     "termReading": {
@@ -26818,7 +27126,11 @@
       "問題ID": "Lv06_0078",
       "追記": "「押歯(おさえば)」や「添歯(そいば)(または添歯(そえば))」も八重歯の別称として知られており、それぞれ語感が似ている。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%A5%B2%E6%AD%AF%E3%83%BB%E9%BD%B5%E6%AD%AF-2016424"
+    }
   },
   {
     "termReading": {
@@ -26829,7 +27141,11 @@
       "意味": "弓の中央部分に装飾として取り付けた金具のこと。",
       "問題ID": "Lv06_0079"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%BC%A3%E9%87%91%E5%85%B7-1213385"
+    }
   },
   {
     "termReading": {
@@ -26840,7 +27156,11 @@
       "意味": "日本全土に分布するチョウ目セセリチョウ科の昆虫。",
       "問題ID": "Lv06_0080"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E4%B8%80%E6%96%87%E5%AD%97%E6%8C%B5%E8%9D%B6-433759"
+    }
   },
   {
     "termReading": {
@@ -26852,7 +27172,11 @@
       "問題ID": "Lv06_0081",
       "追記": "「まかぶら」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%9C%B6-633404"
+    }
   },
   {
     "termReading": {
@@ -26863,7 +27187,11 @@
       "意味": "中腹足目ヤマタニシ科の貝。",
       "問題ID": "Lv06_0082"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%8E%9A%E5%8E%B4%E8%B2%9D-1758325"
+    }
   },
   {
     "termReading": {
@@ -26878,7 +27206,11 @@
       ],
       "問題ID": "Lv06_0083"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%A7%98-594224"
+    }
   },
   {
     "termReading": {
@@ -26889,7 +27221,11 @@
       "意味": "仏教用語で、見道において三界の見惑を断じ、初めて聖者の類にはいる位のこと。",
       "問題ID": "Lv06_0084"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%A0%88%E9%99%80%E6%B4%B9-77816"
+    }
   },
   {
     "termReading": {
@@ -26901,7 +27237,11 @@
       "問題ID": "Lv06_0085",
       "追記": "杰は傑の異体字として扱われることもある。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjil/5918.html"
+    }
   },
   {
     "termReading": {
@@ -26916,7 +27256,11 @@
       "問題ID": "Lv06_0086",
       "追記": "誮は国字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiq/8169.html"
+    }
   },
   {
     "termReading": {
@@ -26927,7 +27271,11 @@
       "意味": "穏やかに議論するさま。和やかなさま。",
       "問題ID": "Lv06_0087"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiq/8154.html#:~:text=%E3%80%8C%E8%AA%BE%E8%AA%BE%EF%BC%88%E3%81%8E%E3%82%93%E3%81%8E%E3%82%93%EF%BC%89%E3%80%8D%E3%81%AF%E3%80%81,%E5%92%8C%E3%82%84%E3%81%8B%E3%81%AA%E3%81%95%E3%81%BE%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -26938,7 +27286,11 @@
       "意味": "魔除けのために城の屋根の棟に置かれる像のこと。シャチホコの一種。",
       "問題ID": "Lv06_0088"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%AC%BC%E7%8A%BE%E9%A0%AD-2027111"
+    }
   },
   {
     "termReading": {
@@ -26952,7 +27304,11 @@
       ],
       "問題ID": "Lv06_0089"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%9B%9E%E5%9B%9E%E7%A4%AE-1515344"
+    }
   },
   {
     "termReading": {
@@ -26973,7 +27329,11 @@
       ],
       "問題ID": "Lv06_0090"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiq/8300.html"
+    }
   },
   {
     "termReading": {
@@ -26987,7 +27347,11 @@
       ],
       "問題ID": "Lv06_0091"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiq/8326.html"
+    }
   },
   {
     "termReading": {
@@ -26998,7 +27362,11 @@
       "意味": "やや足早に馬を駆けさせること。",
       "問題ID": "Lv06_0092"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%B7%91%E4%B9%97%E3%82%8A-559878"
+    }
   },
   {
     "termReading": {
@@ -27013,7 +27381,11 @@
       "問題ID": "Lv06_0093",
       "追記": "「こら・える」「しの・ぶ」とも。躵は国字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjiq/8467.html"
+    }
   },
   {
     "termReading": {
@@ -27031,7 +27403,11 @@
       "問題ID": "Lv06_0094",
       "追記": "「かかと」「あしのこう」「うてな」「くびす」とも。上代語で、足は「あ」と言い、「な」は現在の「の」と同じ意味を持つ助詞であった。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%B7%97%E3%83%BB%E8%B6%BA-2002844"
+    }
   },
   {
     "termReading": {
@@ -27046,7 +27422,11 @@
       ],
       "問題ID": "Lv06_0095"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%98%9E%E3%83%BB%E5%88%B3%E3%83%BB%E9%86%B6-2012999"
+    }
   },
   {
     "termReading": {
@@ -27060,7 +27440,11 @@
       ],
       "問題ID": "Lv06_0096"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%B9%91%E3%83%BB%E9%87%83-2046362"
+    }
   },
   {
     "termReading": {
@@ -27078,7 +27462,11 @@
       ],
       "問題ID": "Lv06_0097"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E4%A8%84%E5%B1%B1%E7%A5%87-2045341"
+    }
   },
   {
     "termReading": {
@@ -27093,7 +27481,11 @@
       ],
       "問題ID": "Lv06_0098"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "goo辞書",
+      "url": "https://dictionary.goo.ne.jp/word/%E5%9B%9B%E7%B7%92%E6%89%8B/"
+    }
   },
   {
     "termReading": {
@@ -27107,7 +27499,11 @@
       ],
       "問題ID": "Lv06_0099"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjin/6557.html"
+    }
   },
   {
     "termReading": {
@@ -27121,7 +27517,11 @@
       ],
       "問題ID": "Lv06_0100"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%B1%9F%E6%88%B8%E5%85%83%E7%B5%90%E3%83%BB%E6%B1%9F%E6%88%B8%E9%AC%A0-2013300"
+    }
   },
   {
     "termReading": {
@@ -27133,7 +27533,11 @@
       "問題ID": "Lv06_0101",
       "追記": "訓について異説有り。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%AF%A4%E7%99%83%E4%BA%BA-2002451"
+    }
   },
   {
     "termReading": {
@@ -27144,7 +27548,11 @@
       "意味": "心がひろく、ゆったりとしているさま。",
       "問題ID": "Lv06_0102"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%9A%9E%E7%9A%9E-260768"
+    }
   },
   {
     "termReading": {
@@ -27159,7 +27567,11 @@
       ],
       "問題ID": "Lv06_0103"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%9C%B4-2087082#:~:text=%E3%82%81%E2%80%90%E3%81%8F%E3%81%B0%E3%81%9B&text=%E3%82%81%E2%80%90%E3%81%8F%E3%82%8F%E3%81%9B%20%E2%80%A5%E3%81%8F%E3%81%AF,%E3%82%81%E3%81%8F%E3%81%B0%E3%81%9B%E3%80%82"
+    }
   },
   {
     "termReading": {
@@ -27170,7 +27582,11 @@
       "意味": "中国古典詩の詩風の一体。男女の官能的な情愛をうたったもの。",
       "問題ID": "Lv06_0104"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%A6%99%E5%A5%A9%E4%BD%93-497994"
+    }
   },
   {
     "termReading": {
@@ -27181,7 +27597,11 @@
       "意味": "明らかなさま。また、音などがはっきりしているさま。",
       "問題ID": "Lv06_0105"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%9A%A6%E5%A6%82-2029349"
+    }
   },
   {
     "termReading": {
@@ -27196,7 +27616,11 @@
       "問題ID": "Lv06_0106",
       "追記": "擧は挙の異体字(旧字体)。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjim/6192.html"
+    }
   },
   {
     "termReading": {
@@ -27207,7 +27631,11 @@
       "意味": "麻雀で、刻子(コーツ)を作れる牌を他家(ターチャ)が捨てたとき、「ポン」と言ってそれをもらうこと。",
       "問題ID": "Lv06_0107"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "goo辞書",
+      "url": "https://dictionary.goo.ne.jp/word/%E7%A2%B0/"
+    }
   },
   {
     "termReading": {
@@ -27219,7 +27647,11 @@
       "問題ID": "Lv06_0108",
       "追記": "「いしばり」は「石針」「石鍼」とも表記するが、「肌骨に石針す」や「肌骨に石鍼す」の用例はネット上からは見つからない。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E3%81%8D%E3%81%93%E3%81%A4%E3%81%AB%E3%81%84%E3%81%97%E3%81%B0%E3%82%8A%E3%81%99-2027317"
+    }
   },
   {
     "termReading": {
@@ -27233,7 +27665,11 @@
       ],
       "問題ID": "Lv06_0109"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%B0%8F%E7%A1%AE-2016451"
+    }
   },
   {
     "termReading": {
@@ -27251,7 +27687,11 @@
       "問題ID": "Lv06_0110",
       "追記": "磤馭慮は『日本書紀』、淤能碁呂は『古事記』における表記。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%A3%A4%E9%A6%AD%E6%85%AE%E5%B3%B6-453810"
+    }
   },
   {
     "termReading": {
@@ -27268,7 +27708,11 @@
       ],
       "問題ID": "Lv06_0111"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E8%BE%B5"
+    }
   },
   {
     "termReading": {
@@ -27282,7 +27726,11 @@
       ],
       "問題ID": "Lv06_0112"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%A3%B7-2077337"
+    }
   },
   {
     "termReading": {
@@ -27297,7 +27745,11 @@
       "問題ID": "Lv06_0113",
       "追記": "送り仮名は「賾ろなし」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E8%B3%BE%E3%81%AA%E3%81%97-2015586"
+    }
   },
   {
     "termReading": {
@@ -27308,7 +27760,11 @@
       "意味": "灸をすえたあとや傷などがただれる。水気をもって腫れる。",
       "問題ID": "Lv06_0114"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%A2%B3-622919#:~:text=%E3%81%86%E3%81%90%E3%83%BB%E3%81%86,%E3%81%AE%E9%82%AA%E9%AD%94%E3%80%8D"
+    }
   },
   {
     "termReading": {
@@ -27319,7 +27775,11 @@
       "意味": "甲虫目コガネムシ科の昆虫。",
       "問題ID": "Lv06_0115"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%8A%85%E9%89%A6%E8%9A%89%E8%9A%89-579769"
+    }
   },
   {
     "termReading": {
@@ -27330,7 +27790,11 @@
       "意味": "銑鉄から出る鍰(からみ)を、溶解状態のまま高圧蒸気で噴射させて綿状にしたもの。",
       "問題ID": "Lv06_0116"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%8D%B0%E7%B6%BF-2024922"
+    }
   },
   {
     "termReading": {
@@ -27344,7 +27808,11 @@
       ],
       "問題ID": "Lv06_0117"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%89%8A%E9%9A%9B%E3%83%BB%E9%8F%9F%E9%9A%9B-2034128"
+    }
   },
   {
     "termReading": {
@@ -27373,7 +27841,11 @@
       ],
       "問題ID": "Lv06_0119"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%9B%A9-198594"
+    }
   },
   {
     "termReading": {
@@ -27387,7 +27859,11 @@
       ],
       "問題ID": "Lv06_0120"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "goo辞書",
+      "url": "https://dictionary.goo.ne.jp/word/%E4%B8%8B%E9%9E%8D/"
+    }
   },
   {
     "termReading": {
@@ -27403,7 +27879,11 @@
       ],
       "問題ID": "Lv06_0121"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%8F%8D%E9%96%89%E3%83%BB%E5%8F%8D%E9%96%87%E3%83%BB%E8%BF%94%E9%96%89%E3%83%BB%E5%8F%8D%E9%99%AA-2081581"
+    }
   },
   {
     "termReading": {
@@ -27421,7 +27901,11 @@
       "問題ID": "Lv06_0122",
       "追記": "北海道では街路樹に採用されている。漢名「糖槭、白蠟槭、復葉槭、美國槭」"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%A2%A3%E8%91%89%E6%A5%93-2067788"
+    }
   },
   {
     "termReading": {
@@ -27436,7 +27920,11 @@
       "問題ID": "Lv06_0123",
       "追記": "夛は多の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "漢字辞典オンライン",
+      "url": "https://kanji.jitenon.jp/kanjim/6157.html"
+    }
   },
   {
     "termReading": {
@@ -27454,7 +27942,11 @@
       "問題ID": "Lv06_0124",
       "追記": "「しんもん」とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E9%A1%96%E9%96%80-539136"
+    }
   },
   {
     "termReading": {
@@ -27468,7 +27960,11 @@
       ],
       "問題ID": "Lv06_0125"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%B5%B7%E9%BB%84%E9%A1%99%E9%AD%9A-1753604"
+    }
   },
   {
     "termReading": {
@@ -27486,7 +27982,11 @@
       ],
       "問題ID": "Lv06_0126"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27498,7 +27998,11 @@
       "問題ID": "Lv06_0127",
       "追記": "論決、論結とは意味が異なる。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27517,7 +28021,11 @@
       "問題ID": "Lv06_0128",
       "追記": "魵は𩸂(鱝)の異体字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27532,7 +28040,11 @@
       ],
       "問題ID": "Lv06_0129"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27544,7 +28056,11 @@
       "問題ID": "Lv06_0130",
       "追記": "鵣と鶫は別字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27558,7 +28074,11 @@
       ],
       "問題ID": "Lv06_0131"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27573,7 +28093,11 @@
       ],
       "問題ID": "Lv06_0132"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27584,7 +28108,11 @@
       "意味": "元気なさま。健やかなさま。",
       "問題ID": "Lv06_0133"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27603,7 +28131,11 @@
       "問題ID": "Lv06_0134",
       "追記": "弶(こぼち)などとも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27615,7 +28147,11 @@
       "問題ID": "Lv06_0135",
       "追記": "不彀本(ぽこぺん)は中国語で「元値が切れる」の意"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27626,7 +28162,11 @@
       "意味": "こぶ、いぼなど皮膚の一部や筋肉などが病的に盛りあがったもの。",
       "問題ID": "Lv06_0136"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27638,7 +28178,11 @@
       "問題ID": "Lv06_0137",
       "追記": "鰥寡孤独(かんかこどく)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27649,7 +28193,11 @@
       "意味": "農具の一つ。土をかきならすのに用いる。",
       "問題ID": "Lv06_0138"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27664,7 +28212,11 @@
       "問題ID": "Lv06_0139",
       "追記": "攷は考の異体字。『天』"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27678,7 +28230,11 @@
       ],
       "問題ID": "Lv06_0140"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27692,7 +28248,11 @@
       ],
       "問題ID": "Lv06_0141"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27706,7 +28266,11 @@
       ],
       "問題ID": "Lv06_0142"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27720,7 +28284,11 @@
       ],
       "問題ID": "Lv06_0143"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27734,7 +28302,11 @@
       ],
       "問題ID": "Lv06_0144"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27748,7 +28320,11 @@
       ],
       "問題ID": "Lv06_0145"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27762,7 +28338,11 @@
       ],
       "問題ID": "Lv06_0146"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27774,7 +28354,11 @@
       "問題ID": "Lv06_0147",
       "追記": "『篗纑輪(わくかせわ)』は、田中千梅による俳諧論書。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27789,7 +28373,11 @@
       "問題ID": "Lv06_0148",
       "追記": "榲桲(まるめろ)、榲桲(まるめる)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27805,7 +28393,11 @@
       "問題ID": "Lv06_0149",
       "追記": "隶は逮や隷の異体字・略字。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27817,7 +28409,11 @@
       "問題ID": "Lv06_0150",
       "追記": "由来は発見者である日本の化学者・硤合憲三の名から。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27828,7 +28424,11 @@
       "意味": "部首の一つ。ワ冠やひら冠ともいう。",
       "問題ID": "Lv06_0151"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27839,7 +28439,11 @@
       "意味": "鳥の羽毛。また、羽毛で作った衣服。羽衣。",
       "問題ID": "Lv06_0152"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27857,7 +28461,11 @@
       "問題ID": "Lv06_0153",
       "追記": "濊貊(わいみゃく)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27868,7 +28476,11 @@
       "意味": "ひろびろとして清らかな大気。転じて、いきいきとした奔放な雰囲気。",
       "問題ID": "Lv06_0154"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27883,7 +28495,11 @@
       ],
       "問題ID": "Lv06_0155"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27894,7 +28510,11 @@
       "意味": "明らかに輝くさま。",
       "問題ID": "Lv06_0156"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27908,7 +28528,11 @@
       ],
       "問題ID": "Lv06_0157"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27922,7 +28546,11 @@
       ],
       "問題ID": "Lv06_0158"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27936,7 +28564,11 @@
       ],
       "問題ID": "Lv06_0159"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27952,7 +28584,11 @@
       "問題ID": "Lv06_0160",
       "追記": "噛まれるとその日のうちに死んでしまうということから「ひ(日)ばかり」という名前で呼ばれるが、毒は持っていない。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27969,7 +28605,11 @@
       ],
       "問題ID": "Lv06_0161"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27983,7 +28623,11 @@
       ],
       "問題ID": "Lv06_0162"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -27994,7 +28638,11 @@
       "意味": "アトリの異称。",
       "問題ID": "Lv06_0163"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28008,7 +28656,11 @@
       ],
       "問題ID": "Lv06_0164"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28024,7 +28676,11 @@
       "問題ID": "Lv06_0165",
       "追記": "粘り気の少ないアワを粳粟(うるあわ)という。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28038,7 +28694,11 @@
       ],
       "問題ID": "Lv06_0166"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28049,7 +28709,11 @@
       "意味": "鉱脈、岩石などの中にできた空洞。",
       "問題ID": "Lv06_0167"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28064,7 +28728,11 @@
       ],
       "問題ID": "Lv06_0168"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28078,7 +28746,11 @@
       ],
       "問題ID": "Lv06_0169"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28096,7 +28768,11 @@
       "問題ID": "Lv06_0170",
       "追記": "「まいはだ」「まえはだ」「のみ」「のめ」などとも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28112,7 +28788,11 @@
       "問題ID": "Lv06_0171",
       "追記": "筠(たかんな)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28123,7 +28803,11 @@
       "意味": "山などが、高くけわしいさま。",
       "問題ID": "Lv06_0172"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28137,7 +28821,11 @@
       ],
       "問題ID": "Lv06_0173"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28154,7 +28842,11 @@
       ],
       "問題ID": "Lv06_0174"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28169,7 +28861,11 @@
       ],
       "問題ID": "Lv06_0175"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28181,7 +28877,11 @@
       "問題ID": "Lv06_0176",
       "追記": "縑(かとり)は「固織り」が変化した語。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28195,7 +28895,11 @@
       ],
       "問題ID": "Lv06_0177"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28206,7 +28910,11 @@
       "意味": "酒を入れて杯に次ぐのに用いる、たけの高い銚子。小型の酒樽。",
       "問題ID": "Lv06_0178"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28221,7 +28929,11 @@
       "問題ID": "Lv06_0179",
       "追記": "臏(あわた)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28232,7 +28944,11 @@
       "意味": "昔、中国にあったという名玉。和氏璧(かしのたま)とも。",
       "問題ID": "Lv06_0180"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28249,7 +28965,11 @@
       ],
       "問題ID": "Lv06_0181"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28264,7 +28984,11 @@
       ],
       "問題ID": "Lv06_0182"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28279,7 +29003,11 @@
       ],
       "問題ID": "Lv06_0183"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28291,7 +29019,11 @@
       "問題ID": "Lv06_0184",
       "追記": "螇蚸(けいれき)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28302,7 +29034,11 @@
       "意味": "掛物の表装のひとつ。宸翰、古筆、絵画などに用いられる。",
       "問題ID": "Lv06_0185"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28316,7 +29052,11 @@
       ],
       "問題ID": "Lv06_0186"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28330,7 +29070,11 @@
       ],
       "問題ID": "Lv06_0187"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28346,7 +29090,11 @@
       ],
       "問題ID": "Lv06_0188"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28360,7 +29108,11 @@
       ],
       "問題ID": "Lv06_0189"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28374,7 +29126,11 @@
       ],
       "問題ID": "Lv06_0190"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28386,7 +29142,11 @@
       "問題ID": "Lv06_0191",
       "追記": "淦水(かんすい)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28400,7 +29160,11 @@
       ],
       "問題ID": "Lv06_0192"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28414,7 +29178,11 @@
       ],
       "問題ID": "Lv06_0193"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28428,7 +29196,11 @@
       ],
       "問題ID": "Lv06_0194"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28446,7 +29218,11 @@
       ],
       "問題ID": "Lv06_0195"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28461,7 +29237,11 @@
       "問題ID": "Lv06_0196",
       "追記": "萎蕤(いずい)とも。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28476,7 +29256,11 @@
       ],
       "問題ID": "Lv06_0197"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28493,7 +29277,11 @@
       "問題ID": "Lv06_0198",
       "追記": "古くは「石据え」"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28507,7 +29295,11 @@
       ],
       "問題ID": "Lv06_0199"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -28519,7 +29311,11 @@
       "問題ID": "Lv06_0200",
       "追記": "寒さで舌がもつれ、「ははば」という声しか出ないとされる。"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "//w.atwiki.jp/kanjidego/?page=%3E"
+    }
   },
   {
     "termReading": {
@@ -30931,7 +31727,11 @@
       ],
       "問題ID": "Lv06_0383"
     },
-    "termLevel": "06"
+    "termLevel": "06",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%9A%9A%E6%A5%AD%E3%83%BB%E5%A7%A7%E6%A5%AD-2077329"
+    }
   },
   {
     "termReading": {
@@ -31321,7 +32121,7 @@
       "reading": "らくびんの学"
     },
     "termInfo": {
-      "意味": "宋の程顥(ていこう)、程頤(ていい)の学、および朱熹(しゅき)の学の総称。彼らの出身地が閩(*1)であったことに由来する。",
+      "意味": "宋の程顥(ていこう)、程頤(ていい)の学、および朱熹(しゅき)の学の総称。彼らの出身地が閩(*2)であったことに由来する。",
       "問題ID": "Lv06_0413"
     },
     "termLevel": "06"
@@ -31995,7 +32795,7 @@
     "termInfo": {
       "意味": "ダチョウ目エミュー科の鳥。大型の走鳥類で現生の鳥ではダチョウに次いで大きい。",
       "問題ID": "Lv06_0461",
-      "追記": "「じびょう」、「あるみあお(*4)」とも。"
+      "追記": "「じびょう」、「あるみあお(*5)」とも。"
     },
     "termLevel": "06"
   },
@@ -36312,7 +37112,11 @@
       "問題ID": "Lv07_0001",
       "追記": "𢄖は異の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A2%84%96"
+    }
   },
   {
     "termReading": {
@@ -36327,7 +37131,11 @@
       "問題ID": "Lv07_0002",
       "追記": "𠨂は我の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%A8%82"
+    }
   },
   {
     "termReading": {
@@ -36346,7 +37154,11 @@
       "問題ID": "Lv07_0003",
       "追記": "鬱の異体字とする説有。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%88%A9"
+    }
   },
   {
     "termReading": {
@@ -36361,7 +37173,11 @@
       "問題ID": "Lv07_0004",
       "追記": "𠍟は可の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%8F%AF"
+    }
   },
   {
     "termReading": {
@@ -36376,7 +37192,11 @@
       "問題ID": "Lv07_0005",
       "追記": "𠤪は一の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%A4%AA"
+    }
   },
   {
     "termReading": {
@@ -36391,7 +37211,11 @@
       "問題ID": "Lv07_0006",
       "追記": "𠎢は興の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%8E%A2"
+    }
   },
   {
     "termReading": {
@@ -36406,7 +37230,11 @@
       "問題ID": "Lv07_0007",
       "追記": "𠝁は制の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%9D%81"
+    }
   },
   {
     "termReading": {
@@ -36424,7 +37252,11 @@
       "問題ID": "Lv07_0008",
       "追記": "〇は星の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%89%87%E5%A4%A9%E6%96%87%E5%AD%97"
+    }
   },
   {
     "termReading": {
@@ -36439,7 +37271,11 @@
       "問題ID": "Lv07_0009",
       "追記": "𧾸は正の異体字。𧾸とよく似た𣥔という異体字も存在する。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E6%AD%A3"
+    }
   },
   {
     "termReading": {
@@ -36457,7 +37293,11 @@
       "問題ID": "Lv07_0010",
       "追記": "𣥄は乏の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E4%B9%8F"
+    }
   },
   {
     "termReading": {
@@ -36472,7 +37312,11 @@
       "問題ID": "Lv07_0011",
       "追記": "接の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%AA%89%9A"
+    }
   },
   {
     "termReading": {
@@ -36487,7 +37331,11 @@
       "問題ID": "Lv07_0012",
       "追記": "則の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%9F%AD"
+    }
   },
   {
     "termReading": {
@@ -36505,7 +37353,11 @@
       "問題ID": "Lv07_0013",
       "追記": "𠕲は雨の古字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%95%B2"
+    }
   },
   {
     "termReading": {
@@ -36520,7 +37372,11 @@
       "問題ID": "Lv07_0014",
       "追記": "𠃰は備の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%83%B0"
+    }
   },
   {
     "termReading": {
@@ -36536,7 +37392,11 @@
       "問題ID": "Lv07_0015",
       "追記": "聲と聞をメに直した合字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%BC%86"
+    }
   },
   {
     "termReading": {
@@ -36551,7 +37411,11 @@
       "問題ID": "Lv07_0016",
       "追記": "𤲽は校の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A4%B2%BD"
+    }
   },
   {
     "termReading": {
@@ -36566,7 +37430,11 @@
       "問題ID": "Lv07_0017",
       "追記": "𢦉は空の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%A9%BA"
+    }
   },
   {
     "termReading": {
@@ -36581,7 +37449,11 @@
       "問題ID": "Lv07_0018",
       "追記": "𡣡は妖の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%A1%A3%A1"
+    }
   },
   {
     "termReading": {
@@ -36598,7 +37470,11 @@
       ],
       "問題ID": "Lv07_0019"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%A2%89"
+    }
   },
   {
     "termReading": {
@@ -36609,7 +37485,11 @@
       "意味": "鶏が「クク」と鳴くこと。",
       "問題ID": "Lv07_0020"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%9B%99"
+    }
   },
   {
     "termReading": {
@@ -36627,7 +37507,11 @@
       "問題ID": "Lv07_0021",
       "追記": "𠀑は天の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E5%86%8A%E4%B8%87%E6%AD%B3"
+    }
   },
   {
     "termReading": {
@@ -36646,7 +37530,11 @@
       "問題ID": "Lv07_0022",
       "追記": "𫐃は申の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%90%83"
+    }
   },
   {
     "termReading": {
@@ -36660,7 +37548,11 @@
       ],
       "問題ID": "Lv07_0023"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%8D%89"
+    }
   },
   {
     "termReading": {
@@ -36676,7 +37568,11 @@
       "問題ID": "Lv07_0024",
       "追記": "𠍺は夏の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%8D%BA"
+    }
   },
   {
     "termReading": {
@@ -36695,7 +37591,11 @@
       "問題ID": "Lv07_0025",
       "追記": "𩶠は回の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%9B%9E"
+    }
   },
   {
     "termReading": {
@@ -36710,7 +37610,11 @@
       "問題ID": "Lv07_0026",
       "追記": "「おしまろば・す」「おしふ・す」という読みも存在する。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%90%9E"
+    }
   },
   {
     "termReading": {
@@ -36725,7 +37629,11 @@
       "問題ID": "Lv07_0027",
       "追記": "創作漢字の一。もとは珍走団(暴走族)のグループ名。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%99%B9"
+    }
   },
   {
     "termReading": {
@@ -36742,7 +37650,11 @@
       ],
       "問題ID": "Lv07_0028"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%9A%A9"
+    }
   },
   {
     "termReading": {
@@ -36756,7 +37668,11 @@
       ],
       "問題ID": "Lv07_0029"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8D%86"
+    }
   },
   {
     "termReading": {
@@ -36771,7 +37687,11 @@
       "問題ID": "Lv07_0030",
       "追記": "「やさ・しい」という読みも存在する。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%A3%90"
+    }
   },
   {
     "termReading": {
@@ -36787,7 +37707,11 @@
       "問題ID": "Lv07_0031",
       "追記": "䞼は竄の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%E4%9E%BC"
+    }
   },
   {
     "termReading": {
@@ -36802,7 +37726,11 @@
       "問題ID": "Lv07_0032",
       "追記": "簫の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%9B%95"
+    }
   },
   {
     "termReading": {
@@ -36817,7 +37745,11 @@
       "問題ID": "Lv07_0033",
       "追記": "𨭻は証の則天文字。𨲢は聖の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E8%A8%BC%E8%81%96"
+    }
   },
   {
     "termReading": {
@@ -36832,7 +37764,11 @@
       "問題ID": "Lv07_0034",
       "追記": "𠀺は除の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%89%87%E5%A4%A9%E6%96%87%E5%AD%97"
+    }
   },
   {
     "termReading": {
@@ -36847,7 +37783,11 @@
       "問題ID": "Lv07_0035",
       "追記": "𠀑は天の則天文字。埊は地の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%89%87%E5%A4%A9%E6%96%87%E5%AD%97"
+    }
   },
   {
     "termReading": {
@@ -36862,7 +37802,11 @@
       "問題ID": "Lv07_0036",
       "追記": "𠧋は載の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%BB%B6%E8%BC%89"
+    }
   },
   {
     "termReading": {
@@ -36877,7 +37821,11 @@
       "問題ID": "Lv07_0037",
       "追記": "䥚は初の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%88%9D"
+    }
   },
   {
     "termReading": {
@@ -36903,7 +37851,11 @@
       "問題ID": "Lv07_0039",
       "追記": "幻の本字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%84%94"
+    }
   },
   {
     "termReading": {
@@ -36919,7 +37871,11 @@
       ],
       "問題ID": "Lv07_0040"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8C%A5"
+    }
   },
   {
     "termReading": {
@@ -36934,7 +37890,11 @@
       "問題ID": "Lv07_0041",
       "追記": "𠏁は化の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%8F%81"
+    }
   },
   {
     "termReading": {
@@ -36949,7 +37909,11 @@
       "問題ID": "Lv07_0042",
       "追記": "𨘡は原の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%8E%9F"
+    }
   },
   {
     "termReading": {
@@ -36964,7 +37928,11 @@
       "問題ID": "Lv07_0043",
       "追記": "𠆪は高の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%86%AA"
+    }
   },
   {
     "termReading": {
@@ -36978,7 +37946,11 @@
       ],
       "問題ID": "Lv07_0044"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%99%B6"
+    }
   },
   {
     "termReading": {
@@ -36997,7 +37969,11 @@
       "問題ID": "Lv07_0045",
       "追記": "現在使われる「（旗などが）はためく」とは意味が異なる。『運歩色葉集』には「𫦿 ハタメク 天神」と記載されている。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%A6%BF"
+    }
   },
   {
     "termReading": {
@@ -37013,7 +37989,11 @@
       "問題ID": "Lv07_0046",
       "追記": "江戸時代後期の蘭方医・宇田川玄真による造字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%BC%97"
+    }
   },
   {
     "termReading": {
@@ -37028,7 +38008,11 @@
       ],
       "問題ID": "Lv07_0047"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%94%9D"
+    }
   },
   {
     "termReading": {
@@ -37042,7 +38026,11 @@
       ],
       "問題ID": "Lv07_0048"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%A6%B9"
+    }
   },
   {
     "termReading": {
@@ -37056,7 +38044,11 @@
       ],
       "問題ID": "Lv07_0049"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%A8%A6"
+    }
   },
   {
     "termReading": {
@@ -37071,7 +38063,11 @@
       "問題ID": "Lv07_0050",
       "追記": "𮤩は開と貴の合字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%A4%A9"
+    }
   },
   {
     "termReading": {
@@ -37120,7 +38116,11 @@
       ],
       "問題ID": "Lv07_0054"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%99%8F"
+    }
   },
   {
     "termReading": {
@@ -37136,7 +38136,11 @@
       ],
       "問題ID": "Lv07_0055"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%A6%88"
+    }
   },
   {
     "termReading": {
@@ -37152,7 +38156,11 @@
       "問題ID": "Lv07_0056",
       "追記": "𠂖は弟の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%82%96"
+    }
   },
   {
     "termReading": {
@@ -37163,7 +38171,11 @@
       "意味": "小型帆船の一種。カッターボート",
       "問題ID": "Lv07_0057"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%9C%91"
+    }
   },
   {
     "termReading": {
@@ -37178,7 +38190,11 @@
       "問題ID": "Lv07_0058",
       "追記": "𠃼は思の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%83%BC"
+    }
   },
   {
     "termReading": {
@@ -37192,7 +38208,11 @@
       ],
       "問題ID": "Lv07_0059"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%BA%B1"
+    }
   },
   {
     "termReading": {
@@ -37203,7 +38223,11 @@
       "意味": "いいがかりをつけてなじること。",
       "問題ID": "Lv07_0060"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%A3%95"
+    }
   },
   {
     "termReading": {
@@ -37217,7 +38241,11 @@
       ],
       "問題ID": "Lv07_0061"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8A%A6"
+    }
   },
   {
     "termReading": {
@@ -37231,7 +38259,11 @@
       ],
       "問題ID": "Lv07_0062"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%99%8B"
+    }
   },
   {
     "termReading": {
@@ -37245,7 +38277,11 @@
       ],
       "問題ID": "Lv07_0063"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%94%8E"
+    }
   },
   {
     "termReading": {
@@ -37259,7 +38295,11 @@
       ],
       "問題ID": "Lv07_0064"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%8B%A0"
+    }
   },
   {
     "termReading": {
@@ -37276,7 +38316,11 @@
       ],
       "問題ID": "Lv07_0065"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%8B%AC"
+    }
   },
   {
     "termReading": {
@@ -37290,7 +38334,11 @@
       ],
       "問題ID": "Lv07_0066"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E5%A4%A7%E4%97%A9-1768246"
+    }
   },
   {
     "termReading": {
@@ -37304,7 +38352,11 @@
       ],
       "問題ID": "Lv07_0067"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%9C%8C"
+    }
   },
   {
     "termReading": {
@@ -37315,7 +38367,11 @@
       "意味": "歌舞伎、浄瑠璃の外題。",
       "問題ID": "Lv07_0068"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%F0%AA%AB%84%E8%91%9B%E5%9F%8E%E5%90%88%E6%88%A6-2119194#w-2195706"
+    }
   },
   {
     "termReading": {
@@ -37330,7 +38386,11 @@
       "問題ID": "Lv07_0069",
       "追記": "国字ではないとする説有。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%A2%86"
+    }
   },
   {
     "termReading": {
@@ -37344,7 +38404,11 @@
       ],
       "問題ID": "Lv07_0070"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8F%AE"
+    }
   },
   {
     "termReading": {
@@ -37358,7 +38422,11 @@
       ],
       "問題ID": "Lv07_0071"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%B1%B6"
+    }
   },
   {
     "termReading": {
@@ -37372,7 +38440,11 @@
       ],
       "問題ID": "Lv07_0072"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%AE%91"
+    }
   },
   {
     "termReading": {
@@ -37389,7 +38461,11 @@
       ],
       "問題ID": "Lv07_0073"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%92%9A"
+    }
   },
   {
     "termReading": {
@@ -37404,7 +38480,11 @@
       "問題ID": "Lv07_0074",
       "追記": "𢑑は多の異体字でもある。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A2%91%91"
+    }
   },
   {
     "termReading": {
@@ -37420,7 +38500,11 @@
       "問題ID": "Lv07_0075",
       "追記": "𬼄は啢の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%BC%84"
+    }
   },
   {
     "termReading": {
@@ -37432,7 +38516,11 @@
       "問題ID": "Lv07_0076",
       "追記": "「クウインタル」 などとも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%93%8F"
+    }
   },
   {
     "termReading": {
@@ -37443,7 +38531,11 @@
       "意味": "荷物の運搬を目的とした自動車。",
       "問題ID": "Lv07_0077"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A8%8A%A3"
+    }
   },
   {
     "termReading": {
@@ -37457,7 +38549,11 @@
       ],
       "問題ID": "Lv07_0078"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%8A%82"
+    }
   },
   {
     "termReading": {
@@ -37472,7 +38568,11 @@
       "問題ID": "Lv07_0079",
       "追記": "𭮅は卵、鯤の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AD%AE%85"
+    }
   },
   {
     "termReading": {
@@ -37487,7 +38587,11 @@
       "問題ID": "Lv07_0080",
       "追記": "𠈌は虞の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%88%8C"
+    }
   },
   {
     "termReading": {
@@ -37501,7 +38605,11 @@
       ],
       "問題ID": "Lv07_0081"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%A3%96"
+    }
   },
   {
     "termReading": {
@@ -37515,7 +38623,11 @@
       ],
       "問題ID": "Lv07_0082"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E4%B8%82"
+    }
   },
   {
     "termReading": {
@@ -37529,7 +38641,11 @@
       ],
       "問題ID": "Lv07_0083"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%BA%8F"
+    }
   },
   {
     "termReading": {
@@ -37545,7 +38661,11 @@
       "問題ID": "Lv07_0084",
       "追記": "㒻や冐の異体字とする説有。「つきすす・む」という訓は㫯固有のもの。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%E3%AB%AF"
+    }
   },
   {
     "termReading": {
@@ -37561,7 +38681,11 @@
       "問題ID": "Lv07_0085",
       "追記": "『和製漢字の辞典 2014』には、[⿰金⿱段帥]かぬちの字形で掲載されている。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%AC%A2"
+    }
   },
   {
     "termReading": {
@@ -37576,7 +38700,11 @@
       "問題ID": "Lv07_0086",
       "追記": "丰は豊、封の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E4%B8%B0"
+    }
   },
   {
     "termReading": {
@@ -37591,7 +38719,11 @@
       "問題ID": "Lv07_0087",
       "追記": "𣬓は拝の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E6%8B%9D"
+    }
   },
   {
     "termReading": {
@@ -37606,7 +38738,11 @@
       "問題ID": "Lv07_0088",
       "追記": "𥅫は衆の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E8%A1%86"
+    }
   },
   {
     "termReading": {
@@ -37621,7 +38757,11 @@
       "問題ID": "Lv07_0089",
       "追記": "𠄰は老の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%84%B0"
+    }
   },
   {
     "termReading": {
@@ -37633,7 +38773,11 @@
       "問題ID": "Lv07_0090",
       "追記": "𣟒は無の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%84%A1"
+    }
   },
   {
     "termReading": {
@@ -37648,7 +38792,11 @@
       "問題ID": "Lv07_0091",
       "追記": "𠷻は漂の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%B7%BB"
+    }
   },
   {
     "termReading": {
@@ -37659,7 +38807,11 @@
       "意味": "ベトナム共産党第六回党大会で出された、経済や社会思想の新たな転換を目指す標語。",
       "問題ID": "Lv07_0092"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%A4%E3%83%A2%E3%82%A4"
+    }
   },
   {
     "termReading": {
@@ -37673,7 +38825,11 @@
       ],
       "問題ID": "Lv07_0093"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AA%E3%82%B6%E3%82%A4"
+    }
   },
   {
     "termReading": {
@@ -37684,7 +38840,11 @@
       "意味": "ベトナム中部の都市、フエ名物の米粉の麺と牛肉を用いた料理。",
       "問題ID": "Lv07_0094"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%95%E3%82%A8"
+    }
   },
   {
     "termReading": {
@@ -37695,7 +38855,11 @@
       "意味": "ベトナム全土で用いられる、ラタニアの木の葉でできた伝統的な円錐形の葉笠。",
       "問題ID": "Lv07_0095"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%B3%E3%83%A9%E3%83%BC"
+    }
   },
   {
     "termReading": {
@@ -37706,7 +38870,11 @@
       "意味": "ベトナム料理で用いられる、平たいライスヌードル。",
       "問題ID": "Lv07_0096"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A9%E3%83%BC"
+    }
   },
   {
     "termReading": {
@@ -37718,7 +38886,11 @@
       "問題ID": "Lv07_0097",
       "追記": "𪔠𡡇は、別名「𪔠大(チョンダイ)」という。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%A4"
+    }
   },
   {
     "termReading": {
@@ -37729,7 +38901,11 @@
       "意味": "ベトナム南部のメコンデルタ地域で見られる特色あるスープ。",
       "問題ID": "Lv07_0098"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%A4%E3%83%B3%E3%83%81%E3%83%A5%E3%82%A2"
+    }
   },
   {
     "termReading": {
@@ -37743,7 +38919,11 @@
       ],
       "問題ID": "Lv07_0099"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8C%E3%82%AA%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%A0"
+    }
   },
   {
     "termReading": {
@@ -37755,7 +38935,11 @@
       "問題ID": "Lv07_0100",
       "追記": "塲は場の異体字でもある。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%83%81%E3%83%A3%E3%83%B3"
+    }
   },
   {
     "termReading": {
@@ -37766,7 +38950,11 @@
       "意味": "「漢字」をベトナム語で表したもの。",
       "問題ID": "Lv07_0101"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%8F%E3%83%B3"
+    }
   },
   {
     "termReading": {
@@ -37781,7 +38969,11 @@
       "問題ID": "Lv07_0102",
       "追記": "𠡦は年の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%B9%B4"
+    }
   },
   {
     "termReading": {
@@ -37795,7 +38987,11 @@
       ],
       "問題ID": "Lv07_0103"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E8%BC%89%E5%88%9D"
+    }
   },
   {
     "termReading": {
@@ -37810,7 +39006,11 @@
       "問題ID": "Lv07_0104",
       "追記": "𠙺は正の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%99%BA"
+    }
   },
   {
     "termReading": {
@@ -37824,7 +39024,11 @@
       ],
       "問題ID": "Lv07_0105"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%AB%BC"
+    }
   },
   {
     "termReading": {
@@ -37838,7 +39042,11 @@
       ],
       "問題ID": "Lv07_0106"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%B5%8B"
+    }
   },
   {
     "termReading": {
@@ -37855,7 +39063,11 @@
       ],
       "問題ID": "Lv07_0107"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%9B%96"
+    }
   },
   {
     "termReading": {
@@ -37872,7 +39084,11 @@
       ],
       "問題ID": "Lv07_0108"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "//w.atwiki.jp/kanjidego/?page=%F0%AB%9A%B5"
+    }
   },
   {
     "termReading": {
@@ -37890,7 +39106,11 @@
       "問題ID": "Lv07_0109",
       "追記": "『新撰字鏡』に「酒蠅」と記載されている。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%A0%B3"
+    }
   },
   {
     "termReading": {
@@ -37904,7 +39124,11 @@
       ],
       "問題ID": "Lv07_0110"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%95%83"
+    }
   },
   {
     "termReading": {
@@ -37919,7 +39143,11 @@
       ],
       "問題ID": "Lv07_0111"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%9A%85"
+    }
   },
   {
     "termReading": {
@@ -37937,7 +39165,11 @@
       "問題ID": "Lv07_0112",
       "追記": "𡗃は烏の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u70cf-j"
+    }
   },
   {
     "termReading": {
@@ -37954,7 +39186,11 @@
       ],
       "問題ID": "Lv07_0113"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%F0%AC%AF%B3%E5%8A%A0%E5%A2%97%E6%9B%BE%E6%88%91-2119149"
+    }
   },
   {
     "termReading": {
@@ -38009,7 +39245,11 @@
       "意味": "かつて使用されていた長さの単位。キロメートルの10倍。",
       "問題ID": "Lv07_0118"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A5%B8%AF"
+    }
   },
   {
     "termReading": {
@@ -38023,7 +39263,11 @@
       ],
       "問題ID": "Lv07_0119"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AD%94%96"
+    }
   },
   {
     "termReading": {
@@ -38039,7 +39283,11 @@
       ],
       "問題ID": "Lv07_0120"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%84%89"
+    }
   },
   {
     "termReading": {
@@ -38053,7 +39301,11 @@
       ],
       "問題ID": "Lv07_0121"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%89%A0"
+    }
   },
   {
     "termReading": {
@@ -38065,7 +39317,11 @@
       "問題ID": "Lv07_0122",
       "追記": "𠙴は𥬔の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%99%B4"
+    }
   },
   {
     "termReading": {
@@ -38081,7 +39337,11 @@
       "問題ID": "Lv07_0123",
       "追記": "𡈍は零の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A1%88%8D"
+    }
   },
   {
     "termReading": {
@@ -38095,7 +39355,11 @@
       ],
       "問題ID": "Lv07_0124"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%AC%87%9C"
+    }
   },
   {
     "termReading": {
@@ -38112,7 +39376,11 @@
       ],
       "問題ID": "Lv07_0125"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%82%9C"
+    }
   },
   {
     "termReading": {
@@ -38124,7 +39392,11 @@
       "問題ID": "Lv07_0126",
       "追記": "𠁼は伊の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%81%BC"
+    }
   },
   {
     "termReading": {
@@ -38138,7 +39410,11 @@
       ],
       "問題ID": "Lv07_0127"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%9A%A5"
+    }
   },
   {
     "termReading": {
@@ -38149,7 +39425,11 @@
       "意味": "発酵後にタンドールで窯焼きされる、焼いて作られる平らなパンのひとつ。",
       "問題ID": "Lv07_0128"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%B3"
+    }
   },
   {
     "termReading": {
@@ -38161,7 +39441,11 @@
       "問題ID": "Lv07_0129",
       "追記": "𠔹は晨の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%94%B9"
+    }
   },
   {
     "termReading": {
@@ -38176,7 +39460,11 @@
       "問題ID": "Lv07_0130",
       "追記": "『足毛𮙅(あしげのこまごと)』という滑稽本も存在している。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%99%85"
+    }
   },
   {
     "termReading": {
@@ -38190,7 +39478,11 @@
       ],
       "問題ID": "Lv07_0131"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%B0%AA"
+    }
   },
   {
     "termReading": {
@@ -38205,7 +39497,11 @@
       "問題ID": "Lv07_0132",
       "追記": "𠮘は斎の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%AE%98"
+    }
   },
   {
     "termReading": {
@@ -38221,7 +39517,11 @@
       "問題ID": "Lv07_0133",
       "追記": "𤏞は粼の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%B2%BC"
+    }
   },
   {
     "termReading": {
@@ -38236,7 +39536,11 @@
       "問題ID": "Lv07_0134",
       "追記": "「こづつみ」「せめつづみ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E9%BC%99"
+    }
   },
   {
     "termReading": {
@@ -38256,7 +39560,11 @@
       "問題ID": "Lv07_0135",
       "追記": "㘥は囮の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E5%9B%AE"
+    }
   },
   {
     "termReading": {
@@ -38271,7 +39579,11 @@
       "問題ID": "Lv07_0136",
       "追記": "𫡰は壽(寿)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%A1%B0"
+    }
   },
   {
     "termReading": {
@@ -38286,7 +39598,11 @@
       "問題ID": "Lv07_0137",
       "追記": "𨟨は郭の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E9%83%AD"
+    }
   },
   {
     "termReading": {
@@ -38301,7 +39617,11 @@
       ],
       "問題ID": "Lv07_0138"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%91%BD#%7B%7Bpron%7D%7D"
+    }
   },
   {
     "termReading": {
@@ -38315,7 +39635,11 @@
       ],
       "問題ID": "Lv07_0139"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%86%BA"
+    }
   },
   {
     "termReading": {
@@ -38333,7 +39657,11 @@
       ],
       "問題ID": "Lv07_0140"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%BB%80"
+    }
   },
   {
     "termReading": {
@@ -38347,7 +39675,11 @@
       ],
       "問題ID": "Lv07_0141"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8A%9C"
+    }
   },
   {
     "termReading": {
@@ -38361,7 +39693,11 @@
       ],
       "問題ID": "Lv07_0142"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%96%BE"
+    }
   },
   {
     "termReading": {
@@ -38372,7 +39708,11 @@
       "意味": "地面の上で飛び上がること。",
       "問題ID": "Lv07_0143"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8F%A1"
+    }
   },
   {
     "termReading": {
@@ -38387,7 +39727,11 @@
       "問題ID": "Lv07_0144",
       "追記": "「くつのきびひす」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%96%8B"
+    }
   },
   {
     "termReading": {
@@ -38406,7 +39750,11 @@
       "問題ID": "Lv07_0145",
       "追記": "𠀌は丘の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%80%8C"
+    }
   },
   {
     "termReading": {
@@ -38424,7 +39772,11 @@
       ],
       "問題ID": "Lv07_0146"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%89%B0"
+    }
   },
   {
     "termReading": {
@@ -38440,7 +39792,11 @@
       ],
       "問題ID": "Lv07_0147"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%95%A3"
+    }
   },
   {
     "termReading": {
@@ -38456,7 +39812,11 @@
       "問題ID": "Lv07_0148",
       "追記": "「まちきみ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AD%B8%BD"
+    }
   },
   {
     "termReading": {
@@ -38476,7 +39836,11 @@
       "問題ID": "Lv07_0149",
       "追記": "鋛は鉱の異体字。「あかかね」「かなまり」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E9%91%9B"
+    }
   },
   {
     "termReading": {
@@ -38492,7 +39856,11 @@
       "問題ID": "Lv07_0150",
       "追記": "𤕈は戀(恋)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A4%95%88"
+    }
   },
   {
     "termReading": {
@@ -38507,7 +39875,11 @@
       ],
       "問題ID": "Lv07_0151"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%9C%96"
+    }
   },
   {
     "termReading": {
@@ -38523,7 +39895,11 @@
       "問題ID": "Lv07_0152",
       "追記": "𠮛は旨の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%AE%9B"
+    }
   },
   {
     "termReading": {
@@ -38538,7 +39914,11 @@
       "問題ID": "Lv07_0153",
       "追記": "𠃑は乚(隠)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%83%91#%7B%7Bpron%7D%7D"
+    }
   },
   {
     "termReading": {
@@ -38553,7 +39933,11 @@
       "問題ID": "Lv07_0154",
       "追記": "𭀜は兌の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AD%80%9C"
+    }
   },
   {
     "termReading": {
@@ -38568,7 +39952,11 @@
       "問題ID": "Lv07_0155",
       "追記": "㚉は夃の異体字。「もう・かる」は㚉固有の訓。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%E3%9A%89"
+    }
   },
   {
     "termReading": {
@@ -38583,7 +39971,11 @@
       "問題ID": "Lv07_0156",
       "追記": "𩇒は震の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A9%87%92"
+    }
   },
   {
     "termReading": {
@@ -38598,7 +39990,11 @@
       "問題ID": "Lv07_0157",
       "追記": "𢌭は等の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A2%8C%AD"
+    }
   },
   {
     "termReading": {
@@ -38614,7 +40010,11 @@
       "問題ID": "Lv07_0158",
       "追記": "𠁡は卜の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%81%A1"
+    }
   },
   {
     "termReading": {
@@ -38625,7 +40025,11 @@
       "意味": "気持ちが落ち込んで陰鬱なさま。",
       "問題ID": "Lv07_0159"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%A1%89"
+    }
   },
   {
     "termReading": {
@@ -38637,7 +40041,11 @@
       "問題ID": "Lv07_0160",
       "追記": "𡔘は粗(麤)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E9%BA%A4"
+    }
   },
   {
     "termReading": {
@@ -38652,7 +40060,11 @@
       "問題ID": "Lv07_0161",
       "追記": "𠩜は猛の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%A9%9C"
+    }
   },
   {
     "termReading": {
@@ -38667,7 +40079,11 @@
       "問題ID": "Lv07_0162",
       "追記": "𢨋は悖の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A2%A8%8B"
+    }
   },
   {
     "termReading": {
@@ -38682,7 +40098,11 @@
       "問題ID": "Lv07_0163",
       "追記": "𠕞は次の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%95%9E"
+    }
   },
   {
     "termReading": {
@@ -38697,7 +40117,11 @@
       "問題ID": "Lv07_0164",
       "追記": "𠤦は濡の異体字。「𠤥」というよく似た異体字も存在する。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%A4%A6"
+    }
   },
   {
     "termReading": {
@@ -38709,7 +40133,11 @@
       "問題ID": "Lv07_0165",
       "追記": "𠄟は下の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E4%B8%8B"
+    }
   },
   {
     "termReading": {
@@ -38724,7 +40152,11 @@
       "問題ID": "Lv07_0166",
       "追記": "𧁇は若の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E8%8B%A5"
+    }
   },
   {
     "termReading": {
@@ -38736,7 +40168,11 @@
       "問題ID": "Lv07_0167",
       "追記": "𣒏は椒の異体字。よく似た字形の異体字が多い。(下記画像参照)"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%A3%92%8F"
+    }
   },
   {
     "termReading": {
@@ -38751,7 +40187,11 @@
       "問題ID": "Lv07_0168",
       "追記": "𠔀は攀や九の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%A0%94%80"
+    }
   },
   {
     "termReading": {
@@ -38763,7 +40203,11 @@
       "問題ID": "Lv07_0169",
       "追記": "𢳘は搖(揺)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%A2%B3%98"
+    }
   },
   {
     "termReading": {
@@ -38778,7 +40222,11 @@
       "問題ID": "Lv07_0170",
       "追記": "𠄷は齊(斉)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%84%B7"
+    }
   },
   {
     "termReading": {
@@ -38793,7 +40241,11 @@
       "問題ID": "Lv07_0171",
       "追記": "𠭛は弁の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%AD%9B"
+    }
   },
   {
     "termReading": {
@@ -38809,7 +40261,11 @@
       ],
       "問題ID": "Lv07_0172"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%8F%94"
+    }
   },
   {
     "termReading": {
@@ -38823,7 +40279,11 @@
       ],
       "問題ID": "Lv07_0173"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%9F%87"
+    }
   },
   {
     "termReading": {
@@ -38838,7 +40298,11 @@
       "問題ID": "Lv07_0174",
       "追記": "「さかりにもゆ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A4%89%87"
+    }
   },
   {
     "termReading": {
@@ -38855,7 +40319,11 @@
       "問題ID": "Lv07_0175",
       "追記": "𨄩は匐の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u5310-j"
+    }
   },
   {
     "termReading": {
@@ -38870,7 +40338,11 @@
       "問題ID": "Lv07_0176",
       "追記": "『音訓篇立』には「たはふる(戯る)」「いさかふ(諍う)」「をもしろし(面白し)」という訓も記載されている。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%9F%A7"
+    }
   },
   {
     "termReading": {
@@ -38889,7 +40361,11 @@
       "問題ID": "Lv07_0177",
       "追記": "𠫬は幽の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%AB%AC"
+    }
   },
   {
     "termReading": {
@@ -38904,7 +40380,11 @@
       "問題ID": "Lv07_0178",
       "追記": "𡚅は華の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E8%8F%AF"
+    }
   },
   {
     "termReading": {
@@ -38919,7 +40399,11 @@
       "問題ID": "Lv07_0179",
       "追記": "𠙙は冠の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%99%99"
+    }
   },
   {
     "termReading": {
@@ -38934,7 +40418,11 @@
       "問題ID": "Lv07_0180",
       "追記": "啓の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%AD%8E"
+    }
   },
   {
     "termReading": {
@@ -38949,7 +40437,11 @@
       "問題ID": "Lv07_0181",
       "追記": "𠧳は克の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%A7%B3"
+    }
   },
   {
     "termReading": {
@@ -38964,7 +40456,11 @@
       "問題ID": "Lv07_0182",
       "追記": "㘸は坐の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u5750-j"
+    }
   },
   {
     "termReading": {
@@ -38978,7 +40474,11 @@
       ],
       "問題ID": "Lv07_0183"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://zi.tools/zi/%F0%AC%9C%B0"
+    }
   },
   {
     "termReading": {
@@ -38997,7 +40497,11 @@
       "問題ID": "Lv07_0184",
       "追記": "𡇜は含の異体字"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A1%87%9C"
+    }
   },
   {
     "termReading": {
@@ -39012,7 +40516,11 @@
       "問題ID": "Lv07_0185",
       "追記": "𮏳は兼の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AE%8F%B3"
+    }
   },
   {
     "termReading": {
@@ -39027,7 +40535,11 @@
       "問題ID": "Lv07_0186",
       "追記": "𠵓は玄の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%8E%84"
+    }
   },
   {
     "termReading": {
@@ -39046,7 +40558,11 @@
       "問題ID": "Lv07_0187",
       "追記": "𢑚は申の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%94%B3"
+    }
   },
   {
     "termReading": {
@@ -39058,7 +40574,11 @@
       "問題ID": "Lv07_0188",
       "追記": "𡈪は満の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A1%88%AA"
+    }
   },
   {
     "termReading": {
@@ -39076,7 +40596,11 @@
       "問題ID": "Lv07_0189",
       "追記": "𦥮は為の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E7%88%B2"
+    }
   },
   {
     "termReading": {
@@ -39091,7 +40615,11 @@
       "問題ID": "Lv07_0190",
       "追記": "𤄻は淺(浅)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://glyphwiki.org/wiki/u2413b"
+    }
   },
   {
     "termReading": {
@@ -39106,7 +40634,11 @@
       "問題ID": "Lv07_0191",
       "追記": "𣊆は渴(渇)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u6e34"
+    }
   },
   {
     "termReading": {
@@ -39121,7 +40653,11 @@
       "問題ID": "Lv07_0192",
       "追記": "𦎧は準の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u6e96-g"
+    }
   },
   {
     "termReading": {
@@ -39136,7 +40672,11 @@
       "問題ID": "Lv07_0193",
       "追記": "𥲮は毒の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u6bd2"
+    }
   },
   {
     "termReading": {
@@ -39151,7 +40691,11 @@
       "問題ID": "Lv07_0194",
       "追記": "𨊊は樂(楽)の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E6%A8%82"
+    }
   },
   {
     "termReading": {
@@ -39166,7 +40710,11 @@
       "問題ID": "Lv07_0195",
       "追記": "𡆶は模の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A1%86%B6"
+    }
   },
   {
     "termReading": {
@@ -39181,7 +40729,11 @@
       "問題ID": "Lv07_0196",
       "追記": "𤯽は死の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u6b7b-g"
+    }
   },
   {
     "termReading": {
@@ -39196,7 +40748,11 @@
       "問題ID": "Lv07_0197",
       "追記": "𤔮は殺の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E6%AE%BA"
+    }
   },
   {
     "termReading": {
@@ -39211,7 +40767,11 @@
       "問題ID": "Lv07_0198",
       "追記": "𡸬は堆の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/u5806"
+    }
   },
   {
     "termReading": {
@@ -39222,7 +40782,11 @@
       "意味": "天下に背くこと。",
       "問題ID": "Lv07_0199"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E8%BF%97%E9%80%87"
+    }
   },
   {
     "termReading": {
@@ -39237,7 +40801,11 @@
       "問題ID": "Lv07_0200",
       "追記": "𡔌は重の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://glyphwiki.org/wiki/u91cd"
+    }
   },
   {
     "termReading": {
@@ -39248,7 +40816,11 @@
       "意味": "ベトナムのホーチミン市に位置する、大規模な市場。「ベンタイン市場」とも。",
       "問題ID": "Lv07_0201"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E5%B8%82%E5%A0%B4"
+    }
   },
   {
     "termReading": {
@@ -39259,7 +40831,11 @@
       "意味": "歌舞伎、浄瑠璃の外題。",
       "問題ID": "Lv07_0202"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E6%A1%9C%E8%8D%89%E5%AF%BE%E3%81%AE%E9%9D%9B-2114808"
+    }
   },
   {
     "termReading": {
@@ -39273,7 +40849,11 @@
       ],
       "問題ID": "Lv07_0203"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "コトバンク",
+      "url": "https://kotobank.jp/word/%E7%9D%A6%E6%9C%88%E9%80%A3%E7%90%86%F0%A2%A2%AB-2117531"
+    }
   },
   {
     "termReading": {
@@ -39287,7 +40867,11 @@
       ],
       "問題ID": "Lv07_0204"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E4%BF%A7"
+    }
   },
   {
     "termReading": {
@@ -39302,7 +40886,11 @@
       "問題ID": "Lv07_0205",
       "追記": "𨙨は苑の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A8%99%A8"
+    }
   },
   {
     "termReading": {
@@ -39316,7 +40904,11 @@
       ],
       "問題ID": "Lv07_0206"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "//w.atwiki.jp/kanjidego/?page=htps%3A%2Fzi.tools%2Fzi%2F%25E8%25AD%25AA"
+    }
   },
   {
     "termReading": {
@@ -39333,7 +40925,11 @@
       ],
       "問題ID": "Lv07_0207"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%92%B4"
+    }
   },
   {
     "termReading": {
@@ -39351,7 +40947,11 @@
       "問題ID": "Lv07_0208",
       "追記": "「もちきり」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%92%86"
+    }
   },
   {
     "termReading": {
@@ -39366,7 +40966,11 @@
       "問題ID": "Lv07_0209",
       "追記": "𬻿は也の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%BB%BF"
+    }
   },
   {
     "termReading": {
@@ -39378,7 +40982,11 @@
       "問題ID": "Lv07_0210",
       "追記": "文と章の合字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AD%A4%8A"
+    }
   },
   {
     "termReading": {
@@ -39392,7 +41000,11 @@
       ],
       "問題ID": "Lv07_0211"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%82%BF"
+    }
   },
   {
     "termReading": {
@@ -39409,7 +41021,11 @@
       "問題ID": "Lv07_0212",
       "追記": "「ついくえ」「みおしるし」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_4f.html"
+    }
   },
   {
     "termReading": {
@@ -39423,7 +41039,11 @@
       ],
       "問題ID": "Lv07_0213"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%84%8E"
+    }
   },
   {
     "termReading": {
@@ -39439,7 +41059,11 @@
       "問題ID": "Lv07_0214",
       "追記": "「くろべ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%A3%9C%8C"
+    }
   },
   {
     "termReading": {
@@ -39450,7 +41074,11 @@
       "意味": "ユリ目ユリ科のつる性落葉低木。サルトリイバラの別名。",
       "問題ID": "Lv07_0215"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%F0%AC%9D%9D"
+    }
   },
   {
     "termReading": {
@@ -39461,7 +41089,11 @@
       "意味": "ベトナムにおけるサンドイッチの呼称。また、広義のパンなどの総称。",
       "問題ID": "Lv07_0216"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%A4%E3%83%B3%E3%83%9F%E3%83%BC"
+    }
   },
   {
     "termReading": {
@@ -39472,7 +41104,11 @@
       "意味": "ベトナム中部のフエが発祥の、伝統的なベトナム料理。",
       "問題ID": "Lv07_0217"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%82%AA%E3%83%88%E3%83%A0"
+    }
   },
   {
     "termReading": {
@@ -39484,7 +41120,11 @@
       "問題ID": "Lv07_0218",
       "追記": "名称には「月の弦楽器」といった意味合いがある。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%BB%E3%82%B0%E3%82%A8%E3%83%83%E3%83%88"
+    }
   },
   {
     "termReading": {
@@ -39498,7 +41138,11 @@
       ],
       "問題ID": "Lv07_0219"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%B7%B3"
+    }
   },
   {
     "termReading": {
@@ -39512,7 +41156,11 @@
       ],
       "問題ID": "Lv07_0220"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_b1.html"
+    }
   },
   {
     "termReading": {
@@ -39526,7 +41174,11 @@
       ],
       "問題ID": "Lv07_0221"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_b1.html"
+    }
   },
   {
     "termReading": {
@@ -39538,7 +41190,11 @@
       "問題ID": "Lv07_0222",
       "追記": "朝鮮でつくられた文字。「くろひょう」は和訓とされる。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%E7%8D%A4"
+    }
   },
   {
     "termReading": {
@@ -39553,7 +41209,11 @@
       "問題ID": "Lv07_0223",
       "追記": "コトバンクの記事中に示されている字体とは少し異なる。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_11.html"
+    }
   },
   {
     "termReading": {
@@ -39568,7 +41228,11 @@
       ],
       "問題ID": "Lv07_0224"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_6n.html"
+    }
   },
   {
     "termReading": {
@@ -39580,7 +41244,11 @@
       "問題ID": "Lv07_0225",
       "追記": "{⿴囗回(しのかげをさるもしちしゃく)影猿七化}という外題も存在する。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_32.html"
+    }
   },
   {
     "termReading": {
@@ -39594,7 +41262,11 @@
       ],
       "問題ID": "Lv07_0226"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_44a.html"
+    }
   },
   {
     "termReading": {
@@ -39609,7 +41281,11 @@
       "問題ID": "Lv07_0227",
       "追記": "𠁈は君の異体字。𢘑は臣の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%89%87%E5%A4%A9%E6%96%87%E5%AD%97"
+    }
   },
   {
     "termReading": {
@@ -39620,7 +41296,11 @@
       "意味": "手当たり次第に探すこと。",
       "問題ID": "Lv07_0228"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_44a.html"
+    }
   },
   {
     "termReading": {
@@ -39632,7 +41312,11 @@
       "問題ID": "Lv07_0229",
       "追記": "鿧はスラブ文字の「рон」を音訳したもの。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%E9%BF%A7"
+    }
   },
   {
     "termReading": {
@@ -39646,7 +41330,11 @@
       ],
       "問題ID": "Lv07_0230"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%E3%A6%B6"
+    }
   },
   {
     "termReading": {
@@ -39662,7 +41350,11 @@
       "問題ID": "Lv07_0231",
       "追記": "𬂗れて月 皛(あきらか) なり。『琑玉集』より"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%82%97"
+    }
   },
   {
     "termReading": {
@@ -39678,7 +41370,11 @@
       "問題ID": "Lv07_0232",
       "追記": "𬂛は𬺰の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%82%9B"
+    }
   },
   {
     "termReading": {
@@ -39692,7 +41388,11 @@
       ],
       "問題ID": "Lv07_0233"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_44a.html"
+    }
   },
   {
     "termReading": {
@@ -39706,7 +41406,11 @@
       ],
       "問題ID": "Lv07_0234"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "zi.tools",
+      "url": "https://zi.tools/zi/%E6%94%86"
+    }
   },
   {
     "termReading": {
@@ -39720,7 +41424,11 @@
       ],
       "問題ID": "Lv07_0235"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_23b.html"
+    }
   },
   {
     "termReading": {
@@ -39734,7 +41442,11 @@
       ],
       "問題ID": "Lv07_0236"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_23b.html"
+    }
   },
   {
     "termReading": {
@@ -39748,7 +41460,11 @@
       ],
       "問題ID": "Lv07_0237"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_25.html"
+    }
   },
   {
     "termReading": {
@@ -39763,7 +41479,11 @@
       ],
       "問題ID": "Lv07_0238"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_2d.html"
+    }
   },
   {
     "termReading": {
@@ -39778,7 +41498,11 @@
       ],
       "問題ID": "Lv07_0239"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_3h.html"
+    }
   },
   {
     "termReading": {
@@ -39796,7 +41520,11 @@
       "問題ID": "Lv07_0240",
       "追記": "江戸時代中期の戯作者・恋川春町が創作した嘘字の一種。『廓[⿱𥫗愚]費字盡(さとのばかむらむだじづくし)』で初めて用いた。その画数の多さから嘘字の中でも知名度はトップクラス。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_31.html"
+    }
   },
   {
     "termReading": {
@@ -39813,7 +41541,11 @@
       ],
       "問題ID": "Lv07_0241"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_3v.html"
+    }
   },
   {
     "termReading": {
@@ -39835,7 +41567,11 @@
       ],
       "問題ID": "Lv07_0242"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%9D%8E"
+    }
   },
   {
     "termReading": {
@@ -39854,7 +41590,11 @@
       ],
       "問題ID": "Lv07_0243"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%8E%A4"
+    }
   },
   {
     "termReading": {
@@ -39869,7 +41609,11 @@
       "問題ID": "Lv07_0244",
       "追記": "江戸時代の戯作家・式亭三馬による著書『小野[⿱𥫗愚(ばかむら)]譃字盡』の中で登場した嘘字の一つ。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "グリフウィキ",
+      "url": "https://glyphwiki.org/wiki/Group:%E5%B0%8F%E9%87%8E%E3%81%B0%E3%81%8B%E3%82%80%E3%82%89%E8%AD%83%E5%AD%97%E7%9B%A1"
+    }
   },
   {
     "termReading": {
@@ -39884,7 +41628,11 @@
       "問題ID": "Lv07_0245",
       "追記": "江戸時代の戯作家・式亭三馬による著書『小野[⿱𥫗愚(ばかむら)]譃字盡』の中で登場した嘘字の一つ。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://glyphwiki.org/wiki/Group:%E5%B0%8F%E9%87%8E%E3%81%B0%E3%81%8B%E3%82%80%E3%82%89%E8%AD%83%E5%AD%97%E7%9B%A1"
+    }
   },
   {
     "termReading": {
@@ -39906,7 +41654,11 @@
       ],
       "問題ID": "Lv07_0246"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%93%94"
+    }
   },
   {
     "termReading": {
@@ -39923,7 +41675,11 @@
       "問題ID": "Lv07_0247",
       "追記": "鬣の異体字か。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_82.html"
+    }
   },
   {
     "termReading": {
@@ -39938,7 +41694,11 @@
       ],
       "問題ID": "Lv07_0248"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_3b.html"
+    }
   },
   {
     "termReading": {
@@ -39950,7 +41710,11 @@
       "問題ID": "Lv07_0249",
       "追記": "集の異体字とは同型異字。国訓。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_25.html"
+    }
   },
   {
     "termReading": {
@@ -39968,7 +41732,11 @@
       ],
       "問題ID": "Lv07_0250"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AB%AB%AD"
+    }
   },
   {
     "termReading": {
@@ -39979,7 +41747,11 @@
       "意味": "日影の計測のために立てる柱。",
       "問題ID": "Lv07_0251"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B2%E3%83%84%E3%83%BB%E3%82%BB%E3%83%84%E3%83%BB%E3%81%B2%E3%81%8B%E3%81%92%E3%81%B0%E3%81%97%E3%82%89%E3%83%BB%E3%81%8F%E3%81%95%E3%81%B3%28%E6%BC%A2%E5%AD%97%29-2786306"
+    }
   },
   {
     "termReading": {
@@ -39991,7 +41763,11 @@
       "問題ID": "Lv07_0252",
       "追記": "「ぬいぐつ」「かささぎ」「せきのくつ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%BB%E3%82%AD%E3%83%BB%E3%81%AC%E3%81%84%E3%81%90%E3%81%A4%E3%83%BB%E3%81%8B%E3%81%95%E3%81%AD%E3%81%90%E3%81%A4%E3%83%BB%E3%81%8B%E3%81%95%E3%81%95%E3%81%8E%28%E6%BC%A2%E5%AD%97%29-2788255#w-2957638"
+    }
   },
   {
     "termReading": {
@@ -40006,7 +41782,11 @@
       ],
       "問題ID": "Lv07_0253"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%AD%E3%83%BB%E3%82%82%E3%81%AE%E3%81%AE%E3%81%91%E3%83%BB%E3%81%A4%E3%81%A4%E3%81%97%E3%82%80%28%E6%BC%A2%E5%AD%97%29-2785649#w-2954979"
+    }
   },
   {
     "termReading": {
@@ -40023,7 +41803,11 @@
       "問題ID": "Lv07_0254",
       "追記": "花綵(はなづな)は花を編んで作ったつな。またはそれを模した装飾のこと。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A4%E3%83%B3%E3%83%BB%E3%83%81%E3%83%B3%E3%83%BB%E3%81%A4%E3%81%AA%E3%83%BB%E3%81%AF%E3%81%AA%E3%81%A5%E3%81%AA%28%E6%BC%A2%E5%AD%97%29-2784595#w-2953890"
+    }
   },
   {
     "termReading": {
@@ -40037,7 +41821,11 @@
       ],
       "問題ID": "Lv07_0255"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A8%E3%82%AD%E3%83%BB%E3%81%B2%E3%82%89%E3%81%A8%E3%81%B0%E3%82%8A%28%E6%BC%A2%E5%AD%97%29-2784719#w-2954015"
+    }
   },
   {
     "termReading": {
@@ -40051,7 +41839,11 @@
       ],
       "問題ID": "Lv07_0256"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A8%E3%83%84%E3%83%BB%E3%81%82%E3%81%A4%E3%81%95%E3%81%82%E3%81%9F%E3%82%8A%28%E6%BC%A2%E5%AD%97%29-2784741#w-2954037"
+    }
   },
   {
     "termReading": {
@@ -40068,7 +41860,11 @@
       ],
       "問題ID": "Lv07_0257"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A8%E3%83%B3%28%E3%83%B1%E3%83%B3%29%E3%83%BB%E3%81%BC%E3%81%86%E3%81%B5%E3%82%89%28%E6%BC%A2%E5%AD%97%29-2784751#w-2954047"
+    }
   },
   {
     "termReading": {
@@ -40083,7 +41879,11 @@
       "問題ID": "Lv07_0258",
       "追記": "鵷鶵(えんすう)は鳳凰の仲間であるという霊鳥の一。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A8%E3%83%B3%28%E3%83%B1%E3%83%B3%29%E3%83%BB%E3%81%BB%E3%81%86%E3%81%8A%E3%81%86%28%E6%BC%A2%E5%AD%97%29-2784823#w-2954119"
+    }
   },
   {
     "termReading": {
@@ -40098,7 +41898,11 @@
       "問題ID": "Lv07_0259",
       "追記": "「しゃぐま」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%BF%E3%82%A4%E3%83%BB%E3%83%84%E3%82%A4%E3%83%BB%E3%81%97%E3%82%83%E3%81%90%E3%81%BE%E3%83%BB%E3%81%95%E3%81%84%E3%81%A5%E3%81%A1%E3%81%BE%E3%81%92%28%E6%BC%A2%E5%AD%97%29-2788779#w-2958180"
+    }
   },
   {
     "termReading": {
@@ -40112,7 +41916,11 @@
       ],
       "問題ID": "Lv07_0260"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B1%E3%83%B3%E3%83%BB%E3%82%80%E3%81%8E%E3%82%8F%E3%82%89%28%E6%BC%A2%E5%AD%97%29-2786356#w-2955704"
+    }
   },
   {
     "termReading": {
@@ -40127,7 +41935,11 @@
       "問題ID": "Lv07_0261",
       "追記": "羖はとくにオスの黒羊のことを表す。羯は去勢されたオスの黒羊。メスの黒羊は羭。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B3%E3%83%BB%E3%81%8F%E3%82%8D%E3%81%B2%E3%81%A4%E3%81%98%28%E6%BC%A2%E5%AD%97%29-2786477#w-2955826"
+    }
   },
   {
     "termReading": {
@@ -40142,7 +41954,11 @@
       "問題ID": "Lv07_0262",
       "追記": "「かわや」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B3%E3%83%B3%E3%83%BB%E3%82%AB%E3%83%B3%28%E3%82%AF%E3%83%AE%E3%83%B3%29%E3%83%BB%E3%81%B6%E3%81%9F%E3%81%94%E3%82%84%E3%83%BB%E3%81%8B%E3%82%8F%E3%82%84%28%E6%BC%A2%E5%AD%97%29-2786868#w-2956225"
+    }
   },
   {
     "termReading": {
@@ -40157,7 +41973,11 @@
       "問題ID": "Lv07_0263",
       "追記": "「のこりいい」「あまりいい」「いいのこ・る」"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B7%E3%83%A5%E3%83%B3%E3%83%BB%E3%81%82%E3%81%BE%E3%82%8A%E3%82%82%E3%81%AE%28%E6%BC%A2%E5%AD%97%29-2787617#w-2956986"
+    }
   },
   {
     "termReading": {
@@ -40168,7 +41988,11 @@
       "意味": "大きな声でほえる。特に、虎がほえることをいう。",
       "問題ID": "Lv07_0264"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B3%E3%82%A6%28%E3%82%AB%E3%82%A6%29%E3%83%BB%E3%82%AD%E3%83%A7%E3%82%A6%28%E3%82%B1%E3%82%A6%29%E3%83%BB%E3%81%86%E3%81%9D%E3%81%B6%E3%81%8F%E3%83%BB%E3%81%84%E3%81%8B%E3%82%8B%28%E6%BC%A2%E5%AD%97%29-2786655#w-2956004"
+    }
   },
   {
     "termReading": {
@@ -40184,7 +42008,11 @@
       ],
       "問題ID": "Lv07_0265"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B7%E3%83%A7%E3%82%A6%28%E3%82%BB%E3%82%A6%29%E3%83%BB%E3%82%BD%E3%82%A6%28%E3%82%B5%E3%82%A6%29%E3%83%BB%E3%81%BE%E3%81%A4%E3%82%8B%E3%83%BB%E3%81%AE%E3%81%BF%E3%81%BB%E3%81%99%28%E6%BC%A2%E5%AD%97%29-2787863#w-2957239"
+    }
   },
   {
     "termReading": {
@@ -40198,7 +42026,11 @@
       ],
       "問題ID": "Lv07_0266"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%BB%E3%82%A4%E3%83%BB%E3%81%84%E3%81%9D%E3%81%97%E3%82%80%E3%83%BB%E3%81%B2%E3%81%A8%E3%81%97%E3%81%84%28%E6%BC%A2%E5%AD%97%29-2788218#w-2957601"
+    }
   },
   {
     "termReading": {
@@ -40292,7 +42124,11 @@
       "問題ID": "Lv07_0272",
       "追記": "𠥱は月の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%89%87%E5%A4%A9%E6%96%87%E5%AD%97"
+    }
   },
   {
     "termReading": {
@@ -40311,7 +42147,11 @@
       "問題ID": "Lv07_0273",
       "追記": "囝は月の則天文字、𡆠は日の則天文字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E5%89%87%E5%A4%A9%E6%96%87%E5%AD%97"
+    }
   },
   {
     "termReading": {
@@ -40326,7 +42166,11 @@
       "問題ID": "Lv07_0274",
       "追記": "別名「シン・ティエン」。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%83%86%E3%82%A3%E3%82%A8%E3%83%B3"
+    }
   },
   {
     "termReading": {
@@ -40337,7 +42181,11 @@
       "意味": "宮廷音楽の中で用いられてきたとされる、ベトナムの複簧管楽器。",
       "問題ID": "Lv07_0275"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "日本語版 Wikipedia",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%B3%E3%83%BB%E3%83%90%E3%82%A6"
+    }
   },
   {
     "termReading": {
@@ -40348,7 +42196,11 @@
       "意味": "歌舞伎、浄瑠璃の外題。",
       "問題ID": "Lv07_0276"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_5e.html"
+    }
   },
   {
     "termReading": {
@@ -40359,7 +42211,11 @@
       "意味": "歌舞伎、浄瑠璃の外題。",
       "問題ID": "Lv07_0277"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_7d.html"
+    }
   },
   {
     "termReading": {
@@ -40374,7 +42230,11 @@
       ],
       "問題ID": "Lv07_0278"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_83.html"
+    }
   },
   {
     "termReading": {
@@ -40386,7 +42246,11 @@
       "問題ID": "Lv07_0279",
       "追記": "「くけ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_63.html"
+    }
   },
   {
     "termReading": {
@@ -40400,7 +42264,11 @@
       ],
       "問題ID": "Lv07_0280"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_7f.html"
+    }
   },
   {
     "termReading": {
@@ -40416,7 +42284,11 @@
       "問題ID": "Lv07_0281",
       "追記": "「わかやか」は、若くていきいきしている様。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_6sa.html"
+    }
   },
   {
     "termReading": {
@@ -40427,7 +42299,11 @@
       "意味": "：歌舞伎、浄瑠璃の外題。",
       "問題ID": "Lv07_0282"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_83.html"
+    }
   },
   {
     "termReading": {
@@ -40444,7 +42320,11 @@
       "問題ID": "Lv07_0283",
       "追記": "本来の字形に「巾」は含まれず、すべて「日」である。転写に際するハプニングにより幽霊文字が誕生してしまった。ただ、現在はこの字形も広まっているため、ある意味異体字のような扱いになっている。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_7h.html"
+    }
   },
   {
     "termReading": {
@@ -40462,7 +42342,11 @@
       "問題ID": "Lv07_0284",
       "追記": "{⿱爪田}または𪽋は、留の異体字。漢字でGO!では{⿱爪田}という字体が採用されていますが、このwikiでは便宜上「𪽋」を掲載しています。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AA%BD%8B"
+    }
   },
   {
     "termReading": {
@@ -40477,7 +42361,11 @@
       "問題ID": "Lv07_0285",
       "追記": "踳の異体字とする説もある。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%A7%93#cite_note-1"
+    }
   },
   {
     "termReading": {
@@ -40492,7 +42380,11 @@
       ],
       "問題ID": "Lv07_0286"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『和製漢字の辞典2014』",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_41b.html"
+    }
   },
   {
     "termReading": {
@@ -40507,7 +42399,11 @@
       "問題ID": "Lv07_0287",
       "追記": "「しゃべ・る」とも。『読む日本漢字百科』が国字として扱っているとのことだが、同形の字が存在している。𧫝の異体字でもある。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_74.html"
+    }
   },
   {
     "termReading": {
@@ -40522,7 +42418,11 @@
       "問題ID": "Lv07_0288",
       "追記": "迗は「つらう・ち」"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ksbookshelf.com/nozomu-oohara/WaseikanjiJiten/WaseikanjiJiten_7h.html"
+    }
   },
   {
     "termReading": {
@@ -40540,7 +42440,11 @@
       ],
       "問題ID": "Lv07_0289"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%AC%B4%BD"
+    }
   },
   {
     "termReading": {
@@ -40555,7 +42459,11 @@
       "問題ID": "Lv07_0290",
       "追記": "𠑷は長の異体字。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://ja.wiktionary.org/wiki/%F0%A0%91%B7"
+    }
   },
   {
     "termReading": {
@@ -40569,7 +42477,11 @@
       ],
       "問題ID": "Lv07_0291"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A4%E3%83%BB%E3%81%A4%E3%81%8F%E3%82%8A%E3%82%8F%E3%82%89%E3%81%84%28%E6%BC%A2%E5%AD%97%29-2784482#w-2953776"
+    }
   },
   {
     "termReading": {
@@ -40584,7 +42496,11 @@
       "問題ID": "Lv07_0292",
       "追記": "「はたあし」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%A8%E3%83%B3%E3%83%BB%E3%81%AF%E3%81%9F%E3%81%82%E3%81%97%E3%83%BB%E3%81%B5%E3%81%8D%E3%81%AA%E3%81%8C%E3%81%97%28%E6%BC%A2%E5%AD%97%29-2784749#w-2954045"
+    }
   },
   {
     "termReading": {
@@ -40600,7 +42516,11 @@
       ],
       "問題ID": "Lv07_0293"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%AB%28%E3%82%AF%E3%83%AE%29%E3%83%BB%E3%83%A9%E3%83%BB%E3%81%98%E3%81%8C%E3%81%B0%E3%81%A1%28%E6%BC%A2%E5%AD%97%29-2784980#w-2954281"
+    }
   },
   {
     "termReading": {
@@ -40614,7 +42534,11 @@
       ],
       "問題ID": "Lv07_0294"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%AD%E3%83%BB%E3%82%B7%E3%83%BB%E3%81%95%E3%81%91%E3%81%95%E3%81%8B%E3%81%AA%28%E6%BC%A2%E5%AD%97%29-2785656#w-2954986"
+    }
   },
   {
     "termReading": {
@@ -40629,7 +42553,11 @@
       ],
       "問題ID": "Lv07_0295"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%AD%E3%83%A7%E3%83%BB%E3%81%8B%E3%82%8F%E3%82%89%E3%81%AA%E3%81%A7%E3%81%97%E3%81%93%E3%83%BB%E3%81%AF%E3%81%99%E3%83%BB%E3%81%8A%E3%81%A9%E3%82%8D%E3%81%8F%28%E6%BC%A2%E5%AD%97%29-2785826#w-2955160"
+    }
   },
   {
     "termReading": {
@@ -40643,7 +42571,11 @@
       ],
       "問題ID": "Lv07_0296"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%AD%E3%83%B3%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%BB%E3%81%8F%E3%82%89%E3%83%BB%E3%81%93%E3%81%8F%E3%82%82%E3%81%A4%E3%81%90%E3%82%89%28%E6%BC%A2%E5%AD%97%29-2785980#w-2955315"
+    }
   },
   {
     "termReading": {
@@ -40657,7 +42589,11 @@
       ],
       "問題ID": "Lv07_0297"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B1%E3%83%B3%E3%83%BB%E3%81%A8%E3%81%B6%E3%83%BB%E3%81%AF%E3%81%AD%E3%81%8A%E3%81%A9%E3%82%8B%28%E6%BC%A2%E5%AD%97%29-2786387#w-2955735"
+    }
   },
   {
     "termReading": {
@@ -40671,7 +42607,11 @@
       ],
       "問題ID": "Lv07_0298"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B7%E3%83%BB%E3%82%B5%E3%82%A4%E3%83%BB%E3%82%80%E3%82%89%E3%81%95%E3%81%8D%E3%81%9D%E3%81%86%28%E6%BC%A2%E5%AD%97%29-2787190#w-2956553"
+    }
   },
   {
     "termReading": {
@@ -40685,7 +42625,11 @@
       ],
       "問題ID": "Lv07_0299"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "ウィクショナリー日本語版",
+      "url": "https://kotobank.jp/word/%E3%82%B7%E3%83%BB%E3%82%AD%E3%83%BB%E3%81%8A%E3%82%84%E3%81%B0%E3%81%AD%28%E6%BC%A2%E5%AD%97%29-2787270#w-2956634"
+    }
   },
   {
     "termReading": {
@@ -40697,6 +42641,10 @@
       "問題ID": "Lv07_0300",
       "追記": "「と・ぶ」とも。"
     },
-    "termLevel": "07"
+    "termLevel": "07",
+    "termReference": {
+      "text": "『字通』",
+      "url": "https://kotobank.jp/word/%E3%82%B7%E3%83%A7%E3%83%BB%E3%81%A8%E3%81%B6%E3%83%BB%E3%81%A8%E3%81%B3%E3%81%82%E3%81%8C%E3%82%8B%28%E6%BC%A2%E5%AD%97%29-2787671#w-2957042"
+    }
   }
 ]

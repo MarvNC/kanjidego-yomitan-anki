@@ -1,5 +1,5 @@
 import { CROPPED_IMAGE_NAME, CROPPED_IMG_DIR } from '../constants';
-import { termData } from '../types';
+import { TermData } from '../types';
 import {
   DetailedDefinition,
   StructuredContent,
@@ -8,20 +8,62 @@ import path from 'path';
 import fs from 'fs';
 
 export function convertTermToDetailedDefinition(
-  termData: termData
+  termData: TermData
 ): DetailedDefinition {
   const scArray: StructuredContent[] = [];
   addImage(scArray, termData);
   addHeadWord(scArray, termData);
   addMeaning(scArray, termData);
   addNotes(scArray, termData);
+  addReferences(scArray, termData);
   return {
     type: 'structured-content',
     content: scArray,
   };
 }
 
-function addNotes(scArray: StructuredContent[], termData: termData) {
+function addReferences(scArray: StructuredContent[], termData: TermData) {
+  const attributionSCArray: StructuredContent[] = [];
+  const { 問題ID } = termData.termInfo;
+  if (問題ID) {
+    attributionSCArray.push({
+      tag: 'a',
+      href: `https://w.atwiki.jp/kanjidego/search?andor=and&keyword=${問題ID}`,
+      content: '漢字でGO!@ウィキ',
+    });
+  }
+  const { termReference } = termData;
+  if (termReference && termReference.text && termReference.url) {
+    // Add divider if there's a previous reference
+    if (attributionSCArray.length > 0) {
+      attributionSCArray.push(' | ');
+    }
+    // Make sure URL is valid
+    try {
+      new URL(termReference.url);
+      attributionSCArray.push({
+        tag: 'a',
+        href: termReference.url,
+        content: termReference.text,
+      });
+    } catch (e) {
+      // NOP
+    }
+  }
+  scArray.push({
+    tag: 'div',
+    data: {
+      'kanji-de-go': 'references',
+    },
+    style: {
+      fontSize: '0.7em',
+      textAlign: 'right',
+    },
+    content: attributionSCArray,
+  });
+}
+
+function addNotes(scArray: StructuredContent[], termData: TermData) {
   if (termData.termInfo.追記 && termData.termInfo.追記 !== 'なし') {
     scArray.push({
       tag: 'div',
@@ -48,7 +90,7 @@ function addNotes(scArray: StructuredContent[], termData: termData) {
   }
 }
 
-function addHeadWord(scArray: StructuredContent[], termData: termData) {
+function addHeadWord(scArray: StructuredContent[], termData: TermData) {
   const alternatives = termData.termInfo.別表記?.join('・');
   const readings = [
     termData.termReading.reading,
@@ -67,7 +109,7 @@ function addHeadWord(scArray: StructuredContent[], termData: termData) {
   });
 }
 
-function addMeaning(scArray: StructuredContent[], termData: termData) {
+function addMeaning(scArray: StructuredContent[], termData: TermData) {
   scArray.push({
     tag: 'ul',
     data: {
@@ -80,7 +122,7 @@ function addMeaning(scArray: StructuredContent[], termData: termData) {
   });
 }
 
-function addImage(scArray: StructuredContent[], termData: termData) {
+function addImage(scArray: StructuredContent[], termData: TermData) {
   const levelID = termData.termInfo.問題ID;
   if (!levelID) {
     return;
