@@ -41,4 +41,22 @@ Simply download from above and import into Yomitan.
 
 ## Anki Deck
 
-🚧 Coming soon!
+The 漢字で GO! deck contains the same information available in the
+[Yomitan Dictionary](https://github.com/MarvNC/kanjidego-yomitan-anki?tab=readme-ov-file#yomitan-dictionary).
+
+The Anki deck is split into four subdecks: レベル 05, レベル 06, レベル 07, and
+別表記. The first three are the levels in the game, and the last is for
+alternate readings that were added from the 別表記 that were listed in the wiki.
+Over 4,000 of the 7,000+ cards in the deck are alternate readings and they might
+not be as useful to some as they don't show up in the actual 漢字で GO! game.
+However they still contain many kanji alternate forms that you may enjoy
+learning.
+
+For reference, according to
+[Kuuube's kanji grid](https://github.com/Kuuuube/kanjigrid), the three main
+levels contain 3,353 unique kanji in the main terms. Adding the 別表記 subdeck
+brings the total up to 5,504 unique kanji.
+
+|     |     |
+| :-: | :-: |
+|     |     |
