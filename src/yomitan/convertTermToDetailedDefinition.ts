@@ -15,10 +15,52 @@ export function convertTermToDetailedDefinition(
   addHeadWord(scArray, termData);
   addMeaning(scArray, termData);
   addNotes(scArray, termData);
+  addReferences(scArray, termData);
   return {
     type: 'structured-content',
     content: scArray,
   };
+}
+
+function addReferences(scArray: StructuredContent[], termData: TermData) {
+  const attributionSCArray: StructuredContent[] = [];
+  const { 問題ID } = termData.termInfo;
+  if (問題ID) {
+    attributionSCArray.push({
+      tag: 'a',
+      href: `https://w.atwiki.jp/kanjidego/search?andor=and&keyword=${問題ID}`,
+      content: '漢字でGO!@ウィキ',
+    });
+  }
+  const { termReference } = termData;
+  if (termReference && termReference.text && termReference.url) {
+    // Add divider if there's a previous reference
+    if (attributionSCArray.length > 0) {
+      attributionSCArray.push(' | ');
+    }
+    // Make sure URL is valid
+    try {
+      new URL(termReference.url);
+      attributionSCArray.push({
+        tag: 'a',
+        href: termReference.url,
+        content: termReference.text,
+      });
+    } catch (e) {
+      // NOP
+    }
+  }
+  scArray.push({
+    tag: 'div',
+    data: {
+      'kanji-de-go': 'references',
+    },
+    style: {
+      fontSize: '0.7em',
+      textAlign: 'right',
+    },
+    content: attributionSCArray,
+  });
 }
 
 function addNotes(scArray: StructuredContent[], termData: TermData) {

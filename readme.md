@@ -20,7 +20,7 @@ Built using
 ### Usage
 
 **[漢字で GO!.zip](https://github.com/MarvNC/kanjidego-yomitan-anki/raw/master/export/%E6%BC%A2%E5%AD%97%E3%81%A7GO!.zip)**
-(2024-03-03)
+(2024-03-08)
 
 Simply download from above and import into Yomitan.
 
@@ -34,10 +34,10 @@ Simply download from above and import into Yomitan.
 
 ### Screenshots
 
-|   ![chrome_𬻿_-_Yomitan_Search_-_Google_Chrome_2024-03-03_21-58-53](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/bfaf62f5-d1a0-42d4-9777-4ea2a2f62d7d)   | ![chrome_おおいちざ_-_Yomitan_Search_-_Google_Chrome_2024-03-03_21-59-25](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/c68c2e23-26b6-4f0d-9a2b-e07e024b8fb6) |
+|   ![chrome_𬻿_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-39-00](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/0a9a814a-7df9-4d4b-aee7-aac0ea14e21e)   | ![chrome_おおいちざ_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-39-09](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/41eff046-548c-4236-bb25-24b34db56b66) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![chrome_たまう_-_Yomitan_Search_-_Google_Chrome_2024-03-03_21-59-45](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/8b823ffb-b9a5-43fa-87af-c0e6bea3c665) |  ![chrome_かくれる_-_Yomitan_Search_-_Google_Chrome_2024-03-03_21-59-55](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/a46433f5-b487-4dfe-a458-3492e0b1db57)  |
-|  ![chrome_丶部_-_Yomitan_Search_-_Google_Chrome_2024-03-03_22-00-07](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/b2ca61af-c84e-4a4d-b2fa-c6e046a7cb02)  |     ![chrome_𠙴_-_Yomitan_Search_-_Google_Chrome_2024-03-03_22-00-18](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/b8e13668-1bf7-45ad-820a-91bc757a0a03)     |
+| ![chrome_たまう_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-39-24](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/1c22f489-3c16-4d57-a4f3-bd68d27e4f44) |  ![chrome_かくれる_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-39-45](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/c51e2164-6001-43bf-8cfe-675554bf0913)  |
+|  ![chrome_丶部_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-40-03](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/1496d689-4ae3-4ccc-8993-b4ce48d74bd0)  |     ![chrome_𠙴_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-40-16](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/a5be3625-7feb-42a1-a106-bd0daaa9bc30)     |
 
 ## Anki Deck
 
