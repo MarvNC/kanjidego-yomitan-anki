@@ -66,6 +66,6 @@ brings the total up to 5,504 unique kanji.
 
 ### Screenshots
 
-| ![anki_Preview_2024-03-08_22-58-59](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/850dee1a-a5f1-4959-a1e3-5eec3eb2bc80) | ![anki_Preview_2024-03-08_22-58-55](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/1d70778d-39bc-4a84-9a4f-bb02b62bcf96) |
+| ![anki_Preview_2024-03-08_23-18-15](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/b0ff9be9-5813-4410-b95c-285409a6b312) | ![anki_Preview_2024-03-08_23-18-34](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/0baa87d2-6da3-45b7-a164-8c2c5634ecec) |
 | :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| ![anki_Preview_2024-03-08_22-59-27](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/5188ad83-2a77-4864-8e3d-4d2ff45dcf48) | ![anki_Preview_2024-03-08_22-56-34](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/da72f568-f4a4-4a15-bac3-fb266bbaf7b5) |
+| ![anki_Preview_2024-03-08_23-18-44](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/68075c5d-ea18-4fe3-8b26-3237c2ff5561) | ![anki_Preview_2024-03-08_23-18-50](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/bc2f65e9-a09c-4374-a99a-2a73479c7648) |
