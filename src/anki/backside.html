@@ -5,8 +5,16 @@
 
 <div lang="ja">
   <!-- Reading(s) -->
-  <div id="reading" style="width: 100%; margin: 0.2em; font-size: 2em">
-    {{読み方}} {{#別解}}
+  <div style="width: 100%; margin: 0.2em; font-size: 2em">
+    <a
+      id="reading"
+      href="#"
+      onclick="copyTextOnClick('reading')"
+      style="color: inherit; text-decoration: none"
+    >
+      {{読み方}}
+    </a>
+    {{#別解}}
     <span style="margin-left: 0.5em; font-size: 0.7em; color: gray">
       {{別解}}
     </span>
