@@ -6,7 +6,6 @@ import {
 import { InfoCategory, termInfo } from '../types';
 import { cleanStr } from '../util/textUtils';
 import { removeFromEnd } from '../util/textUtils';
-import { lineForCategory } from './scrapePageData';
 
 /**
  * Adds term information to the termInfo object.
@@ -16,7 +15,7 @@ import { lineForCategory } from './scrapePageData';
  * @param level - The level of the term.
  * @returns The updated termInfo object.
  */
-export function addTermInfo(
+export function getTermInfo(
   ulText: string[],
   term: string,
   level: string
@@ -36,6 +35,10 @@ export function addTermInfo(
   }
 
   return termInfo;
+}
+
+function lineForCategory(line: string, category: string) {
+  return line.startsWith(category) || line.substring(1).startsWith(category);
 }
 
 /**

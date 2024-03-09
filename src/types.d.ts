@@ -11,10 +11,16 @@ type termInfo = {
   [K in InfoCategory]?: K extends '別表記' | '別解' ? string[] : string;
 };
 
+type termReference = {
+  text: string;
+  url: string;
+};
+
 type termData = {
   termReading: termReading;
   termInfo: termInfo;
   termLevel: string;
+  termReference?: termReference;
 };
 
 type csvRecord = {
