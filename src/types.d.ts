@@ -32,6 +32,8 @@ export type CsvRecord = {
   別解: string;
   別表記: string;
   追記?: string;
+  典拠?: string;
+  典拠リンク?: string;
   レベル: string;
   画像: string;
   切り抜き画像: string;

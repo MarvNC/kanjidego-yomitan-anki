@@ -26,6 +26,8 @@ export async function buildAnkiDeck(termDataArr: TermData[]) {
       { id: '別表記', title: '別表記' },
       { id: '意味', title: '意味' },
       { id: '追記', title: '追記' },
+      { id: '典拠', title: '典拠' },
+      { id: '典拠リンク', title: '典拠リンク' },
       { id: 'レベル', title: 'レベル' },
       { id: '画像', title: '画像' },
       { id: '切り抜き画像', title: '切り抜き画像' },
@@ -112,6 +114,7 @@ function getRecordsForTerm(termData: TermData) {
 
   const { term, reading } = termData.termReading;
   const { 別表記, 別解, 意味, 追記, 問題ID } = termData.termInfo;
+  const { termReference } = termData;
 
   const level = termData.termLevel;
 
@@ -125,6 +128,8 @@ function getRecordsForTerm(termData: TermData) {
     別解: 別解 ? 別解.join('・') : '',
     別表記: 別表記 ? 別表記.join('・') : '',
     追記,
+    典拠: termReference?.text || '',
+    典拠リンク: termReference?.url || '',
     レベル: level,
     画像: 問題ID ? `<img src="${IMAGE_NAME(問題ID)}">` : '',
     切り抜き画像: 問題ID ? `<img src="${CROPPED_IMAGE_NAME(問題ID)}">` : '',
