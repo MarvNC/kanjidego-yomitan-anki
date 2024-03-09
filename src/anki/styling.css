@@ -1,6 +1,8 @@
+/* For lazy loading */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
 .card {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'MS PMincho', 'BIZ UDPMincho', 'Simsun',
+    'Simsunb', serif, 'Noto Sans JP';
   color: black;
   background-color: white;
   max-width: 850px;
@@ -14,7 +16,7 @@
 }
 
 .rarefont {
-  font-family: 'Simsun', 'Simsunb', serif;
+  font-family: 'Simsun', 'Simsunb', 'Noto Serif JP', 'Noto Sans JP', serif;
 }
 
 /* General table styles */
@@ -74,4 +76,8 @@ th {
 @font-face {
   font-family: 'Simsunb';
   src: url('__simsunb.ttf');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('__NotoSansJP-Regular.ttf');
 }
