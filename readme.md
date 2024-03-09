@@ -44,7 +44,8 @@ Simply download from above and import into Yomitan.
 ## Anki Deck
 
 [Kanji de Go (漢字で Go!)](https://plicy.net/GamePlay/155561) is a fun game
-quizzing people on rare/exotic kanji terms.
+quizzing people on rare/exotic kanji terms. This deck has terms/information
+sourced from the fan wiki: [漢字で GO!@ウィキ](https://w.atwiki.jp/kanjidego/).
 
 The 漢字で GO! Anki deck contains the same information available in the
 [Yomitan Dictionary](https://github.com/MarvNC/kanjidego-yomitan-anki?tab=readme-ov-file#yomitan-dictionary).
