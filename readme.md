@@ -83,4 +83,5 @@ brings the total up to 5,504 unique kanji.
 ### Info
 
 [GitHub Repository](https://github.com/MarvNC/kanjidego-yomitan-anki)
+
 [Issues Tracker](https://github.com/MarvNC/kanjidego-yomitan-anki/issues)
