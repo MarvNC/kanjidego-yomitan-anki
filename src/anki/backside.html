@@ -12,6 +12,8 @@
     </span>
     {{/別解}}
   </div>
+
+  <!-- Main table -->
   <table>
     <tbody>
       <!-- Meaning -->
@@ -35,6 +37,51 @@
       {{/別表記}}
     </tbody>
   </table>
+
+  <!-- Top left source(s) -->
+  <div
+    style="
+      margin-top: 1em;
+      display: flex;
+      /* justify-content: flex-end; */
+      gap: 0.5em;
+      font-size: 0.6em;
+    "
+  >
+    <!-- 漢字でGO!@ウィキ link if 問題ID exists -->
+    {{#問題ID}}
+    <div
+      style="
+        border: 1px solid;
+        border-color: #7b7b7b;
+        border-radius: 0.5em;
+        padding: 0.1em 0.4em;
+      "
+    >
+      <a
+        href="https://w.atwiki.jp/kanjidego/search?andor=and&keyword={{問題ID}}"
+        style="color: #656565; text-decoration: none"
+      >
+        漢字でGO!@ウィキ
+      </a>
+    </div>
+    {{/問題ID}}
+    <!-- 典拠 if it exists -->
+    {{#典拠}}
+    <span
+      style="
+        border: 1px solid;
+        border-color: #7b7b7b;
+        border-radius: 0.5em;
+        padding: 0.1em 0.4em;
+      "
+    >
+      <a href="{{典拠リンク}}" style="color: #656565; text-decoration: none">
+        {{典拠}}
+      </a>
+    </span>
+    {{/典拠}}
+  </div>
 </div>
 
 <script>

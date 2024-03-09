@@ -2,13 +2,13 @@ import fs from 'fs';
 import path from 'path';
 import { EXPORT_DIRECTORY, JSON_FILE_NAME, WIKI_PAGES } from '../constants';
 import { getPageDocument } from './getPageDocument';
-import { termData, termReading } from '../types';
+import { TermData, TermReading, TermReference } from '../types';
 import { scrapeAllImages } from './scrapeAllImages';
 import { cleanStr } from '../util/textUtils';
-import { addTermInfo } from './getTermInfo';
+import { getTermInfo } from './getTermInfo';
 
 export async function scrapeAllPagesData() {
-  const termDataArr: termData[] = [];
+  const termDataArr: TermData[] = [];
   for (const level of Object.keys(WIKI_PAGES)) {
     for (const pageUrl of WIKI_PAGES[level]) {
       const data = await scrapePageData(pageUrl, level);
@@ -31,19 +31,56 @@ export async function scrapeAllPagesData() {
 export async function scrapePageData(pageUrl: string, level: string) {
   const document = await getPageDocument(pageUrl);
 
-  const headers = [...document.querySelectorAll('#wikibody > h3')];
-  const termData: termData[] = [];
-  for (const header of headers) {
-    const termReading = getTermReadingFromHeader(header);
-    const ulsText = getNextULsText(header);
-    const termInfo = addTermInfo(ulsText, termReading.term, level);
-    termData.push({ termReading, termInfo, termLevel: level });
+  const termHeaders = [...document.querySelectorAll('#wikibody > h3')];
+  const termDataArr: TermData[] = [];
+  for (const termHeader of termHeaders) {
+    const termReading = getTermReadingFromHeader(termHeader);
+    const termData: TermData = {
+      termReading: termReading,
+      termInfo: getTermInfo(
+        getNextULsText(termHeader),
+        termReading.term,
+        level
+      ),
+      termLevel: level,
+    };
+    const reference = getReference(getNextULs(termHeader));
+    if (reference) {
+      termData.termReference = reference;
+    }
+    termDataArr.push(termData);
   }
-  return termData;
+  return termDataArr;
 }
 
-export function lineForCategory(line: string, category: string) {
-  return line.startsWith(category) || line.substring(1).startsWith(category);
+/**
+ * Gets the 典拠 text and URL if present.
+ */
+function getReference(uls: Element[]): TermReference | null {
+  // Find li starting with 典拠：
+  const referenceLi = uls
+    .map((ul) => [...ul.querySelectorAll('li')])
+    .flat()
+    .find((li) => li.textContent?.startsWith('典拠：'));
+  if (referenceLi) {
+    const anchor = referenceLi.querySelector('a');
+    if (anchor && anchor.href && anchor.textContent !== null) {
+      return { text: anchor.textContent, url: anchor.href };
+    }
+  }
+  return null;
+}
+
+function getNextULs(header: Element): Element[] {
+  const uls: Element[] = [];
+  let nextElem = header.nextElementSibling;
+  while (nextElem && nextElem.nodeName !== 'H3') {
+    if (nextElem.nodeName === 'UL') {
+      uls.push(nextElem);
+    }
+    nextElem = nextElem.nextElementSibling;
+  }
+  return uls;
 }
 
 /**
@@ -72,7 +109,7 @@ function getNextULsText(header: Element): string[] {
   return ulsText;
 }
 
-function getTermReadingFromHeader(header: Element): termReading {
+function getTermReadingFromHeader(header: Element): TermReading {
   if (header.childNodes.length === 0) {
     throw new Error('Header has no children');
   }

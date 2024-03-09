@@ -3,10 +3,9 @@ import {
   END_STRINGS_TO_REMOVE,
   EMPTY_STRING,
 } from '../constants';
-import { InfoCategory, termInfo } from '../types';
+import { InfoCategory, TermInfo } from '../types';
 import { cleanStr } from '../util/textUtils';
 import { removeFromEnd } from '../util/textUtils';
-import { lineForCategory } from './scrapePageData';
 
 /**
  * Adds term information to the termInfo object.
@@ -16,12 +15,12 @@ import { lineForCategory } from './scrapePageData';
  * @param level - The level of the term.
  * @returns The updated termInfo object.
  */
-export function addTermInfo(
+export function getTermInfo(
   ulText: string[],
   term: string,
   level: string
-): termInfo {
-  const termInfo: termInfo = {};
+): TermInfo {
+  const termInfo: TermInfo = {};
 
   for (const category of INFO_CATEGORIES) {
     const line = findLineForCategory(ulText, category);
@@ -36,6 +35,10 @@ export function addTermInfo(
   }
 
   return termInfo;
+}
+
+function lineForCategory(line: string, category: string) {
+  return line.startsWith(category) || line.substring(1).startsWith(category);
 }
 
 /**
@@ -95,7 +98,7 @@ function addCategoryInfo(
   category: InfoCategory,
   term: string,
   level: string,
-  termInfo: termInfo
+  termInfo: TermInfo
 ): void {
   if (category === '別表記' || category === '別解') {
     const altArray = processAltInfo(info);

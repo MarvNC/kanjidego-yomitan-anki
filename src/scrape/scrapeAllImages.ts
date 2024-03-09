@@ -1,4 +1,4 @@
-import { termData } from '../types';
+import { TermData } from '../types';
 import {
   CROPPED_IMAGE_NAME,
   CROPPED_IMG_DIR,
@@ -12,7 +12,7 @@ import fs from 'fs';
 import sharp from 'sharp';
 import cliProgress from 'cli-progress';
 
-export async function scrapeAllImages(termDataArr: termData[]) {
+export async function scrapeAllImages(termDataArr: TermData[]) {
   const sourceImageDir = path.join(process.cwd(), IMAGES_DIRECTORY);
   const processedImageDir = path.join(process.cwd(), TRIMMED_DIRECTORY);
   const croppedImageDir = path.join(process.cwd(), CROPPED_IMG_DIR);
