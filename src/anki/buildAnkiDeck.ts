@@ -1,4 +1,4 @@
-import { csvRecord, termData } from '../types';
+import { CsvRecord, TermData } from '../types';
 import path from 'path';
 import { createObjectCsvWriter } from 'csv-writer';
 import {
@@ -8,7 +8,7 @@ import {
   KANJI_DE_GO_NAME,
 } from '../constants';
 
-export async function buildAnkiDeck(termDataArr: termData[]) {
+export async function buildAnkiDeck(termDataArr: TermData[]) {
   console.log('Building Anki deck');
 
   const csvPath = path.join(process.cwd(), EXPORT_DIRECTORY, 'ankiDeck.csv');
@@ -32,14 +32,14 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
       { id: 'Tags', title: 'Tags' },
     ],
   });
-  const records: csvRecord[] = [];
+  const records: CsvRecord[] = [];
 
   for (const termData of termDataArr) {
     records.push(...getRecordsForTerm(termData));
   }
 
   // 単語:読み方 as key, list of Record as value
-  const recordsMap = new Map<string, csvRecord[]>();
+  const recordsMap = new Map<string, CsvRecord[]>();
 
   // Add all records
   for (const record of records) {
@@ -60,7 +60,7 @@ export async function buildAnkiDeck(termDataArr: termData[]) {
   }
 }
 
-function getBestRecord(records: csvRecord[]): csvRecord {
+function getBestRecord(records: CsvRecord[]): CsvRecord {
   if (records.length === 1) return records[0];
 
   let bestRecord = records[0];
@@ -82,7 +82,7 @@ function getBestRecord(records: csvRecord[]): csvRecord {
  * Higher is better
  * @param record
  */
-function recordHeuristic(record: csvRecord): number {
+function recordHeuristic(record: CsvRecord): number {
   let score = 0;
   // Prefer original term
   if (!record.元単語) {
@@ -107,8 +107,8 @@ function recordHeuristic(record: csvRecord): number {
   return score;
 }
 
-function getRecordsForTerm(termData: termData) {
-  const records: csvRecord[] = [];
+function getRecordsForTerm(termData: TermData) {
+  const records: CsvRecord[] = [];
 
   const { term, reading } = termData.termReading;
   const { 別表記, 別解, 意味, 追記, 問題ID } = termData.termInfo;
@@ -117,7 +117,7 @@ function getRecordsForTerm(termData: termData) {
 
   let tags = `${KANJI_DE_GO_NAME}-${level}`;
 
-  const record: csvRecord = {
+  const record: CsvRecord = {
     問題ID,
     単語: term,
     読み方: reading,

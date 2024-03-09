@@ -2,13 +2,13 @@ import fs from 'fs';
 import path from 'path';
 import { EXPORT_DIRECTORY, JSON_FILE_NAME, WIKI_PAGES } from '../constants';
 import { getPageDocument } from './getPageDocument';
-import { termData, termReading, termReference } from '../types';
+import { TermData, TermReading, TermReference } from '../types';
 import { scrapeAllImages } from './scrapeAllImages';
 import { cleanStr } from '../util/textUtils';
 import { getTermInfo } from './getTermInfo';
 
 export async function scrapeAllPagesData() {
-  const termDataArr: termData[] = [];
+  const termDataArr: TermData[] = [];
   for (const level of Object.keys(WIKI_PAGES)) {
     for (const pageUrl of WIKI_PAGES[level]) {
       const data = await scrapePageData(pageUrl, level);
@@ -32,10 +32,10 @@ export async function scrapePageData(pageUrl: string, level: string) {
   const document = await getPageDocument(pageUrl);
 
   const termHeaders = [...document.querySelectorAll('#wikibody > h3')];
-  const termDataArr: termData[] = [];
+  const termDataArr: TermData[] = [];
   for (const termHeader of termHeaders) {
     const termReading = getTermReadingFromHeader(termHeader);
-    const termData: termData = {
+    const termData: TermData = {
       termReading: termReading,
       termInfo: getTermInfo(
         getNextULsText(termHeader),
@@ -56,7 +56,7 @@ export async function scrapePageData(pageUrl: string, level: string) {
 /**
  * Gets the 典拠 text and URL if present.
  */
-function getReference(uls: Element[]): termReference | null {
+function getReference(uls: Element[]): TermReference | null {
   // Find li starting with 典拠：
   const referenceLi = uls
     .map((ul) => [...ul.querySelectorAll('li')])
@@ -109,7 +109,7 @@ function getNextULsText(header: Element): string[] {
   return ulsText;
 }
 
-function getTermReadingFromHeader(header: Element): termReading {
+function getTermReadingFromHeader(header: Element): TermReading {
   if (header.childNodes.length === 0) {
     throw new Error('Header has no children');
   }

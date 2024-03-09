@@ -1,5 +1,5 @@
 import { CROPPED_IMAGE_NAME, CROPPED_IMG_DIR } from '../constants';
-import { termData } from '../types';
+import { TermData } from '../types';
 import {
   DetailedDefinition,
   StructuredContent,
@@ -8,7 +8,7 @@ import path from 'path';
 import fs from 'fs';
 
 export function convertTermToDetailedDefinition(
-  termData: termData
+  termData: TermData
 ): DetailedDefinition {
   const scArray: StructuredContent[] = [];
   addImage(scArray, termData);
@@ -21,7 +21,7 @@ export function convertTermToDetailedDefinition(
   };
 }
 
-function addNotes(scArray: StructuredContent[], termData: termData) {
+function addNotes(scArray: StructuredContent[], termData: TermData) {
   if (termData.termInfo.追記 && termData.termInfo.追記 !== 'なし') {
     scArray.push({
       tag: 'div',
@@ -48,7 +48,7 @@ function addNotes(scArray: StructuredContent[], termData: termData) {
   }
 }
 
-function addHeadWord(scArray: StructuredContent[], termData: termData) {
+function addHeadWord(scArray: StructuredContent[], termData: TermData) {
   const alternatives = termData.termInfo.別表記?.join('・');
   const readings = [
     termData.termReading.reading,
@@ -67,7 +67,7 @@ function addHeadWord(scArray: StructuredContent[], termData: termData) {
   });
 }
 
-function addMeaning(scArray: StructuredContent[], termData: termData) {
+function addMeaning(scArray: StructuredContent[], termData: TermData) {
   scArray.push({
     tag: 'ul',
     data: {
@@ -80,7 +80,7 @@ function addMeaning(scArray: StructuredContent[], termData: termData) {
   });
 }
 
-function addImage(scArray: StructuredContent[], termData: termData) {
+function addImage(scArray: StructuredContent[], termData: TermData) {
   const levelID = termData.termInfo.問題ID;
   if (!levelID) {
     return;

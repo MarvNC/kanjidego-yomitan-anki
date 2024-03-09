@@ -1,6 +1,6 @@
 import { buildAnkiDeck } from './anki/buildAnkiDeck';
 import { scrapeAllPagesData } from './scrape/scrapePageData';
-import { termData } from './types';
+import { TermData } from './types';
 import { buildDictionary } from './yomitan/buildDictionary';
 import yargs from 'yargs';
 
@@ -15,7 +15,7 @@ yargs
   .help().argv;
 
 async function scrapeDataAndExecute(
-  callback: (data: termData[]) => Promise<void>
+  callback: (data: TermData[]) => Promise<void>
 ) {
   const termDataArr = await scrapeAllPagesData();
   callback(termDataArr);
