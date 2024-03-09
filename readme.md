@@ -60,6 +60,14 @@ not be as useful to some as they don't show up in the actual 漢字で GO! game.
 However they still contain many kanji alternate forms that you may enjoy
 learning.
 
+Features:
+
+- Hover over the image to see the hint image (if available)
+- Click on the text version of the term or the reading to copy it to the
+  clipboard.
+- Click on the links at the bottom (漢字で GO!@ウィキ and sometimes another
+  site) to view more information.
+
 For reference, according to
 [Kuuube's kanji grid](https://github.com/Kuuuube/kanjigrid), the three main
 levels contain 3,353 unique kanji in the main terms. Adding the 別表記 subdeck
