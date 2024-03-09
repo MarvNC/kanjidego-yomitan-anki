@@ -2,53 +2,6 @@
 <!-- [html-validate-disable void-style] -->
 
 <div lang="ja">
-  <!-- Top left source(s) -->
-  <div
-    style="
-      display: flex;
-      justify-content: flex-end;
-      position: absolute;
-      top: 1em;
-      left: 1em;
-      gap: 0.5em;
-      font-size: 0.6em;
-    "
-  >
-    <!-- 漢字でGO!@ウィキ link if 問題ID exists -->
-    {{#問題ID}}
-    <div
-      style="
-        border: 1px solid;
-        border-color: #7b7b7b;
-        border-radius: 0.5em;
-        padding: 0.1em 0.4em;
-      "
-    >
-      <a
-        href="https://w.atwiki.jp/kanjidego/search?andor=and&keyword={{問題ID}}"
-        style="color: #7b7b7b; text-decoration: none"
-      >
-        漢字でGO!@ウィキ
-      </a>
-    </div>
-    {{/問題ID}}
-    <!-- 典拠 if it exists -->
-    {{#典拠}}
-    <span
-      style="
-        border: 1px solid;
-        border-color: #7b7b7b;
-        border-radius: 0.5em;
-        padding: 0.1em 0.4em;
-      "
-    >
-      <a href="{{典拠リンク}}" style="color: #7b7b7b; text-decoration: none">
-        {{典拠}}
-      </a>
-    </span>
-    {{/典拠}}
-  </div>
-
   <!-- Top right tags -->
   <div
     style="
@@ -96,7 +49,7 @@
     id="expression"
     class="rarefont"
     style="
-      margin-top: 1.5em;
+      margin-top: 1em;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
