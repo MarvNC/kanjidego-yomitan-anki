@@ -57,6 +57,6 @@ For reference, according to
 levels contain 3,353 unique kanji in the main terms. Adding the 別表記 subdeck
 brings the total up to 5,504 unique kanji.
 
-|     |     |
-| :-: | :-: |
-|     |     |
+| ![anki_Preview_2024-03-08_22-58-59](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/850dee1a-a5f1-4959-a1e3-5eec3eb2bc80) | ![anki_Preview_2024-03-08_22-58-55](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/1d70778d-39bc-4a84-9a4f-bb02b62bcf96) |
+| :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| ![anki_Preview_2024-03-08_22-59-27](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/5188ad83-2a77-4864-8e3d-4d2ff45dcf48) | ![anki_Preview_2024-03-08_22-56-34](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/da72f568-f4a4-4a15-bac3-fb266bbaf7b5) |
