@@ -71,13 +71,16 @@ th {
 
 @font-face {
   font-family: 'Simsun';
+  font-display: swap;
   src: url('__simsun.ttc');
 }
 @font-face {
   font-family: 'Simsunb';
+  font-display: swap;
   src: url('__simsunb.ttf');
 }
 @font-face {
   font-family: 'Noto Sans JP';
+  font-display: swap;
   src: url('__NotoSansJP-Regular.ttf');
 }
