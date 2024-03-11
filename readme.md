@@ -9,7 +9,7 @@ Anki deck.
 
 ## Download <!-- omit from toc -->
 
-|                                                                                    Github Releases                                                                                    |                                                         AnkiWeb                                                          |
+|                                                                                    Github Releases                                                                                    |                                               AnkiWeb (sometimes outdated)                                               |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
 | [![](https://img.shields.io/github/v/tag/marvnc/kanjidego-yomitan-anki?style=for-the-badge&label=Github%20Release)](https://github.com/MarvNC/kanjidego-yomitan-anki/releases/latest) | [![](https://img.shields.io/badge/Download-AnkiWeb-blue?style=for-the-badge)](https://ankiweb.net/shared/info/657072844) |
 
