@@ -7,11 +7,18 @@ the terms from the game with information from
 [Yomitan](https://github.com/themoeway/yomitan) (formerly Yomichan) and as an
 Anki deck.
 
+## Download <!-- omit from toc -->
+
+|                                                                                    Github Releases                                                                                    |                                                         AnkiWeb                                                          |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| [![](https://img.shields.io/github/v/tag/marvnc/kanjidego-yomitan-anki?style=for-the-badge&label=Github%20Release)](https://github.com/MarvNC/kanjidego-yomitan-anki/releases/latest) | [![](https://img.shields.io/badge/Download-AnkiWeb-blue?style=for-the-badge)](https://ankiweb.net/shared/info/657072844) |
+
 - [Yomitan Dictionary](#yomitan-dictionary)
   - [Usage](#usage)
   - [Screenshots](#screenshots)
 - [Anki Deck](#anki-deck)
   - [Usage](#usage-1)
+  - [Limitations](#limitations)
   - [Screenshots](#screenshots-1)
   - [Info](#info)
 
@@ -22,10 +29,8 @@ Built using
 
 ### Usage
 
-**[漢字で GO!.zip](https://github.com/MarvNC/kanjidego-yomitan-anki/raw/master/export/%E6%BC%A2%E5%AD%97%E3%81%A7GO!.zip)**
-(2024-03-08)
-
-Simply download from above and import into Yomitan.
+Simply download from the latest [Github release](#download) and import into
+Yomitan.
 
 > <!-- prettier-ignore -->
 > [!IMPORTANT]
@@ -43,6 +48,8 @@ Simply download from above and import into Yomitan.
 |  ![chrome_丶部_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-40-03](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/1496d689-4ae3-4ccc-8993-b4ce48d74bd0)  |     ![chrome_𠙴_-_Yomitan_Search_-_Google_Chrome_2024-03-08_22-40-16](https://github.com/MarvNC/kanjidego-yomitan-anki/assets/17340496/a5be3625-7feb-42a1-a106-bd0daaa9bc30)     |
 
 ## Anki Deck
+
+Download from the latest [Github release or from AnkiWeb](#download).
 
 [Kanji de Go (漢字で Go!)](https://plicy.net/GamePlay/155561) is a fun game
 quizzing people on rare/exotic kanji terms. This deck has terms/information
@@ -73,6 +80,19 @@ For reference, according to
 [Kuuube's kanji grid](https://github.com/Kuuuube/kanjigrid), the three main
 levels contain 3,353 unique kanji in the main terms. Adding the 別表記 subdeck
 brings the total up to 5,504 unique kanji.
+
+### Limitations
+
+- The source data from the wiki and the 別表記 s are not perfect, so there are
+  some cards where the reading is not fully given or the headword is strange
+  when there exists no unicode character for it.
+- The hint images are not cropped perfectly, so you may see some cut-off dots at
+  the top of the images.
+- In order to ensure the characters are rendered across all devices, a few fonts
+  are included with the deck: `Simsun`, `Simsun-ExtB`, and `Noto Sans JP`. If
+  you find that card loading speed is an issue on your mobile device, you may in
+  the card styling css remove the `@font-face` declarations for these fonts, but
+  keep in mind that some characters may no longer render correctly.
 
 ### Screenshots
 
