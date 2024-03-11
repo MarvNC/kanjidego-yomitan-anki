@@ -1,6 +1,6 @@
 pages/
 dist/
-# export/
+export/*.zip
 images/
 processed/
 
