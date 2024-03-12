@@ -43,6 +43,20 @@
         <td class="rarefont">{{別表記}}</td>
       </tr>
       {{/別表記}}
+      <!-- Notes -->
+      {{#ノート}}
+      <tr>
+        <td>ノート</td>
+        <td>{{ノート}}</td>
+      </tr>
+      {{/ノート}}
+      <!-- Images -->
+      {{#追加画像}}
+      <tr>
+        <td>追加画像</td>
+        <td id="alt-image-row">{{追加画像}}</td>
+      </tr>
+      {{/追加画像}}
     </tbody>
   </table>
 
@@ -92,8 +106,36 @@
   </div>
 </div>
 
+<div
+  id="alt-image-modal"
+  style="
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  "
+>
+  <div
+    style="
+      display: flex;
+      margin: 1em;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    "
+  >
+    {{追加画像}}
+  </div>
+</div>
+
 <script>
-  // Reveal main form plain-text
+  // Reveal main form plain-text on front side
   (() => {
     try {
       const alternate = document.getElementById('main-form');
@@ -102,5 +144,31 @@
     } catch (error) {
       console.error(error);
     }
+  })();
+  // Resize images in images row, add listener to open modal
+  (() => {
+    const IMAGE_HEIGHT = '5em';
+    const altImageRow = document.getElementById('alt-image-row');
+    const altImageRowImages = altImageRow.getElementsByTagName('img');
+    const altImageModal = document.getElementById('alt-image-modal');
+
+    for (const image of [...altImageRowImages]) {
+      image.style.height = IMAGE_HEIGHT;
+      image.style.objectFit = 'contain';
+      image.style.marginRight = '0.5em';
+      image.style.cursor = 'pointer';
+      image.onclick = () => {
+        // Toggle modal visibility
+        altImageModal.style.display =
+          altImageModal.style.display === 'none' ? 'flex' : 'none';
+      };
+    }
+
+    // Make clicking outside the modal close it
+    altImageModal.onclick = (event) => {
+      if (event.target === altImageModal) {
+        altImageModal.style.display = 'none';
+      }
+    };
   })();
 </script>
