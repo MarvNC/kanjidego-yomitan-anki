@@ -121,13 +121,16 @@
   "
 >
   <div
+    id="alt-image-modal-content"
     style="
       display: flex;
-      margin: 1em;
+      margin: 2em;
       flex-direction: row;
       flex-wrap: wrap;
       gap: 1em;
       justify-content: center;
+      max-height: 90vh;
+      overflow-y: auto;
     "
   >
     {{追加画像}}
@@ -151,6 +154,10 @@
     const altImageRow = document.getElementById('alt-image-row');
     const altImageRowImages = altImageRow.getElementsByTagName('img');
     const altImageModal = document.getElementById('alt-image-modal');
+    const altImageModalContent = document.getElementById(
+      'alt-image-modal-content'
+    );
+    const altImageModalImages = altImageModal.getElementsByTagName('img');
 
     for (const image of [...altImageRowImages]) {
       image.style.height = IMAGE_HEIGHT;
@@ -165,10 +172,22 @@
     }
 
     // Make clicking outside the modal close it
-    altImageModal.onclick = (event) => {
-      if (event.target === altImageModal) {
+    // Clicking in blank space between images should close modal
+    document.onclick = (event) => {
+      if (
+        event.target === altImageModal ||
+        event.target === altImageModalContent
+      ) {
         altImageModal.style.display = 'none';
       }
+      console.log(event.target);
     };
+
+    // Resize images in modal
+    for (const image of [...altImageModalImages]) {
+      image.style.width = '100%';
+      image.style.maxHeight = '20em';
+      image.style.objectFit = 'contain';
+    }
   })();
 </script>
