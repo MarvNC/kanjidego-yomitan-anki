@@ -29,8 +29,9 @@ Built using
 
 ### Usage
 
-Simply download from the latest [Github release](#download) and import into
-Yomitan.
+Simply download from the latest
+[Github release](https://github.com/MarvNC/kanjidego-yomitan-anki/releases/latest)
+and import into Yomitan.
 
 > <!-- prettier-ignore -->
 > [!IMPORTANT]
